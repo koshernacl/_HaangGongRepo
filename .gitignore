@@ -1,0 +1,33 @@
+# Workbench / editor logs
+
+*.log
+
+# Temporary / backup files
+
+*.tmp
+*.temp
+*.bak
+*.old
+
+# OS junk
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+
+.vscode/
+.idea/
+
+# Build / generated output
+
+Build/
+Builds/
+dist/
+
+# Personal/local files
+
+*.local
+.env
+.env.*
