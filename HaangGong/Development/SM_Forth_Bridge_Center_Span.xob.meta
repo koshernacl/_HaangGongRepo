@@ -1,0 +1,120 @@
+MetaFileClass {
+ Name "{2F6B4FAE4D5231C8}Development/SM_Forth_Bridge_Center_Span.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A84CB182E81EDB6}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{ADC85409867A7462}Development/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam pCube10 {
+    }
+    MeshParam pCube11 {
+    }
+    MeshParam pCube12 {
+    }
+    MeshParam pCube13 {
+    }
+    MeshParam pCube14 {
+    }
+    MeshParam pCube16 {
+    }
+    MeshParam pCube17 {
+    }
+    MeshParam pCube18 {
+    }
+    MeshParam pCube19 {
+    }
+    MeshParam pCube20 {
+    }
+    MeshParam pCube21 {
+    }
+    MeshParam pCube22 {
+    }
+    MeshParam pCube23 {
+    }
+    MeshParam pCube24 {
+    }
+    MeshParam pCube25 {
+    }
+    MeshParam pCube26 {
+    }
+    MeshParam pCube27 {
+    }
+    MeshParam pCube28 {
+    }
+    MeshParam pCube29 {
+    }
+    MeshParam pCube3 {
+    }
+    MeshParam pCube30 {
+    }
+    MeshParam pCube31 {
+    }
+    MeshParam pCube32 {
+    }
+    MeshParam pCube33 {
+    }
+    MeshParam pCube34 {
+    }
+    MeshParam pCube35 {
+    }
+    MeshParam pCube36 {
+    }
+    MeshParam pCube37 {
+    }
+    MeshParam pCube38 {
+    }
+    MeshParam pCube39 {
+    }
+    MeshParam pCube4 {
+    }
+    MeshParam pCube40 {
+    }
+    MeshParam pCube41 {
+    }
+    MeshParam pCube42 {
+    }
+    MeshParam pCube43 {
+    }
+    MeshParam pCube5 {
+    }
+    MeshParam pCube6 {
+    }
+    MeshParam pCube7 {
+    }
+    MeshParam pCube8 {
+    }
+    MeshParam pCube9 {
+    }
+   }
+   Common TXOCommonClass "{6A84CB182E613E58}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A84CB182E613EED}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A84CB182E613EBF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A84CB182E613E9E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A84CB182E61397B}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A84CB182E613963}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

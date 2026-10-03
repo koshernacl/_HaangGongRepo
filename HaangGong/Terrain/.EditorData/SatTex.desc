@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/REFORGER_MODDING/Mapping/Output.png"
+ sRGBOutput 0
+ Interpolation bilinear
+ RenderRoads 1
+ RoadsAA "8x"
+}

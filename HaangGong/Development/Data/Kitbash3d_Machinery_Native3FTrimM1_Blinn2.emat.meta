@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9FF083D6AA2D7FE5}Development/Data/Kitbash3d_Machinery_Native3FTrimM1_Blinn2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

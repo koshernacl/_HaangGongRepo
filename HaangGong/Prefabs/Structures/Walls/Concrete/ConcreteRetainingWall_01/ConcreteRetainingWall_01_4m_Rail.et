@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity : "{85028E0E494C3DD5}Prefabs/Structures/Core/RetainingWall_Base.et" {
+ ID "50F0A4C5B8E7DB4A"
+ components {
+  MeshObject "{50F0A4C5B8E7DB72}" {
+   Object "{F366FCE164EC18CE}Assets/Structures/Walls/Concrete/ConcreteRetainingWall_01_4m.xob"
+  }
+  RER_PointsComponent "{6A82FBD1D6EF7E6E}" {
+   startPosition -2 4 0
+  }
+  RER_PointsComponent "{6A82FBD1DA13754D}" {
+   startPosition 2 4 0
+  }
+ }
+ Flags 0x403 0x80000
+ coords 1173.216 43.709 6295.54
+}

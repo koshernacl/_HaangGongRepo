@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "6A84CB5C77733DDF"
+ components {
+  MeshObject "{6A84CB4CFD37ABF8}" {
+   Object "{3A9471EA3A95CB9C}HaangGongRocks/Mesh/SM_Rock_C.xob"
+  }
+ }
+ coords -19.015 -5.54 -16.39
+}

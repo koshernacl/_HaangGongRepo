@@ -1,0 +1,6 @@
+MatPBRBasic {
+ DiffuseIBL 0.109 0.122 0.109 1
+ SpecularIBL 0.109 0.122 0.109 1
+ BCRMap "{C1A78A14F7A699F7}HaangGongRocks/Textures/T_Rock_B_AlbedoRoughness.edds"
+ NMOMap "{8F5E20FD976BF122}HaangGongRocks/Textures/T_Rock_B_NNMTAO.edds"
+}

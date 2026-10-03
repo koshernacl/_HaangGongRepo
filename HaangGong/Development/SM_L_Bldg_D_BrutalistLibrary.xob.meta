@@ -1,0 +1,170 @@
+MetaFileClass {
+ Name "{B6CA309AA6661BDF}Development/SM_L_Bldg_D_BrutalistLibrary.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A7D37EDE5C9A2E5}" {
+     SourceMaterial "DoorSingle"
+     AssignedMaterial "{DE364755ACDC1EC0}Development/Data/DoorSingle.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2CE}" {
+     SourceMaterial "ConcBunker"
+     AssignedMaterial "{EB61C4B2EF7C6E49}Development/Data/ConcBunker.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2C2}" {
+     SourceMaterial "ConcLongBlock"
+     AssignedMaterial "{764F6319EEA6A702}Development/Data/ConcLongBlock.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2C0}" {
+     SourceMaterial "MullionDark"
+     AssignedMaterial "{492913ED0A5AB56F}Development/Data/MullionDark.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2C1}" {
+     SourceMaterial "Window"
+     AssignedMaterial "{71F5A8509CA14A99}Development/Data/Window.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2B2}" {
+     SourceMaterial "ConcGeneral"
+     AssignedMaterial "{5C6BF6E2A247B3A2}Development/Data/ConcGeneral.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2AB}" {
+     SourceMaterial "ConcGrime"
+     AssignedMaterial "{7B1624926B330584}Development/Data/ConcGrime.emat"
+    }
+    MaterialAssignClass "{6A7D37EDE5C9A2A5}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{ADC85409867A7462}Development/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam L_Bldg_D_Bot_Beams {
+    }
+    MeshParam L_Bldg_D_Door {
+    }
+    MeshParam L_Bldg_D_LG_Support_Beams {
+    }
+    MeshParam L_Bldg_D_MainBldg {
+    }
+    MeshParam L_Bldg_D_Mull_Slats_Frames {
+    }
+    MeshParam L_Bldg_D_Props_Details {
+    }
+    MeshParam L_Bldg_D_Rails_All_Grp {
+    }
+    MeshParam L_Bldg_D_Roof_Details {
+    }
+    MeshParam L_Bldg_D_TrashCan {
+    }
+    MeshParam L_Bldg_D_WindowsGlass {
+    }
+    MeshParam pCube1 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_L_Bldg_D_Bot_Beams {
+     SurfaceProperties {
+      "{C45179577B139DE9}ConcGeneral.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_Door {
+     SurfaceProperties {
+      "{CC9DCEB8EEE0F49F}DoorSingle.gamemat"
+      "{0C1B76088886FC42}ConcBunker.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_LG_Support_Beams {
+     SurfaceProperties {
+      "{190394203C3D1F31}ConcLongBlock.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_MainBldg {
+     SurfaceProperties {
+      "{0C1B76088886FC42}ConcBunker.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_Mull_Slats_Frames {
+     SurfaceProperties {
+      "{735956B2A2304000}MullionDark.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_Props_Details {
+     SurfaceProperties {
+      "{C45179577B139DE9}ConcGeneral.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_Rails_All_Grp {
+     SurfaceProperties {
+      "{735956B2A2304000}MullionDark.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_Roof_Details {
+     SurfaceProperties {
+      "{190394203C3D1F31}ConcLongBlock.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_TrashCan {
+     SurfaceProperties {
+      "{1AC21683D6801E66}ConcGrime.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_L_Bldg_D_WindowsGlass {
+     SurfaceProperties {
+      "{0FFC42D03A7B6E4D}Window.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_pCube1 {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6A7D37EDE554A790}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A7D37EDE5555453}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A7D37EDE55554EA}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A7D37EDE55554A4}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A7D37EDE555576D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A7D37EDE555572E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+MatPBRBasic {
+ DiffuseIBL 0.12 0.12 0.12 1
+ SpecularIBL 0.279 0.279 0.279 1
+ BCRMap "{D572794889089FEB}HaangGongRocks/Prefabs/Data/SM_Alta_Dam_UV_Test_01_T_AltaDam_DamBridge_BaseColor.edds"
+ NMOMap "{EF18C15101E0E6A7}HaangGongRocks/Prefabs/Data/RGB Alpha.edds"
+}

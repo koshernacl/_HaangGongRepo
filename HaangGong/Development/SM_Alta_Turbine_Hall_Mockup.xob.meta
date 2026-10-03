@@ -1,0 +1,1182 @@
+MetaFileClass {
+ Name "{47974B1C3A6BD165}Development/SM_Alta_Turbine_Hall_Mockup.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A82FBEF1C55934F}" {
+     SourceMaterial "lambert2"
+     AssignedMaterial "{F3207D4A39F7FA6D}Development/Data/lambert2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559338}" {
+     SourceMaterial "lambert3"
+     AssignedMaterial "{07283AD2342A9219}Development/Data/lambert3.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559334}" {
+     SourceMaterial "aiStandardSurface1"
+     AssignedMaterial "{3CC44F1CB9ED2000}Development/Data/aiStandardSurface1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559333}" {
+     SourceMaterial "lambert4"
+     AssignedMaterial "{4EF02FCD46ECE673}Development/Data/lambert4.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55932E}" {
+     SourceMaterial "pasted__aiStandardSurface1"
+     AssignedMaterial "{CF7BDD052633D53E}Development/Data/pasted__aiStandardSurface1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55932B}" {
+     SourceMaterial "pasted__T_Elevator_Motors"
+     AssignedMaterial "{85C822AEE892B3F7}Development/Data/pasted__T_Elevator_Motors.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559326}" {
+     SourceMaterial "lambert8"
+     AssignedMaterial "{77A06B281130E8DC}Development/Data/lambert8.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559325}" {
+     SourceMaterial "pasted__factory_unit15"
+     AssignedMaterial "{B9B8DB8791197557}Development/Data/pasted__factory_unit15.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559321}" {
+     SourceMaterial "aiStandardSurface2"
+     AssignedMaterial "{622C665F0660AE0F}Development/Data/aiStandardSurface2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55931A}" {
+     SourceMaterial "lambert9"
+     AssignedMaterial "{83A82CB01CED80A8}Development/Data/lambert9.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55930E}" {
+     SourceMaterial "pasted__factory_unit13"
+     AssignedMaterial "{04688900EE026949}Development/Data/pasted__factory_unit13.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55930D}" {
+     SourceMaterial "lambert14"
+     AssignedMaterial "{B9B8B421907EF05A}Development/Data/lambert14.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559307}" {
+     SourceMaterial "aiStandardSurface3"
+     AssignedMaterial "{962421C70BBDC67B}Development/Data/aiStandardSurface3.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559302}" {
+     SourceMaterial "lambert15"
+     AssignedMaterial "{4DB0F3B99DA3982E}Development/Data/lambert15.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593FE}" {
+     SourceMaterial "lambert16"
+     AssignedMaterial "{1358DAFA222E1621}Development/Data/lambert16.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593FD}" {
+     SourceMaterial "lambert19"
+     AssignedMaterial "{74E0B75CCA7F9681}Development/Data/lambert19.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593F9}" {
+     SourceMaterial "Kitbash3d_Machinery_Native4FTrimM1_Blinn1"
+     AssignedMaterial "{B81E69A85E356545}Development/Data/Kitbash3d_Machinery_Native4FTrimM1_Blinn1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593EB}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM4_Blinn2"
+     AssignedMaterial "{5E12543CE4136AEC}Development/Data/Kitbash3d_Machinery_Native3FTrimM4_Blinn2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593E6}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM1_Blinn2"
+     AssignedMaterial "{9FF083D6AA2D7FE5}Development/Data/Kitbash3d_Machinery_Native3FTrimM1_Blinn2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593E2}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM2_Blinn2"
+     AssignedMaterial "{DF51317090388CE2}Development/Data/Kitbash3d_Machinery_Native3FTrimM2_Blinn2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593D8}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3CastingLadle_Blinn2"
+     AssignedMaterial "{42A14BC9F45D727D}Development/Data/Kitbash3d_Machinery_Native3CastingLadle_Blinn2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593D7}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3PaintedSteel_Blinn1"
+     AssignedMaterial "{BA1A34F1A8B3046B}Development/Data/Kitbash3d_Machinery_Native3PaintedSteel_Blinn1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593D3}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3SteelRustWear_Blinn1"
+     AssignedMaterial "{016998C9FA224686}Development/Data/Kitbash3d_Machinery_Native3SteelRustWear_Blinn1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593CC}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3Cable_Blinn1"
+     AssignedMaterial "{07A80114E50D1B91}Development/Data/Kitbash3d_Machinery_Native3Cable_Blinn1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593CB}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimL1_Blinn2"
+     AssignedMaterial "{B69DE033FF586200}Development/Data/Kitbash3d_Machinery_Native3FTrimL1_Blinn2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593C9}" {
+     SourceMaterial "lambert20"
+     AssignedMaterial "{A42DD830EB25F9B8}Development/Data/lambert20.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593C5}" {
+     SourceMaterial "Kitbash3d_Machinery_NativeFTrimM1_Blinn1"
+     AssignedMaterial "{DEBA126EB84C356B}Development/Data/Kitbash3d_Machinery_NativeFTrimM1_Blinn1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593C0}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{ADC85409867A7462}Development/Data/lambert1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593BE}" {
+     SourceMaterial "lambert7"
+     AssignedMaterial "{1018068EF961687C}Development/Data/lambert7.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593BD}" {
+     SourceMaterial "pasted__lambert16"
+     AssignedMaterial "{B7A3F0B2FF4E1D7B}Development/Data/pasted__lambert16.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593B7}" {
+     SourceMaterial "pasted__aiStandardSurface5"
+     AssignedMaterial "{D84BE159EB782F5B}Development/Data/pasted__aiStandardSurface5.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593B5}" {
+     SourceMaterial "pasted__lambert18"
+     AssignedMaterial "{2413DA8C1AC2F5AF}Development/Data/pasted__lambert18.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593B3}" {
+     SourceMaterial "pasted__lambert21"
+     AssignedMaterial "{F4DEB5E03B989A96}Development/Data/pasted__lambert21.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593AE}" {
+     SourceMaterial "pasted__aiStandardSurface7"
+     AssignedMaterial "{72AB8F825928C920}Development/Data/pasted__aiStandardSurface7.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593AD}" {
+     SourceMaterial "pasted__lambert22"
+     AssignedMaterial "{AA369CA384151499}Development/Data/pasted__lambert22.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593A8}" {
+     SourceMaterial "pasted__lambert17"
+     AssignedMaterial "{43ABB72AF293750F}Development/Data/pasted__lambert17.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593A4}" {
+     SourceMaterial "pasted__pasted__aiStandardSurface2"
+     AssignedMaterial "{F03702A7E924C19A}Development/Data/pasted__pasted__aiStandardSurface2.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C5593A3}" {
+     SourceMaterial "pasted__pasted__T_Elevator_Motors1"
+     AssignedMaterial "{654EA31FF5F3BF80}Development/Data/pasted__pasted__T_Elevator_Motors1.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55939D}" {
+     SourceMaterial "pasted__lambert19"
+     AssignedMaterial "{D01B9D14171F9DDB}Development/Data/pasted__lambert19.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559398}" {
+     SourceMaterial "pasted__pasted__factory_unit17"
+     AssignedMaterial "{D85591CC7F85ED75}Development/Data/pasted__pasted__factory_unit17.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55938F}" {
+     SourceMaterial "pasted__aiStandardSurface6"
+     AssignedMaterial "{86A3C81A54F5A154}Development/Data/pasted__aiStandardSurface6.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C55938A}" {
+     SourceMaterial "pasted__lambert20"
+     AssignedMaterial "{00D6F2783645F2E2}Development/Data/pasted__lambert20.emat"
+    }
+    MaterialAssignClass "{6A82FBEF1C559389}" {
+     SourceMaterial "pasted__pasted__factory_unit16"
+     AssignedMaterial "{2C5DD65472588501}Development/Data/pasted__pasted__factory_unit16.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Beam_C_FTrimM1 {
+    }
+    MeshParam Beam_G_FTrimM1 {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_Cable" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_CastingLadle" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimL1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM2" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM4" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_PaintedSteel" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_SteelRustWear" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native4:Beam_C_FTrimM1" {
+    }
+    MeshParam humanBody2 {
+    }
+    MeshParam pCube106 {
+    }
+    MeshParam pCube107 {
+    }
+    MeshParam pCube388 {
+    }
+    MeshParam pCube390 {
+    }
+    MeshParam pCube402 {
+    }
+    MeshParam pCube403 {
+    }
+    MeshParam pCube404 {
+    }
+    MeshParam pCube405 {
+    }
+    MeshParam pCube406 {
+    }
+    MeshParam pCube407 {
+    }
+    MeshParam pCube408 {
+    }
+    MeshParam pCube409 {
+    }
+    MeshParam pCube410 {
+    }
+    MeshParam pCube411 {
+    }
+    MeshParam pCube412 {
+    }
+    MeshParam pCube413 {
+    }
+    MeshParam pCube414 {
+    }
+    MeshParam pCube415 {
+    }
+    MeshParam pCube416 {
+    }
+    MeshParam pCube417 {
+    }
+    MeshParam pCube418 {
+    }
+    MeshParam pCube419 {
+    }
+    MeshParam pCube420 {
+    }
+    MeshParam pCube421 {
+    }
+    MeshParam pCube422 {
+    }
+    MeshParam pCube423 {
+    }
+    MeshParam pCube424 {
+    }
+    MeshParam pCube425 {
+    }
+    MeshParam pCube426 {
+    }
+    MeshParam pCube427 {
+    }
+    MeshParam pCube428 {
+    }
+    MeshParam pCube429 {
+    }
+    MeshParam pCube430 {
+    }
+    MeshParam pCube431 {
+    }
+    MeshParam pCube432 {
+    }
+    MeshParam pCube433 {
+    }
+    MeshParam pCube434 {
+    }
+    MeshParam pCube435 {
+    }
+    MeshParam pCube436 {
+    }
+    MeshParam pCube437 {
+    }
+    MeshParam pCube438 {
+    }
+    MeshParam pCube439 {
+    }
+    MeshParam pCube440 {
+    }
+    MeshParam pCube441 {
+    }
+    MeshParam pCube442 {
+    }
+    MeshParam pCube443 {
+    }
+    MeshParam pCube444 {
+    }
+    MeshParam pCube445 {
+    }
+    MeshParam pCube446 {
+    }
+    MeshParam pCube447 {
+    }
+    MeshParam pCube448 {
+    }
+    MeshParam pCube449 {
+    }
+    MeshParam pCube450 {
+    }
+    MeshParam pCube451 {
+    }
+    MeshParam pCube452 {
+    }
+    MeshParam pCube453 {
+    }
+    MeshParam pCube454 {
+    }
+    MeshParam pCube455 {
+    }
+    MeshParam pCube456 {
+    }
+    MeshParam pCube457 {
+    }
+    MeshParam pCube458 {
+    }
+    MeshParam pCube459 {
+    }
+    MeshParam pCube460 {
+    }
+    MeshParam pCube461 {
+    }
+    MeshParam pCube462 {
+    }
+    MeshParam pCube463 {
+    }
+    MeshParam pCube464 {
+    }
+    MeshParam pCube465 {
+    }
+    MeshParam pCube466 {
+    }
+    MeshParam pCube467 {
+    }
+    MeshParam pCube468 {
+    }
+    MeshParam pCube469 {
+    }
+    MeshParam pCube470 {
+    }
+    MeshParam pCube471 {
+    }
+    MeshParam pCube472 {
+    }
+    MeshParam pCube473 {
+    }
+    MeshParam pCube474 {
+    }
+    MeshParam pCube475 {
+    }
+    MeshParam pCube476 {
+    }
+    MeshParam pCube477 {
+    }
+    MeshParam pCube478 {
+    }
+    MeshParam pCube479 {
+    }
+    MeshParam pCube480 {
+    }
+    MeshParam pCube481 {
+    }
+    MeshParam pCube482 {
+    }
+    MeshParam pCube483 {
+    }
+    MeshParam pCube484 {
+    }
+    MeshParam pCube485 {
+    }
+    MeshParam pCube486 {
+    }
+    MeshParam pCube487 {
+    }
+    MeshParam pCube488 {
+    }
+    MeshParam pCube489 {
+    }
+    MeshParam pCube490 {
+    }
+    MeshParam pCube491 {
+    }
+    MeshParam pCube492 {
+    }
+    MeshParam pCube493 {
+    }
+    MeshParam pCube494 {
+    }
+    MeshParam pCube495 {
+    }
+    MeshParam pCube496 {
+    }
+    MeshParam pCube497 {
+    }
+    MeshParam pCube498 {
+    }
+    MeshParam pCube499 {
+    }
+    MeshParam pCube500 {
+    }
+    MeshParam pCube502 {
+    }
+    MeshParam pCube503 {
+    }
+    MeshParam pCube504 {
+    }
+    MeshParam pCube505 {
+    }
+    MeshParam pCube506 {
+    }
+    MeshParam pCube507 {
+    }
+    MeshParam pCube508 {
+    }
+    MeshParam pCube509 {
+    }
+    MeshParam pCube510 {
+    }
+    MeshParam pCube511 {
+    }
+    MeshParam pCube512 {
+    }
+    MeshParam pCube513 {
+    }
+    MeshParam pCube514 {
+    }
+    MeshParam pCube515 {
+    }
+    MeshParam pCube516 {
+    }
+    MeshParam pCube517 {
+    }
+    MeshParam pCube518 {
+    }
+    MeshParam pCube519 {
+    }
+    MeshParam pCube520 {
+    }
+    MeshParam pCube521 {
+    }
+    MeshParam pCube522 {
+    }
+    MeshParam pCube523 {
+    }
+    MeshParam pCube524 {
+    }
+    MeshParam pCube525 {
+    }
+    MeshParam pCube526 {
+    }
+    MeshParam pCube527 {
+    }
+    MeshParam pCube528 {
+    }
+    MeshParam pCube529 {
+    }
+    MeshParam pCube530 {
+    }
+    MeshParam pCube531 {
+    }
+    MeshParam pCube532 {
+    }
+    MeshParam pCube533 {
+    }
+    MeshParam pCube534 {
+    }
+    MeshParam pCube535 {
+    }
+    MeshParam pCube536 {
+    }
+    MeshParam pCube537 {
+    }
+    MeshParam pCube538 {
+    }
+    MeshParam pCube539 {
+    }
+    MeshParam pCube540 {
+    }
+    MeshParam pCube541 {
+    }
+    MeshParam pCube542 {
+    }
+    MeshParam pCube543 {
+    }
+    MeshParam pCube544 {
+    }
+    MeshParam pCube545 {
+    }
+    MeshParam pCube546 {
+    }
+    MeshParam pCube547 {
+    }
+    MeshParam pCube548 {
+    }
+    MeshParam pCube549 {
+    }
+    MeshParam pCube550 {
+    }
+    MeshParam pCube551 {
+    }
+    MeshParam pCube552 {
+    }
+    MeshParam pCube553 {
+    }
+    MeshParam pCube554 {
+    }
+    MeshParam pCube555 {
+    }
+    MeshParam pCube556 {
+    }
+    MeshParam pCube557 {
+    }
+    MeshParam pCube558 {
+    }
+    MeshParam pCube559 {
+    }
+    MeshParam pCube560 {
+    }
+    MeshParam pCube561 {
+    }
+    MeshParam pCube562 {
+    }
+    MeshParam pCube563 {
+    }
+    MeshParam pCube564 {
+    }
+    MeshParam pCube565 {
+    }
+    MeshParam pCube566 {
+    }
+    MeshParam pCube567 {
+    }
+    MeshParam pCube568 {
+    }
+    MeshParam pCube569 {
+    }
+    MeshParam pCube570 {
+    }
+    MeshParam pCube571 {
+    }
+    MeshParam pCube572 {
+    }
+    MeshParam pCube573 {
+    }
+    MeshParam pCube574 {
+    }
+    MeshParam pCube575 {
+    }
+    MeshParam pCube576 {
+    }
+    MeshParam pCube577 {
+    }
+    MeshParam pCube578 {
+    }
+    MeshParam pCube579 {
+    }
+    MeshParam pCube580 {
+    }
+    MeshParam pCube581 {
+    }
+    MeshParam pCube582 {
+    }
+    MeshParam pCube583 {
+    }
+    MeshParam pCube584 {
+    }
+    MeshParam pCube585 {
+    }
+    MeshParam pCube586 {
+    }
+    MeshParam pCube587 {
+    }
+    MeshParam pCube588 {
+    }
+    MeshParam pCube589 {
+    }
+    MeshParam pCube590 {
+    }
+    MeshParam pCube591 {
+    }
+    MeshParam pCube592 {
+    }
+    MeshParam pCube593 {
+    }
+    MeshParam pCube603 {
+    }
+    MeshParam pCube604 {
+    }
+    MeshParam pCube605 {
+    }
+    MeshParam pCube612 {
+    }
+    MeshParam pCube613 {
+    }
+    MeshParam pCube614 {
+    }
+    MeshParam pCube615 {
+    }
+    MeshParam pCube616 {
+    }
+    MeshParam pCube617 {
+    }
+    MeshParam pCube618 {
+    }
+    MeshParam pCube619 {
+    }
+    MeshParam pCube620 {
+    }
+    MeshParam pCube626 {
+    }
+    MeshParam pCube632 {
+    }
+    MeshParam pCube635 {
+    }
+    MeshParam pCube639 {
+    }
+    MeshParam pCube640 {
+    }
+    MeshParam pCube641 {
+    }
+    MeshParam pCube643 {
+    }
+    MeshParam pCube647 {
+    }
+    MeshParam pCube649 {
+    }
+    MeshParam pCube662 {
+    }
+    MeshParam pCube671 {
+    }
+    MeshParam pCube672 {
+    }
+    MeshParam pCube673 {
+    }
+    MeshParam pCube679 {
+    }
+    MeshParam pCube680 {
+    }
+    MeshParam pCube681 {
+    }
+    MeshParam pCube682 {
+    }
+    MeshParam pCylinder1 {
+    }
+    MeshParam pCylinder23 {
+    }
+    MeshParam pCylinder36 {
+    }
+    MeshParam pCylinder37 {
+    }
+    MeshParam pCylinder38 {
+    }
+    MeshParam pCylinder48 {
+    }
+    MeshParam pCylinder64 {
+    }
+    MeshParam pCylinder65 {
+    }
+    MeshParam pCylinder69 {
+    }
+    MeshParam pCylinder76 {
+    }
+    MeshParam pTorus119 {
+    }
+    MeshParam pTorus4 {
+    }
+    MeshParam pasted__SM_Turbine_Hall_Floor_Panel_Grate1_pasted__pCube449 {
+    }
+    MeshParam pasted__SM_Turbine_Hall_Floor_Panel_Grate1_pasted__pCube450 {
+    }
+    MeshParam pasted__SM_Turbine_Hall_Floor_Panel_Grate1_pasted__pCube451 {
+    }
+    MeshParam pasted__factory_unit_13 {
+    }
+    MeshParam pasted__factory_unit_16 {
+    }
+    MeshParam pasted__factory_unit_18 {
+    }
+    MeshParam pasted__factory_unit_20 {
+    }
+    MeshParam pasted__pCube108 {
+    }
+    MeshParam pasted__pCube109 {
+    }
+    MeshParam pasted__pCube110 {
+    }
+    MeshParam pasted__pCube111 {
+    }
+    MeshParam pasted__pCube112 {
+    }
+    MeshParam pasted__pCube114 {
+    }
+    MeshParam pasted__pCube115 {
+    }
+    MeshParam pasted__pCube116 {
+    }
+    MeshParam pasted__pCube117 {
+    }
+    MeshParam pasted__pCube118 {
+    }
+    MeshParam pasted__pCube119 {
+    }
+    MeshParam pasted__pCube120 {
+    }
+    MeshParam pasted__pCube121 {
+    }
+    MeshParam pasted__pCube122 {
+    }
+    MeshParam pasted__pCube125 {
+    }
+    MeshParam pasted__pCube126 {
+    }
+    MeshParam pasted__pCube391 {
+    }
+    MeshParam pasted__pCube392 {
+    }
+    MeshParam pasted__pCube393 {
+    }
+    MeshParam pasted__pCube394 {
+    }
+    MeshParam pasted__pCube395 {
+    }
+    MeshParam pasted__pCube396 {
+    }
+    MeshParam pasted__pCube397 {
+    }
+    MeshParam pasted__pCube398 {
+    }
+    MeshParam pasted__pCube399 {
+    }
+    MeshParam pasted__pCube400 {
+    }
+    MeshParam pasted__pCube401 {
+    }
+    MeshParam pasted__pCube402 {
+    }
+    MeshParam pasted__pCube404 {
+    }
+    MeshParam pasted__pCylinder15 {
+    }
+    MeshParam pasted__pCylinder24 {
+    }
+    MeshParam pasted__pCylinder25 {
+    }
+    MeshParam pasted__pCylinder26 {
+    }
+    MeshParam pasted__pCylinder27 {
+    }
+    MeshParam pasted__pCylinder28 {
+    }
+    MeshParam pasted__pCylinder29 {
+    }
+    MeshParam pasted__pCylinder30 {
+    }
+    MeshParam pasted__pCylinder31 {
+    }
+    MeshParam pasted__pCylinder32 {
+    }
+    MeshParam pasted__pCylinder33 {
+    }
+    MeshParam pasted__pCylinder34 {
+    }
+    MeshParam pasted__pCylinder35 {
+    }
+    MeshParam pasted__pCylinder39 {
+    }
+    MeshParam pasted__pCylinder70 {
+    }
+    MeshParam pasted__pTorus10 {
+    }
+    MeshParam pasted__pTorus11 {
+    }
+    MeshParam pasted__pTorus12 {
+    }
+    MeshParam pasted__pTorus14 {
+    }
+    MeshParam pasted__pTorus15 {
+    }
+    MeshParam pasted__pTorus19 {
+    }
+    MeshParam pasted__pTorus20 {
+    }
+    MeshParam pasted__pTorus21 {
+    }
+    MeshParam pasted__pTorus22 {
+    }
+    MeshParam pasted__pTorus23 {
+    }
+    MeshParam pasted__pTorus24 {
+    }
+    MeshParam pasted__pTorus25 {
+    }
+    MeshParam pasted__pTorus26 {
+    }
+    MeshParam pasted__pTorus27 {
+    }
+    MeshParam pasted__pTorus28 {
+    }
+    MeshParam pasted__pTorus29 {
+    }
+    MeshParam pasted__pTorus30 {
+    }
+    MeshParam pasted__pTorus31 {
+    }
+    MeshParam pasted__pTorus32 {
+    }
+    MeshParam pasted__pTorus33 {
+    }
+    MeshParam pasted__pTorus34 {
+    }
+    MeshParam pasted__pTorus35 {
+    }
+    MeshParam pasted__pTorus36 {
+    }
+    MeshParam pasted__pTorus37 {
+    }
+    MeshParam pasted__pTorus38 {
+    }
+    MeshParam pasted__pTorus39 {
+    }
+    MeshParam pasted__pTorus40 {
+    }
+    MeshParam pasted__pTorus41 {
+    }
+    MeshParam pasted__pTorus42 {
+    }
+    MeshParam pasted__pTorus43 {
+    }
+    MeshParam pasted__pTorus44 {
+    }
+    MeshParam pasted__pTorus45 {
+    }
+    MeshParam pasted__pTorus46 {
+    }
+    MeshParam pasted__pTorus47 {
+    }
+    MeshParam pasted__pTorus48 {
+    }
+    MeshParam pasted__pTorus49 {
+    }
+    MeshParam pasted__pTorus50 {
+    }
+    MeshParam pasted__pTorus51 {
+    }
+    MeshParam pasted__pTorus52 {
+    }
+    MeshParam pasted__pTorus53 {
+    }
+    MeshParam pasted__pTorus54 {
+    }
+    MeshParam pasted__pTorus55 {
+    }
+    MeshParam pasted__pTorus56 {
+    }
+    MeshParam pasted__pTorus57 {
+    }
+    MeshParam pasted__pTorus58 {
+    }
+    MeshParam pasted__pTorus59 {
+    }
+    MeshParam pasted__pTorus60 {
+    }
+    MeshParam pasted__pTorus61 {
+    }
+    MeshParam pasted__pTorus62 {
+    }
+    MeshParam pasted__pTorus63 {
+    }
+    MeshParam pasted__pasted__closingPart {
+    }
+    MeshParam pasted__pasted__closingPart3 {
+    }
+    MeshParam pasted__pasted__closingPart4 {
+    }
+    MeshParam pasted__pasted__parts1 {
+    }
+    MeshParam pasted__pasted__parts2 {
+    }
+    MeshParam pasted__polySurface10 {
+    }
+    MeshParam pasted__polySurface18 {
+    }
+    MeshParam pasted__polySurface22 {
+    }
+    MeshParam pasted__polySurface23 {
+    }
+    MeshParam pasted__polySurface24 {
+    }
+    MeshParam pasted__polySurface25 {
+    }
+    MeshParam pasted__polySurface26 {
+    }
+    MeshParam pasted__polySurface27 {
+    }
+    MeshParam pasted__polySurface28 {
+    }
+    MeshParam pasted__polySurface29 {
+    }
+    MeshParam pasted__polySurface30 {
+    }
+    MeshParam pasted__polySurface369 {
+    }
+    MeshParam pasted__polySurface373 {
+    }
+    MeshParam pasted__polySurface376 {
+    }
+    MeshParam pasted__polySurface377 {
+    }
+    MeshParam pasted__polySurface381 {
+    }
+    MeshParam pasted__polySurface382 {
+    }
+    MeshParam pasted__polySurface383 {
+    }
+    MeshParam pasted__polySurface384 {
+    }
+    MeshParam pasted__polySurface387 {
+    }
+    MeshParam pasted__polySurface390 {
+    }
+    MeshParam pasted__polySurface391 {
+    }
+    MeshParam pasted__polySurface392 {
+    }
+    MeshParam pasted__polySurface393 {
+    }
+    MeshParam pasted__polySurface394 {
+    }
+    MeshParam pasted__polySurface395 {
+    }
+    MeshParam pasted__polySurface401 {
+    }
+    MeshParam pasted__polySurface402 {
+    }
+    MeshParam pasted__polySurface404 {
+    }
+    MeshParam pasted__polySurface408 {
+    }
+    MeshParam pasted__polySurface411 {
+    }
+    MeshParam pasted__polySurface413 {
+    }
+    MeshParam pasted__polySurface416 {
+    }
+    MeshParam pasted__polySurface417 {
+    }
+    MeshParam pasted__polySurface418 {
+    }
+    MeshParam pasted__polySurface420 {
+    }
+    MeshParam pasted__polySurface421 {
+    }
+    MeshParam pasted__polySurface425 {
+    }
+    MeshParam pasted__polySurface431 {
+    }
+    MeshParam pasted__polySurface433 {
+    }
+    MeshParam pasted__polySurface436 {
+    }
+    MeshParam pasted__polySurface441 {
+    }
+    MeshParam pasted__polySurface444 {
+    }
+    MeshParam pasted__polySurface445 {
+    }
+    MeshParam pasted__polySurface448 {
+    }
+    MeshParam pasted__polySurface450 {
+    }
+    MeshParam pasted__polySurface452 {
+    }
+    MeshParam pasted__polySurface453 {
+    }
+    MeshParam pasted__polySurface454 {
+    }
+    MeshParam pasted__polySurface455 {
+    }
+    MeshParam pasted__polySurface456 {
+    }
+    MeshParam pasted__polySurface458 {
+    }
+    MeshParam pasted__polySurface459 {
+    }
+    MeshParam pasted__polySurface461 {
+    }
+    MeshParam pasted__polySurface462 {
+    }
+    MeshParam pasted__polySurface463 {
+    }
+    MeshParam pasted__polySurface466 {
+    }
+    MeshParam pasted__polySurface467 {
+    }
+    MeshParam pasted__polySurface469 {
+    }
+    MeshParam pasted__polySurface472 {
+    }
+    MeshParam pasted__polySurface475 {
+    }
+    MeshParam pasted__polySurface477 {
+    }
+    MeshParam pasted__polySurface478 {
+    }
+    MeshParam pasted__polySurface481 {
+    }
+    MeshParam pasted__polySurface482 {
+    }
+    MeshParam pasted__polySurface485 {
+    }
+    MeshParam pasted__polySurface486 {
+    }
+    MeshParam pasted__polySurface489 {
+    }
+    MeshParam pasted__polySurface490 {
+    }
+    MeshParam pasted__polySurface493 {
+    }
+    MeshParam pasted__polySurface494 {
+    }
+    MeshParam pasted__polySurface495 {
+    }
+    MeshParam pasted__polySurface496 {
+    }
+    MeshParam pasted__polySurface497 {
+    }
+    MeshParam pasted__polySurface500 {
+    }
+    MeshParam pasted__polySurface502 {
+    }
+    MeshParam pasted__polySurface504 {
+    }
+    MeshParam pasted__polySurface506 {
+    }
+    MeshParam pasted__polySurface508 {
+    }
+    MeshParam pasted__polySurface509 {
+    }
+    MeshParam pasted__polySurface510 {
+    }
+    MeshParam pasted__polySurface512 {
+    }
+    MeshParam pasted__polySurface514 {
+    }
+    MeshParam pasted__polySurface8 {
+    }
+    MeshParam pasted__polySurface88 {
+    }
+    MeshParam pasted__polySurface89 {
+    }
+    MeshParam pasted__polySurface9 {
+    }
+    MeshParam pasted__polySurface90 {
+    }
+    MeshParam pasted__polySurface91 {
+    }
+    MeshParam pasted__polySurface92 {
+    }
+    MeshParam pasted__polySurface93 {
+    }
+    MeshParam pasted__polySurface94 {
+    }
+    MeshParam pasted__polySurface95 {
+    }
+    MeshParam pasted__polySurface96 {
+    }
+    MeshParam pasted__polySurface97 {
+    }
+    MeshParam pasted__polySurface98 {
+    }
+    MeshParam pasted__polySurface99 {
+    }
+    MeshParam polySurface103 {
+    }
+    MeshParam polySurface104 {
+    }
+    MeshParam polySurface105 {
+    }
+    MeshParam polySurface106 {
+    }
+    MeshParam polySurface113 {
+    }
+    MeshParam polySurface119 {
+    }
+    MeshParam polySurface124 {
+    }
+    MeshParam polySurface125 {
+    }
+    MeshParam polySurface133 {
+    }
+    MeshParam polySurface136 {
+    }
+    MeshParam polySurface137 {
+    }
+    MeshParam polySurface142 {
+    }
+    MeshParam polySurface144 {
+    }
+    MeshParam polySurface147 {
+    }
+    MeshParam polySurface155 {
+    }
+    MeshParam polySurface156 {
+    }
+    MeshParam polySurface158 {
+    }
+    MeshParam polySurface165 {
+    }
+    MeshParam polySurface169 {
+    }
+    MeshParam polySurface171 {
+    }
+    MeshParam polySurface176 {
+    }
+    MeshParam polySurface182 {
+    }
+    MeshParam polySurface183 {
+    }
+    MeshParam polySurface21 {
+    }
+    MeshParam polySurface3 {
+    }
+    MeshParam polySurface31 {
+    }
+    MeshParam polySurface33 {
+    }
+    MeshParam polySurface35 {
+    }
+    MeshParam polySurface36 {
+    }
+    MeshParam polySurface37 {
+    }
+    MeshParam polySurface7 {
+    }
+    MeshParam polySurface89 {
+    }
+    MeshParam polySurface90 {
+    }
+    MeshParam polySurface91 {
+    }
+    MeshParam polySurface93 {
+    }
+    MeshParam polySurface97 {
+    }
+   }
+   Common TXOCommonClass "{6A82FBEF0247F64D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A82FBEF0247F6D1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A82FBEF0247F6AC}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A82FBEF0247F693}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A82FBEF0247F175}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A82FBEF0247F15A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

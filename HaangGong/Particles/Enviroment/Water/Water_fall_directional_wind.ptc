@@ -1,0 +1,40 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Smoke {
+   ShapeType Sphere
+   ShapeSize 60 0 70
+   ConeAngle 0 0 20
+   MaxNum 50
+   BirthRate 4
+   BirthRateRND 2
+   Material "{DBA4D7125E51FA61}Particles/_Materials/Gas/Water_Mist_Big_01.emat"
+   SizeMultiplier 10
+   SizeRND 20
+   RotMultiplier 5
+   RotRND 10
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 10
+   VelocityRND 0.2
+   AirResistance 0.1
+   AirResistanceRND 0.1
+   WindInfluence 0.2
+   AnimOnce 1
+   AnimFPS 20
+   Lifetime 10
+   Alpha {
+    0 0 0.183 0.424 0.365 0.525 0.728 0.374 1 0
+   }
+   EmittingTime 3
+   ColorMast {
+    0 0.6558 0.7008 0.8039
+   }
+   AlphaMast {
+    0 0.2
+   }
+   MaxLV 7.765
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ DiffuseIBL 0.356 0.007 0.007 1
+ SpecularIBL 0.258 0.012 0.012 1
+ Diffuse 0.324 0.006 0.006 1
+ Specular 0.241 0.009 0.009 1
+ MetalnessScale 2.169
+}

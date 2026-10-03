@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "6A84CB5C74D95AFA"
+ components {
+  MeshObject "{6A84CB4CC9ADAC24}" {
+   Object "{D480A0FBD3D0157C}HaangGongRocks/Mesh/SM_Rock_A.xob"
+  }
+  RigidBody "{6A84CB4C2B811485}" {
+   Geometries {
+    PhysicsModelGeometry "{6A84CB4C3EB1CE5B}" {
+    }
+   }
+   Static 1
+  }
+ }
+}

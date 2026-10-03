@@ -1,0 +1,174 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Hydrant_Burst {
+   ConeAngle 360 5 10
+   MaxNum 80
+   BirthRate 35.4
+   BirthRateRND 2.4
+   BirthRateVel 2
+   Offset 0 0.1 0
+   Material "{1592E04C0600AF89}Particles/_Materials/Water_Splash_01.emat"
+   StretchMultiplier 1
+   SizeMultiplier 8
+   SizeRND 6
+   RotMultiplier 30
+   RotRND 35
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 39.2
+   VelocityRND 1
+   VelAffect 1
+   AirResistance 1
+   WindInfluence 0.25
+   GravityMultiply 1.5
+   GravityMultiplyRND 1.3
+   EnableCollisions 1
+   CollisionDistThresh 0
+   NormalRestitution 0.6
+   TagentialRestitution 0.5
+   Friction 0.5
+   AnimFPS 40
+   Lifetime 1.5
+   LifetimeRND 0.25
+   LifetimeShortening 0.2
+   Alpha {
+    0.073 0 0.272 0.198 0.673 0.122 1 0
+   }
+   RotationSpeed {
+    0 1 1 0.52
+   }
+   Size {
+    0.147 0.365 0.488 0.514 1 1
+   }
+   EmittingTime 5
+   AlphaMast {
+    0 0.291
+   }
+   BRateMast {
+    0 1 0.825 1 1 0
+   }
+   VelocityMast {
+    0.737 1 1 0
+   }
+  }
+  EmitterDef Hydrant_Burst_2 {
+   ConeAngle 360 5 10
+   MaxNum 80
+   BirthRate 30
+   BirthRateRND 5
+   Offset 0 0.1 0
+   Material "{507F2DF151A0E45C}Particles/_Materials/Fluid/Water_Base_Splash_05.emat"
+   StretchMultiplier 1
+   SizeMultiplier 3
+   SizeRND 2
+   RotMultiplier 30
+   RotRND 35
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 40
+   VelocityRND 7.9
+   VelAffect 1
+   AirResistance 1
+   WindInfluence 0.25
+   GravityMultiply 1.5
+   GravityMultiplyRND 1.3
+   EnableCollisions 1
+   CollisionDistThresh 0
+   NormalRestitution 0.6
+   TagentialRestitution 0.5
+   Friction 0.5
+   AnimFPS 40
+   Lifetime 1.5
+   LifetimeShortening 0.2
+   Alpha {
+    0.073 0 0.272 0.198 0.673 0.122 1 0
+   }
+   RotationSpeed {
+    0 1 1 0.52
+   }
+   Size {
+    0.147 0.365 0.488 0.514 1 1
+   }
+   EmittingTime 0.001
+   AlphaMast {
+    0 0.291
+   }
+   BRateMast {
+    0 1 0.825 1 1 0
+   }
+   VelocityMast {
+    0.737 1 1 0
+   }
+  }
+  EmitterDef Hydrant_Cone {
+   ConeAngle 360 0 3
+   MaxNum 50
+   BirthRate 20
+   BirthRateRND 3
+   Offset 0 -0.7 0
+   Material "{9253FCA37EB798B0}Particles/_Materials/Fluid/Water_Cone.emat"
+   StretchMultiplier 1.2
+   SizeMultiplier 6
+   SizeRND 1.7
+   RotMultiplier 20
+   RotRND 35
+   Velocity 40
+   VelocityRND 0
+   GravityMultiply 1.522
+   GravityMultiplyRND 1.384
+   EnableCollisions 1
+   NormalRestitution 0.5
+   TagentialRestitution 0.5
+   Friction 0.5
+   AnimFPS 60
+   Lifetime 0.3
+   LifetimeShortening 1
+   Alpha {
+    0 0 0.129 0.892 0.65 0.155 1 0
+   }
+   Size {
+    0 0.122 0.363 0.331 1 1
+   }
+   EmittingTime 5
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 0.608
+   }
+   BRateMast {
+    0.035 1 0.964 1 1 0
+   }
+   VelocityMast {
+    0.873 1 1 0
+   }
+  }
+  EmitterDef Hydrant_Base {
+   BirthRate 1.5
+   BirthRateRND 3
+   Material "{1592E04C0600AF89}Particles/_Materials/Water_Splash_01.emat"
+   SizeMultiplier 1
+   SizeRND 1.2
+   Velocity 0
+   CollisionDistThresh 0.05
+   AnimFPS 60
+   Lifetime 1
+   Alpha {
+    0 0 0.144 0.642 0.62 0.149 1 0
+   }
+   Size {
+    0 0.608 1 1
+   }
+   EmittingTime 5
+   AlphaMast {
+    0 0.358
+   }
+   BRateMast {
+    0 0 0.019 0.959 0.74 1 1 0
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{42A14BC9F45D727D}Development/Data/Kitbash3d_Machinery_Native3CastingLadle_Blinn2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

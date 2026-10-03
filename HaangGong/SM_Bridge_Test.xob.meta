@@ -1,0 +1,102 @@
+MetaFileClass {
+ Name "{F82CA9FC3F504871}SM_Bridge_Test.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A7340B723D344B4}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{1789CF19D1742099}Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam pCube10 {
+    }
+    MeshParam pCube11 {
+    }
+    MeshParam pCube2 {
+    }
+    MeshParam pCube3 {
+    }
+    MeshParam pCube4 {
+    }
+    MeshParam pCube5 {
+    }
+    MeshParam pCube7 {
+    }
+    MeshParam pCube9 {
+    }
+    MeshParam polySurface1 {
+    }
+    MeshParam polySurface2 {
+    }
+    MeshParam polySurface3 {
+    }
+    MeshParam polySurface4 {
+    }
+    MeshParam polySurface5 {
+    }
+    MeshParam polySurface6 {
+    }
+    MeshParam polySurface7 {
+    }
+    MeshParam polySurface8 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_pCube12 {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_pCube13 {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_polySurface10 {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_polySurface9 {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6A7340B723EF74E7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A7340B723EF7774}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A7340B723EF7742}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A7340B723EF7720}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A7340B723EF7704}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A7340B723EF77EC}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

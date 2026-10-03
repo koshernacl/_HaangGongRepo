@@ -1,0 +1,96 @@
+MetaFileClass {
+ Name "{07E459060A2B3AF8}Models/SM_Bridge_SuspensionArch.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A775486AA4A86AA}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{88DD75777A043C9C}Models/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Arch_exterior {
+    }
+    MeshParam Arch_interior {
+    }
+    MeshParam Cable_01_L {
+    }
+    MeshParam Cable_01_R {
+    }
+    MeshParam Cable_02_L {
+    }
+    MeshParam Cable_02_R {
+    }
+    MeshParam Cable_03_L {
+    }
+    MeshParam Cable_03_R {
+    }
+    MeshParam Cable_04_L {
+    }
+    MeshParam Cable_04_R {
+    }
+    MeshParam Cable_05_L {
+    }
+    MeshParam Cable_05_R {
+    }
+    MeshParam Cable_06_L {
+    }
+    MeshParam Cable_06_R {
+    }
+    MeshParam Cable_07_L {
+    }
+    MeshParam Cable_07_R {
+    }
+    MeshParam Cable_08_L {
+    }
+    MeshParam Cable_08_R {
+    }
+    MeshParam Cable_09_L {
+    }
+    MeshParam Cable_09_R {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Arch_exterior {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Arch_interior {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6A775486A9E179BF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A775486A9E1785D}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A775486A9E17831}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A775486A9E17818}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A775486A9E17801}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A775486A9E178E8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

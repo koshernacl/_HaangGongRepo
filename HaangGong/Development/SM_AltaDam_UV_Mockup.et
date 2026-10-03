@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "6A84CB47F5537C80"
+ components {
+  MeshObject "{6A84CB4661853790}" {
+   Object "{D573DEF76017885C}HaangGongRocks/Prefabs/SM_Alta_Dam_UV_Test_01.xob"
+  }
+ }
+ coords 12180.5 148.924 2888.251
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EDC1A60747B5AB6D}HaangGongRocks/Prefabs/Data/T_AltaDam_DamMain.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

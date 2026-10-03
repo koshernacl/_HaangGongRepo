@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "C:/REFORGER_MODDING/heightmap_export_v04.png"
+ Flags 5
+ MinHeight -1000000
+ ResampleMinHeight -50
+ ResampleMaxHeight 500
+}
