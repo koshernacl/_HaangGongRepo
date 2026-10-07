@@ -1,0 +1,11 @@
+RiverEntity {
+ ID "6A8EFAB85EC30B42"
+ Flags 0x403 0
+ GeneratorType GeneratorTypeRiver "{6A8EFAB85EC30B0D}" {
+ }
+ Width 5
+ SplineOffsetUp 0.139
+ Material "{94057AACDBE3F527}Terrains/Common/Water/River/RiverWaterfall_01.emat"
+ GUID "572B18098A717D07"
+ PhysicsLayer "Water"
+}
