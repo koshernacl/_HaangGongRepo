@@ -8,3 +8,4 @@
 *.layer filter=lfs diff=lfs merge=lfs -text
 .txo filter=lfs diff=lfs merge=lfs -text
 .pur filter=lfs diff=lfs merge=lfs -text
+HaangGong_PureRef.pur filter=lfs diff=lfs merge=lfs -text
