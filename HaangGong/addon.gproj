@@ -3,7 +3,7 @@ GameProject {
  GUID "6A7328929798027D"
  TITLE "HaangGong"
  Dependencies {
-  "58D0FB3206B6F859" "5F0D245931200FD1"
+  "58D0FB3206B6F859" 
  }
  Configurations {
   GameProjectConfig PC {
