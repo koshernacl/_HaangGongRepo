@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "6A9132BD95FF3F93"
+ components {
+  MeshObject "{6A9132BD8F5AB8F3}" {
+   Object "{918197E2FBB7493E}Assets/Clutter/Vegetation/Plant/Calluna_vulgaris/c_calluna_vulgaris_02.xob"
+  }
+ }
+ coords 10067.183 8.424 10584.619
+}

@@ -1,0 +1,62 @@
+Vehicle : "{8EB38BBD860DA06E}Prefabs/Vehicles/Wheeled/S105/S105_lightblue.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A9297E14C3CFE76}" {
+     SourceMaterial "S105Body_mat"
+     AssignedMaterial "{77FD5EE007711B63}Assets/Vehicles/Wheeled/S105/Data/S105Body_mat_red.emat"
+    }
+    MaterialAssignClass "{6A9297E14C3CFE28}" {
+     SourceMaterial "S105Body_mat_int_FC800CBC7671EDFD"
+     AssignedMaterial "{CF663C88423FD8E7}Assets/Vehicles/Wheeled/S105/Data/S105Body_mat_red_int.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{944A9017885778B9}UI/Textures/EditorPreviews/Vehicles/Wheeled/S105/S105_red.edds"
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     Inertia 0
+     MaxPower 400
+     MaxTorque 465
+     RpmMaxTorque 4500
+    }
+    Clutch Clutch Clutch {
+     MaxClutchTorque 450
+    }
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Wheel Wheel "{4D8B26DFFE211745}" {
+       BrakeTorque 1550
+      }
+      Tyre Tyre "{4D8B26DFFD85E58F}" {
+       Roughness 0.4
+       LongitudinalFriction 1.2
+      }
+      Swaybar Swaybar "{66A2C7C60890C00B}" {
+       Stiffness 2500
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      Suspension Suspension "{4D8B26DF2B10AE05}" {
+       SpringRate 80
+       CompressionDamper 5000
+       RelaxationDamper 5500
+       MaxTravelUp 0.22
+       MaxTravelDown 0.005
+      }
+     }
+    }
+    Aerodynamics Aerodynamics "{5562A623B55A4C07}" {
+     DragCoefficient 0.2
+    }
+    RoughnessSensitivity 0.95
+   }
+  }
+ }
+}
