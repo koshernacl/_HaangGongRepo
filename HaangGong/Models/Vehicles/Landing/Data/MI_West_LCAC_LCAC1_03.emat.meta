@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B5E0D2A0FD6CC141}Models/Vehicles/Landing/Data/MI_West_LCAC_LCAC1_03.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

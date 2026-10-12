@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0D9FBAE4F40F5E69}Models/Industrial/Kit_01/Data/ukRoof_Blinn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

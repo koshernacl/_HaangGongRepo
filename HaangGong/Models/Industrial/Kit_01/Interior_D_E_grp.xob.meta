@@ -1,0 +1,84 @@
+MetaFileClass {
+ Name "{B0121D22E610A5FA}Models/Industrial/Kit_01/Interior_D_E_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A9711005B6C6057}" {
+     SourceMaterial "ConcreteFloor_Blinn"
+     AssignedMaterial "{44DA46A1D7D4BB3B}Models/Industrial/Kit_01/Data/ConcreteFloor_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C6039}" {
+     SourceMaterial "Concrete2_Blinn"
+     AssignedMaterial "{9ABB18201475D33E}Models/Industrial/Kit_01/Data/Concrete2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C6036}" {
+     SourceMaterial "BrickWork_F2_Blinn"
+     AssignedMaterial "{D82665BCECAED181}Models/Industrial/Kit_01/Data/BrickWork_F2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C6034}" {
+     SourceMaterial "BrickWork_F2_Dirt_Blinn"
+     AssignedMaterial "{DAE1AC70BAE27619}Models/Industrial/Kit_01/Data/BrickWork_F2_Dirt_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C6032}" {
+     SourceMaterial "GalvanizedSteel_A_Dirt_Blinn"
+     AssignedMaterial "{8982A77EB0B6242D}Models/Industrial/Kit_01/Data/GalvanizedSteel_A_Dirt_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C602E}" {
+     SourceMaterial "DirtWalls_Blinn"
+     AssignedMaterial "{3247665FDA538CAD}Models/Industrial/Kit_01/Data/DirtWalls_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C602F}" {
+     SourceMaterial "MetalRedPaint_Blinn"
+     AssignedMaterial "{1A86059283A4D12B}Models/Industrial/Kit_01/Data/MetalRedPaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A9711005B6C6029}" {
+     SourceMaterial "FTrimM1_Blinn"
+     AssignedMaterial "{F43CF914C1370F2D}Models/Industrial/Kit_01/Data/FTrimM1_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Interior_D_E_BrickWork_F2 {
+    }
+    MeshParam Interior_D_E_BrickWork_F2_Dirt {
+    }
+    MeshParam Interior_D_E_Concrete2 {
+    }
+    MeshParam Interior_D_E_ConcreteFloor {
+    }
+    MeshParam Interior_D_E_DirtWalls {
+    }
+    MeshParam Interior_D_E_FTrimM1 {
+    }
+    MeshParam Interior_D_E_GalvanizedSteel_A_Dirt {
+    }
+    MeshParam Interior_D_E_MetalRedPaint {
+    }
+   }
+   Common TXOCommonClass "{6A9711005DCFB544}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005DCFB50F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005DCFB5FF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005DCFB5F3}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005DCFB5E6}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005DCFB5DB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

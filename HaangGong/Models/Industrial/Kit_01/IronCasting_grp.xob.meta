@@ -1,0 +1,72 @@
+MetaFileClass {
+ Name "{8BA4AD8BF8DA9C86}Models/Industrial/Kit_01/IronCasting_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A97110054A18B3C}" {
+     SourceMaterial "FTrimM1_Blinn"
+     AssignedMaterial "{F43CF914C1370F2D}Models/Industrial/Kit_01/Data/FTrimM1_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110054A18B30}" {
+     SourceMaterial "CastingLadle_Blinn"
+     AssignedMaterial "{F22428255286252F}Models/Industrial/Kit_01/Data/CastingLadle_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110054A18B2C}" {
+     SourceMaterial "FTrimM2_Blinn"
+     AssignedMaterial "{0BE6A44041C39F6B}Models/Industrial/Kit_01/Data/FTrimM2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110054A18B2B}" {
+     SourceMaterial "Cable_Blinn"
+     AssignedMaterial "{7CBCC53BFEDD5EB4}Models/Industrial/Kit_01/Data/Cable_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110054A18B27}" {
+     SourceMaterial "MetalRedPaint_Blinn"
+     AssignedMaterial "{1A86059283A4D12B}Models/Industrial/Kit_01/Data/MetalRedPaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110054A18B23}" {
+     SourceMaterial "PainterMetalGreen_Blinn"
+     AssignedMaterial "{6A1BBBA6B43544F3}Models/Industrial/Kit_01/Data/PainterMetalGreen_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam IronCasting_Cable {
+    }
+    MeshParam IronCasting_CastingLadle {
+    }
+    MeshParam IronCasting_FTrimM1 {
+    }
+    MeshParam IronCasting_FTrimM2 {
+    }
+    MeshParam IronCasting_MetalRedPaint {
+    }
+    MeshParam IronCasting_PainterMetalGreen {
+    }
+   }
+   Common TXOCommonClass "{6A9711005E3005AE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005E300472}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005E300463}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005E300453}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005E300447}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005E30043A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

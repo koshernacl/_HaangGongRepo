@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3391E3E28F1D6252}Models/Industrial/Kit_01/Data/BrickWork_OldPaintW_B_Blinn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

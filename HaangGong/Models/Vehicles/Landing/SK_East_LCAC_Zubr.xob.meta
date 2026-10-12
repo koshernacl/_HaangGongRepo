@@ -1,0 +1,60 @@
+MetaFileClass {
+ Name "{E7CD445D6A88D666}Models/Vehicles/Landing/SK_East_LCAC_Zubr.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A976AB5470425AE}" {
+     SourceMaterial "MI_East_LCAC_Zubr_01"
+     AssignedMaterial "{952F20DDE6DA5A49}Models/Vehicles/Landing/Data/MI_East_LCAC_Zubr_01.emat"
+    }
+    MaterialAssignClass "{6A976AB547042589}" {
+     SourceMaterial "MI_East_LCAC_Zubr_02"
+     AssignedMaterial "{CBC7099E5957D446}Models/Vehicles/Landing/Data/MI_East_LCAC_Zubr_02.emat"
+    }
+    MaterialAssignClass "{6A976AB547042584}" {
+     SourceMaterial "MI_East_LCAC_Zubr_03"
+     AssignedMaterial "{3FCF4E06548ABC32}Models/Vehicles/Landing/Data/MI_East_LCAC_Zubr_03.emat"
+    }
+    MaterialAssignClass "{6A976AB54704247E}" {
+     SourceMaterial "MI_East_LCAC_Zubr_04"
+     AssignedMaterial "{76175B19264CC858}Models/Vehicles/Landing/Data/MI_East_LCAC_Zubr_04.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SK_East_LCAC_Zubr_LOD0 {
+    }
+    MeshParam SK_East_LCAC_Zubr_LOD1 {
+    }
+    MeshParam SK_East_LCAC_Zubr_LOD2 {
+    }
+    MeshParam SK_East_LCAC_Zubr_LOD3 {
+    }
+   }
+   Common TXOCommonClass "{6A976AB546EC2349}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A976AB546EC23C5}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A976AB546EC238B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A976AB546EC2266}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A976AB546EC224A}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A976AB546EC222F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,126 @@
+MetaFileClass {
+ Name "{17937025C55833F4}Models/Industrial/Kit_01/Interior_A_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A976AB75621D5F9}" {
+     SourceMaterial "Concrete2_Blinn"
+     AssignedMaterial "{9ABB18201475D33E}Models/Industrial/Kit_01/Data/Concrete2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5EA}" {
+     SourceMaterial "ukRoof_Blinn"
+     AssignedMaterial "{0D9FBAE4F40F5E69}Models/Industrial/Kit_01/Data/ukRoof_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5E9}" {
+     SourceMaterial "MetalBluePaint_Blinn"
+     AssignedMaterial "{BF11E8FF9FADC195}Models/Industrial/Kit_01/Data/MetalBluePaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5E7}" {
+     SourceMaterial "Tar_B2_Blinn"
+     AssignedMaterial "{383BB57E8DF16CC2}Models/Industrial/Kit_01/Data/Tar_B2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5E1}" {
+     SourceMaterial "DirtWalls_Blinn"
+     AssignedMaterial "{3247665FDA538CAD}Models/Industrial/Kit_01/Data/DirtWalls_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5DC}" {
+     SourceMaterial "industrialFloor2_Blinn"
+     AssignedMaterial "{EEB5D86BEB946FDE}Models/Industrial/Kit_01/Data/industrialFloor2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5D8}" {
+     SourceMaterial "ConcreteFloor_Blinn"
+     AssignedMaterial "{44DA46A1D7D4BB3B}Models/Industrial/Kit_01/Data/ConcreteFloor_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5D6}" {
+     SourceMaterial "PanelFloor_Blinn"
+     AssignedMaterial "{FF0B592437856F93}Models/Industrial/Kit_01/Data/PanelFloor_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5D4}" {
+     SourceMaterial "industrialFloor_Blinn"
+     AssignedMaterial "{7BAD9B3E72846DA3}Models/Industrial/Kit_01/Data/industrialFloor_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5D3}" {
+     SourceMaterial "FTrimW_Blinn"
+     AssignedMaterial "{6343417C0E0D3CA7}Models/Industrial/Kit_01/Data/FTrimW_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5CE}" {
+     SourceMaterial "FTrimM1_Blinn"
+     AssignedMaterial "{F43CF914C1370F2D}Models/Industrial/Kit_01/Data/FTrimM1_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5CF}" {
+     SourceMaterial "FTrimL1_Blinn"
+     AssignedMaterial "{CBA39776D73BA1D0}Models/Industrial/Kit_01/Data/FTrimL1_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5CA}" {
+     SourceMaterial "Light_Blinn"
+     AssignedMaterial "{5F5A4931F9FCB280}Models/Industrial/Kit_01/Data/Light_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5C8}" {
+     SourceMaterial "GalvanizedSteel_A_Dirt_Blinn"
+     AssignedMaterial "{8982A77EB0B6242D}Models/Industrial/Kit_01/Data/GalvanizedSteel_A_Dirt_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75621D5C0}" {
+     SourceMaterial "BrickWork_F_Blinn"
+     AssignedMaterial "{DEAA4B1034780EB8}Models/Industrial/Kit_01/Data/BrickWork_F_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Interior_A_BrickWork_F {
+    }
+    MeshParam Interior_A_Concrete2 {
+    }
+    MeshParam Interior_A_ConcreteFloor {
+    }
+    MeshParam Interior_A_DirtWalls {
+    }
+    MeshParam Interior_A_FTrimL1 {
+    }
+    MeshParam Interior_A_FTrimM1 {
+    }
+    MeshParam Interior_A_FTrimW {
+    }
+    MeshParam Interior_A_GalvanizedSteel_A_Dirt {
+    }
+    MeshParam Interior_A_Light {
+    }
+    MeshParam Interior_A_MetalBluePaint {
+    }
+    MeshParam Interior_A_PanelFloor {
+    }
+    MeshParam Interior_A_Tar_B2 {
+    }
+    MeshParam Interior_A_industrialFloor {
+    }
+    MeshParam Interior_A_industrialFloor2 {
+    }
+    MeshParam Interior_A_ukRoof {
+    }
+   }
+   Common TXOCommonClass "{6A9711005D84DBB1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005D84DA6E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005D84DA5C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005D84DA4C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005D84DA3F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005D84DA30}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

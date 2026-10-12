@@ -1,0 +1,66 @@
+MetaFileClass {
+ Name "{AD6D8A5E5B043DF5}Models/Industrial/Kit_01/LadderLarge_A_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A97110055385F9B}" {
+     SourceMaterial "industrialFloor2_Blinn"
+     AssignedMaterial "{EEB5D86BEB946FDE}Models/Industrial/Kit_01/Data/industrialFloor2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110055385E77}" {
+     SourceMaterial "MetalBluePaint_Blinn"
+     AssignedMaterial "{BF11E8FF9FADC195}Models/Industrial/Kit_01/Data/MetalBluePaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110055385E72}" {
+     SourceMaterial "FTrimM2_Blinn"
+     AssignedMaterial "{0BE6A44041C39F6B}Models/Industrial/Kit_01/Data/FTrimM2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110055385E68}" {
+     SourceMaterial "FTrimM4_Blinn"
+     AssignedMaterial "{B6A2FF02E9C08974}Models/Industrial/Kit_01/Data/FTrimM4_Blinn.emat"
+    }
+    MaterialAssignClass "{6A97110055385E65}" {
+     SourceMaterial "FTrimM1_Blinn"
+     AssignedMaterial "{F43CF914C1370F2D}Models/Industrial/Kit_01/Data/FTrimM1_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam LadderLarge_A_FTrimM1 {
+    }
+    MeshParam LadderLarge_A_FTrimM2 {
+    }
+    MeshParam LadderLarge_A_FTrimM4 {
+    }
+    MeshParam LadderLarge_A_MetalBluePaint {
+    }
+    MeshParam LadderLarge_A_industrialFloor2 {
+    }
+   }
+   Common TXOCommonClass "{6A9711005E2F352A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005E2F35F0}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005E2F35DF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005E2F35CC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005E2F35C0}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005E2F35B5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,78 @@
+MetaFileClass {
+ Name "{6563AC842898B142}Models/Industrial/Kit_01/DumpHammer_A_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A976AB75B9E0542}" {
+     SourceMaterial "FTrimM2_Blinn"
+     AssignedMaterial "{0BE6A44041C39F6B}Models/Industrial/Kit_01/Data/FTrimM2_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E0535}" {
+     SourceMaterial "CastingLadle_Blinn"
+     AssignedMaterial "{F22428255286252F}Models/Industrial/Kit_01/Data/CastingLadle_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E0533}" {
+     SourceMaterial "FTrimM1_Blinn"
+     AssignedMaterial "{F43CF914C1370F2D}Models/Industrial/Kit_01/Data/FTrimM1_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E0530}" {
+     SourceMaterial "FTrimM4_Blinn"
+     AssignedMaterial "{B6A2FF02E9C08974}Models/Industrial/Kit_01/Data/FTrimM4_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E052E}" {
+     SourceMaterial "MetalBluePaint_Blinn"
+     AssignedMaterial "{BF11E8FF9FADC195}Models/Industrial/Kit_01/Data/MetalBluePaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E052A}" {
+     SourceMaterial "MetalRedPaint_Blinn"
+     AssignedMaterial "{1A86059283A4D12B}Models/Industrial/Kit_01/Data/MetalRedPaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6A976AB75B9E0528}" {
+     SourceMaterial "PainterMetalGreen_Blinn"
+     AssignedMaterial "{6A1BBBA6B43544F3}Models/Industrial/Kit_01/Data/PainterMetalGreen_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam DumpHammer_A_CastingLadle {
+    }
+    MeshParam DumpHammer_A_FTrimM1 {
+    }
+    MeshParam DumpHammer_A_FTrimM2 {
+    }
+    MeshParam DumpHammer_A_FTrimM4 {
+    }
+    MeshParam DumpHammer_A_MetalBluePaint {
+    }
+    MeshParam DumpHammer_A_MetalRedPaint {
+    }
+    MeshParam DumpHammer_A_PainterMetalGreen {
+    }
+   }
+   Common TXOCommonClass "{6A9711005D46B774}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005D46B737}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005D46B725}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005D46B716}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005D46B70B}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005D46B7FB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8982A77EB0B6242D}Models/Industrial/Kit_01/Data/GalvanizedSteel_A_Dirt_Blinn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

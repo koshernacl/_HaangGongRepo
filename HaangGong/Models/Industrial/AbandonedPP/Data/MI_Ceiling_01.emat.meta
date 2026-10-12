@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DAE8CA6DA2761573}Models/Industrial/AbandonedPP/Data/MI_Ceiling_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

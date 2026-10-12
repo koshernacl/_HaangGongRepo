@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{B0196B428F2EA68F}Models/Industrial/Kit_01/FuelTank_grp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A971100594D82F8}" {
+     SourceMaterial "PaintedSteel_Blinn"
+     AssignedMaterial "{7D68C51E1AF08DCD}Models/Industrial/Kit_01/Data/PaintedSteel_Blinn.emat"
+    }
+    MaterialAssignClass "{6A971100594D82ED}" {
+     SourceMaterial "FTrimL1_Blinn"
+     AssignedMaterial "{CBA39776D73BA1D0}Models/Industrial/Kit_01/Data/FTrimL1_Blinn.emat"
+    }
+    MaterialAssignClass "{6A971100594D82EB}" {
+     SourceMaterial "FTrimM2_Blinn"
+     AssignedMaterial "{0BE6A44041C39F6B}Models/Industrial/Kit_01/Data/FTrimM2_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam FuelTank_FTrimL1 {
+    }
+    MeshParam FuelTank_FTrimM2 {
+    }
+    MeshParam FuelTank_PaintedSteel {
+    }
+   }
+   Common TXOCommonClass "{6A9711005D90DE74}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9711005D90DE37}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9711005D90DE22}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9711005D90DE14}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9711005D90DE08}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9711005D90DEFF}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
