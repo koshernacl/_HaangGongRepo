@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0254D9D68CF65E65}Models/Industrial/AltaHydro/Data/aiStandardSurface3.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

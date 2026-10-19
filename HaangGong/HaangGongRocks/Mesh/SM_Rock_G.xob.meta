@@ -1,11 +1,11 @@
 MetaFileClass {
- Name "{A44D322241F440CF}HaangGongRocks/SM_Rock_G.xob"
+ Name "{A44D322241F440CF}HaangGongRocks/Mesh/SM_Rock_G.xob"
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{6A84CB4E803EEB32}" {
-     SourceMaterial "MI_Rock_G"
-     AssignedMaterial "{E048451C15DBA1FC}HaangGongRocks/Data/MI_Rock_G.emat"
+    MaterialAssignClass "{6AA0D34499C0B8D8}" {
+     SourceMaterial "M_Rock_G"
+     AssignedMaterial "{6496AEA4E33D9C6E}HaangGongRocks/Mesh/Data/M_Rock_G.emat"
     }
    }
    MeshParams {

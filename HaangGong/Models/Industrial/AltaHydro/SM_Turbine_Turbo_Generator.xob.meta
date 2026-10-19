@@ -1,0 +1,90 @@
+MetaFileClass {
+ Name "{5B1C49C3DC6FC780}Models/Industrial/AltaHydro/SM_Turbine_Turbo_Generator.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9CBA876A9}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3industrialFloor_Blinn"
+     AssignedMaterial "{DE907597DF6E98AE}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3industrialFloor_Blinn.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA8769C}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3PainterMetalGreen_Blinn"
+     AssignedMaterial "{1C742D780A5A2E92}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3PainterMetalGreen_Blinn.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA87696}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM4_Blinn1"
+     AssignedMaterial "{D3379C0B4E20BCC7}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM4_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA87693}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM1_Blinn1"
+     AssignedMaterial "{12D54BE1001EA9CE}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM1_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA87691}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimL1_Blinn1"
+     AssignedMaterial "{3BB82804556BB42B}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimL1_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA8768D}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM2_Blinn1"
+     AssignedMaterial "{5274F9473A0B5AC9}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM2_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA8768B}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3CastingLadle_Blinn1"
+     AssignedMaterial "{795AC5AC566D194E}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3CastingLadle_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA87686}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3MetalRedPaint_Blinn"
+     AssignedMaterial "{755CD116EB042D3A}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3MetalRedPaint_Blinn.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBA87687}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimW_Blinn"
+     AssignedMaterial "{0D45DE015942F9C5}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimW_Blinn.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_CastingLadle" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_FTrimL1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_FTrimM1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_FTrimM2" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_FTrimM4" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_FTrimW" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_MetalRedPaint" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_PainterMetalGreen" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:TurboGenerator_industrialFloor" {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C8987AD3}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C8987A94}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C8987A80}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C8987570}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C8987564}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C8987559}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

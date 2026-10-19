@@ -1,0 +1,250 @@
+MetaFileClass {
+ Name "{4101E815F95F441E}Models/Industrial/AltaHydro/SM_Turbine_Hall_Surge_Tanks.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9C94C8310}" {
+     SourceMaterial "aiStandardSurface2"
+     AssignedMaterial "{F65C9E4E812B3611}Models/Industrial/AltaHydro/Data/aiStandardSurface2.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C94C8308}" {
+     SourceMaterial "lambert9"
+     AssignedMaterial "{1544FFAA6E9F4F93}Models/Industrial/AltaHydro/Data/lambert9.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C94C8307}" {
+     SourceMaterial "pasted__factory_unit13"
+     AssignedMaterial "{DDEF4E5C8F5C7C44}Models/Industrial/AltaHydro/Data/pasted__factory_unit13.emat"
+    }
+   }
+   MeshParams {
+    MeshParam humanBody2 {
+    }
+    MeshParam pCube106 {
+    }
+    MeshParam pCube107 {
+    }
+    MeshParam pCube388 {
+    }
+    MeshParam pCube390 {
+    }
+    MeshParam pCube626 {
+    }
+    MeshParam pCube632 {
+    }
+    MeshParam pCube635 {
+    }
+    MeshParam pCube639 {
+    }
+    MeshParam pCube640 {
+    }
+    MeshParam pCube643 {
+    }
+    MeshParam pCube647 {
+    }
+    MeshParam pCube649 {
+    }
+    MeshParam pCylinder1 {
+    }
+    MeshParam pCylinder23 {
+    }
+    MeshParam pCylinder48 {
+    }
+    MeshParam pTorus4 {
+    }
+    MeshParam pasted__factory_unit_13 {
+    }
+    MeshParam pasted__factory_unit_20 {
+    }
+    MeshParam pasted__polySurface369 {
+    }
+    MeshParam pasted__polySurface373 {
+    }
+    MeshParam pasted__polySurface376 {
+    }
+    MeshParam pasted__polySurface377 {
+    }
+    MeshParam pasted__polySurface381 {
+    }
+    MeshParam pasted__polySurface382 {
+    }
+    MeshParam pasted__polySurface383 {
+    }
+    MeshParam pasted__polySurface384 {
+    }
+    MeshParam pasted__polySurface387 {
+    }
+    MeshParam pasted__polySurface390 {
+    }
+    MeshParam pasted__polySurface391 {
+    }
+    MeshParam pasted__polySurface392 {
+    }
+    MeshParam pasted__polySurface393 {
+    }
+    MeshParam pasted__polySurface394 {
+    }
+    MeshParam pasted__polySurface395 {
+    }
+    MeshParam pasted__polySurface401 {
+    }
+    MeshParam pasted__polySurface402 {
+    }
+    MeshParam pasted__polySurface404 {
+    }
+    MeshParam pasted__polySurface408 {
+    }
+    MeshParam pasted__polySurface411 {
+    }
+    MeshParam pasted__polySurface413 {
+    }
+    MeshParam pasted__polySurface416 {
+    }
+    MeshParam pasted__polySurface417 {
+    }
+    MeshParam pasted__polySurface418 {
+    }
+    MeshParam pasted__polySurface420 {
+    }
+    MeshParam pasted__polySurface421 {
+    }
+    MeshParam pasted__polySurface425 {
+    }
+    MeshParam pasted__polySurface431 {
+    }
+    MeshParam pasted__polySurface433 {
+    }
+    MeshParam pasted__polySurface436 {
+    }
+    MeshParam pasted__polySurface441 {
+    }
+    MeshParam pasted__polySurface444 {
+    }
+    MeshParam pasted__polySurface445 {
+    }
+    MeshParam pasted__polySurface448 {
+    }
+    MeshParam pasted__polySurface450 {
+    }
+    MeshParam pasted__polySurface452 {
+    }
+    MeshParam pasted__polySurface453 {
+    }
+    MeshParam pasted__polySurface454 {
+    }
+    MeshParam pasted__polySurface455 {
+    }
+    MeshParam pasted__polySurface456 {
+    }
+    MeshParam pasted__polySurface458 {
+    }
+    MeshParam pasted__polySurface459 {
+    }
+    MeshParam pasted__polySurface461 {
+    }
+    MeshParam pasted__polySurface462 {
+    }
+    MeshParam pasted__polySurface463 {
+    }
+    MeshParam pasted__polySurface466 {
+    }
+    MeshParam pasted__polySurface467 {
+    }
+    MeshParam pasted__polySurface469 {
+    }
+    MeshParam pasted__polySurface472 {
+    }
+    MeshParam pasted__polySurface475 {
+    }
+    MeshParam pasted__polySurface477 {
+    }
+    MeshParam pasted__polySurface478 {
+    }
+    MeshParam pasted__polySurface481 {
+    }
+    MeshParam pasted__polySurface482 {
+    }
+    MeshParam pasted__polySurface485 {
+    }
+    MeshParam pasted__polySurface486 {
+    }
+    MeshParam pasted__polySurface489 {
+    }
+    MeshParam pasted__polySurface490 {
+    }
+    MeshParam pasted__polySurface493 {
+    }
+    MeshParam pasted__polySurface494 {
+    }
+    MeshParam pasted__polySurface495 {
+    }
+    MeshParam pasted__polySurface496 {
+    }
+    MeshParam pasted__polySurface497 {
+    }
+    MeshParam pasted__polySurface500 {
+    }
+    MeshParam pasted__polySurface502 {
+    }
+    MeshParam pasted__polySurface504 {
+    }
+    MeshParam pasted__polySurface506 {
+    }
+    MeshParam pasted__polySurface508 {
+    }
+    MeshParam pasted__polySurface509 {
+    }
+    MeshParam pasted__polySurface510 {
+    }
+    MeshParam pasted__polySurface512 {
+    }
+    MeshParam pasted__polySurface514 {
+    }
+    MeshParam polySurface125 {
+    }
+    MeshParam polySurface147 {
+    }
+    MeshParam polySurface155 {
+    }
+    MeshParam polySurface156 {
+    }
+    MeshParam polySurface176 {
+    }
+    MeshParam polySurface183 {
+    }
+    MeshParam polySurface3 {
+    }
+    MeshParam polySurface31 {
+    }
+    MeshParam polySurface33 {
+    }
+    MeshParam polySurface7 {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C89DF973}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C89DF93B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C89DF924}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89DF915}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89DF909}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C89DF9FB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

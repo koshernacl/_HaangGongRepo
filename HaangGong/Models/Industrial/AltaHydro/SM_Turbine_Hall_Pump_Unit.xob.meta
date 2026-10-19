@@ -1,0 +1,114 @@
+MetaFileClass {
+ Name "{1D2026E8F8638937}Models/Industrial/AltaHydro/SM_Turbine_Hall_Pump_Unit.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9CAE8625E}" {
+     SourceMaterial "pasted__T_Elevator_Motors"
+     AssignedMaterial "{3EFB4C65CF5CB167}Models/Industrial/AltaHydro/Data/pasted__T_Elevator_Motors.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CAE86250}" {
+     SourceMaterial "lambert8"
+     AssignedMaterial "{E14CB832634227E7}Models/Industrial/AltaHydro/Data/lambert8.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CAE8624F}" {
+     SourceMaterial "pasted__factory_unit15"
+     AssignedMaterial "{603F1CDBF047605A}Models/Industrial/AltaHydro/Data/pasted__factory_unit15.emat"
+    }
+   }
+   MeshParams {
+    MeshParam pCube641 {
+    }
+    MeshParam pCylinder36 {
+    }
+    MeshParam pCylinder37 {
+    }
+    MeshParam pasted__factory_unit_18 {
+    }
+    MeshParam pasted__pasted__closingPart {
+    }
+    MeshParam pasted__pasted__closingPart3 {
+    }
+    MeshParam pasted__pasted__closingPart4 {
+    }
+    MeshParam pasted__pasted__parts1 {
+    }
+    MeshParam pasted__pasted__parts2 {
+    }
+    MeshParam polySurface103 {
+    }
+    MeshParam polySurface104 {
+    }
+    MeshParam polySurface105 {
+    }
+    MeshParam polySurface106 {
+    }
+    MeshParam polySurface113 {
+    }
+    MeshParam polySurface119 {
+    }
+    MeshParam polySurface124 {
+    }
+    MeshParam polySurface133 {
+    }
+    MeshParam polySurface136 {
+    }
+    MeshParam polySurface137 {
+    }
+    MeshParam polySurface142 {
+    }
+    MeshParam polySurface144 {
+    }
+    MeshParam polySurface158 {
+    }
+    MeshParam polySurface165 {
+    }
+    MeshParam polySurface169 {
+    }
+    MeshParam polySurface171 {
+    }
+    MeshParam polySurface182 {
+    }
+    MeshParam polySurface36 {
+    }
+    MeshParam polySurface37 {
+    }
+    MeshParam polySurface89 {
+    }
+    MeshParam polySurface90 {
+    }
+    MeshParam polySurface91 {
+    }
+    MeshParam polySurface93 {
+    }
+    MeshParam polySurface97 {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C89E640E}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C89E64D5}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C89E64C3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89E64B5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89E64A6}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C89E6498}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

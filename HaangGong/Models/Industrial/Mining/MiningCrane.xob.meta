@@ -1,0 +1,1772 @@
+MetaFileClass {
+ Name "{844CEFF93D5A4829}Models/Industrial/Mining/MiningCrane.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A9D74DF7910AA5A}" {
+     SourceMaterial "Body_42"
+     AssignedMaterial "{7003785D7CFBB9E3}Models/Industrial/Mining/Data/Body_42.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA4F}" {
+     SourceMaterial "Default_Material"
+     AssignedMaterial "{FCAAA2127D5C19BD}Models/Industrial/Mining/Data/Default_Material.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA4A}" {
+     SourceMaterial "Metal_stairs_4_1"
+     AssignedMaterial "{FFD65C995D62FFD2}Models/Industrial/Mining/Data/Metal_stairs_4_1.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA4B}" {
+     SourceMaterial "Body_2_2"
+     AssignedMaterial "{C07E3B998275247B}Models/Industrial/Mining/Data/Body_2_2.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA49}" {
+     SourceMaterial "Metal_stairs_3_1"
+     AssignedMaterial "{B6C506FD7EAD40F9}Models/Industrial/Mining/Data/Metal_stairs_3_1.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA44}" {
+     SourceMaterial "Body_1_2"
+     AssignedMaterial "{72A97972DDD717E3}Models/Industrial/Mining/Data/Body_1_2.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA45}" {
+     SourceMaterial "Glass_01"
+     AssignedMaterial "{C0F7499526D6C013}Models/Industrial/Mining/Data/Glass_01.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA41}" {
+     SourceMaterial "Body_3_2"
+     AssignedMaterial "{AE3305C0B714CAF3}Models/Industrial/Mining/Data/Body_3_2.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA3F}" {
+     SourceMaterial "Metal_stairs_2_1"
+     AssignedMaterial "{D88838A44BCCAE71}Models/Industrial/Mining/Data/Metal_stairs_2_1.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA3D}" {
+     SourceMaterial "Metal_stairs_1_1"
+     AssignedMaterial "{6A5F7A4F146E9DE9}Models/Industrial/Mining/Data/Metal_stairs_1_1.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA39}" {
+     SourceMaterial "Dipper_4_3"
+     AssignedMaterial "{EE7A446E9042185E}Models/Industrial/Mining/Data/Dipper_4_3.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA37}" {
+     SourceMaterial "Dipper_2_3"
+     AssignedMaterial "{C924205386EC49FD}Models/Industrial/Mining/Data/Dipper_2_3.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA32}" {
+     SourceMaterial "Metal_stairs_5_1"
+     AssignedMaterial "{919B62C06803115A}Models/Industrial/Mining/Data/Metal_stairs_5_1.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA31}" {
+     SourceMaterial "Dipper_1_3"
+     AssignedMaterial "{7BF362B8D94E7A65}Models/Industrial/Mining/Data/Dipper_1_3.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA2F}" {
+     SourceMaterial "Dipper_3_3"
+     AssignedMaterial "{A7691E0AB38DA775}Models/Industrial/Mining/Data/Dipper_3_3.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA2A}" {
+     SourceMaterial "Dipper_5_3"
+     AssignedMaterial "{80377A37A523F6D6}Models/Industrial/Mining/Data/Dipper_5_3.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA28}" {
+     SourceMaterial "Track_2_5"
+     AssignedMaterial "{26650A84DFCC263C}Models/Industrial/Mining/Data/Track_2_5.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA27}" {
+     SourceMaterial "Track_4_4"
+     AssignedMaterial "{F5332921C4BF1FEB}Models/Industrial/Mining/Data/Track_4_4.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA25}" {
+     SourceMaterial "Track_3_5"
+     AssignedMaterial "{482834DDEAADC8B4}Models/Industrial/Mining/Data/Track_3_5.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA23}" {
+     SourceMaterial "Interior_2_5"
+     AssignedMaterial "{852E50C3A9684F69}Models/Industrial/Mining/Data/Interior_2_5.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA1F}" {
+     SourceMaterial "Interior_2_4"
+     AssignedMaterial "{7126175BA4B5271D}Models/Industrial/Mining/Data/Interior_2_4.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA18}" {
+     SourceMaterial "Lights_1_5"
+     AssignedMaterial "{46ADD76871A8A2F0}Models/Industrial/Mining/Data/Lights_1_5.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA16}" {
+     SourceMaterial "Machines_5_2"
+     AssignedMaterial "{0334150CB8CC3F70}Models/Industrial/Mining/Data/Machines_5_2.emat"
+    }
+    MaterialAssignClass "{6A9D74DF7910AA15}" {
+     SourceMaterial "Ropes_3_5"
+     AssignedMaterial "{22778796F4F97E13}Models/Industrial/Mining/Data/Ropes_3_5.emat"
+    }
+   }
+   MeshParams {
+    MeshParam desirefx_me_1 {
+    }
+    MeshParam desirefx_me_10 {
+    }
+    MeshParam desirefx_me_100 {
+    }
+    MeshParam desirefx_me_101 {
+    }
+    MeshParam desirefx_me_102 {
+    }
+    MeshParam desirefx_me_103 {
+    }
+    MeshParam desirefx_me_104 {
+    }
+    MeshParam desirefx_me_105 {
+    }
+    MeshParam desirefx_me_106 {
+    }
+    MeshParam desirefx_me_107 {
+    }
+    MeshParam desirefx_me_108 {
+    }
+    MeshParam desirefx_me_109 {
+    }
+    MeshParam desirefx_me_11 {
+    }
+    MeshParam desirefx_me_110 {
+    }
+    MeshParam desirefx_me_111 {
+    }
+    MeshParam desirefx_me_112 {
+    }
+    MeshParam desirefx_me_113 {
+    }
+    MeshParam desirefx_me_114 {
+    }
+    MeshParam desirefx_me_115 {
+    }
+    MeshParam desirefx_me_116 {
+    }
+    MeshParam desirefx_me_117 {
+    }
+    MeshParam desirefx_me_118 {
+    }
+    MeshParam desirefx_me_119 {
+    }
+    MeshParam desirefx_me_12 {
+    }
+    MeshParam desirefx_me_120 {
+    }
+    MeshParam desirefx_me_121 {
+    }
+    MeshParam desirefx_me_122 {
+    }
+    MeshParam desirefx_me_123 {
+    }
+    MeshParam desirefx_me_124 {
+    }
+    MeshParam desirefx_me_125 {
+    }
+    MeshParam desirefx_me_126 {
+    }
+    MeshParam desirefx_me_127 {
+    }
+    MeshParam desirefx_me_128 {
+    }
+    MeshParam desirefx_me_129 {
+    }
+    MeshParam desirefx_me_13 {
+    }
+    MeshParam desirefx_me_130 {
+    }
+    MeshParam desirefx_me_131 {
+    }
+    MeshParam desirefx_me_132 {
+    }
+    MeshParam desirefx_me_133 {
+    }
+    MeshParam desirefx_me_134 {
+    }
+    MeshParam desirefx_me_135 {
+    }
+    MeshParam desirefx_me_136 {
+    }
+    MeshParam desirefx_me_137 {
+    }
+    MeshParam desirefx_me_138 {
+    }
+    MeshParam desirefx_me_139 {
+    }
+    MeshParam desirefx_me_14 {
+    }
+    MeshParam desirefx_me_140 {
+    }
+    MeshParam desirefx_me_141 {
+    }
+    MeshParam desirefx_me_142 {
+    }
+    MeshParam desirefx_me_143 {
+    }
+    MeshParam desirefx_me_144 {
+    }
+    MeshParam desirefx_me_145 {
+    }
+    MeshParam desirefx_me_146 {
+    }
+    MeshParam desirefx_me_147 {
+    }
+    MeshParam desirefx_me_148 {
+    }
+    MeshParam desirefx_me_149 {
+    }
+    MeshParam desirefx_me_15 {
+    }
+    MeshParam desirefx_me_150 {
+    }
+    MeshParam desirefx_me_151 {
+    }
+    MeshParam desirefx_me_152 {
+    }
+    MeshParam desirefx_me_153 {
+    }
+    MeshParam desirefx_me_154 {
+    }
+    MeshParam desirefx_me_155 {
+    }
+    MeshParam desirefx_me_156 {
+    }
+    MeshParam desirefx_me_157 {
+    }
+    MeshParam desirefx_me_158 {
+    }
+    MeshParam desirefx_me_159 {
+    }
+    MeshParam desirefx_me_16 {
+    }
+    MeshParam desirefx_me_160 {
+    }
+    MeshParam desirefx_me_161 {
+    }
+    MeshParam desirefx_me_162 {
+    }
+    MeshParam desirefx_me_163 {
+    }
+    MeshParam desirefx_me_164 {
+    }
+    MeshParam desirefx_me_165 {
+    }
+    MeshParam desirefx_me_166 {
+    }
+    MeshParam desirefx_me_167 {
+    }
+    MeshParam desirefx_me_168 {
+    }
+    MeshParam desirefx_me_169 {
+    }
+    MeshParam desirefx_me_17 {
+    }
+    MeshParam desirefx_me_170 {
+    }
+    MeshParam desirefx_me_171 {
+    }
+    MeshParam desirefx_me_172 {
+    }
+    MeshParam desirefx_me_173 {
+    }
+    MeshParam desirefx_me_174 {
+    }
+    MeshParam desirefx_me_175 {
+    }
+    MeshParam desirefx_me_176 {
+    }
+    MeshParam desirefx_me_177 {
+    }
+    MeshParam desirefx_me_178 {
+    }
+    MeshParam desirefx_me_179 {
+    }
+    MeshParam desirefx_me_18 {
+    }
+    MeshParam desirefx_me_180 {
+    }
+    MeshParam desirefx_me_181 {
+    }
+    MeshParam desirefx_me_182 {
+    }
+    MeshParam desirefx_me_183 {
+    }
+    MeshParam desirefx_me_184 {
+    }
+    MeshParam desirefx_me_185 {
+    }
+    MeshParam desirefx_me_186 {
+    }
+    MeshParam desirefx_me_187 {
+    }
+    MeshParam desirefx_me_188 {
+    }
+    MeshParam desirefx_me_189 {
+    }
+    MeshParam desirefx_me_19 {
+    }
+    MeshParam desirefx_me_190 {
+    }
+    MeshParam desirefx_me_191 {
+    }
+    MeshParam desirefx_me_192 {
+    }
+    MeshParam desirefx_me_193 {
+    }
+    MeshParam desirefx_me_194 {
+    }
+    MeshParam desirefx_me_195 {
+    }
+    MeshParam desirefx_me_196 {
+    }
+    MeshParam desirefx_me_197 {
+    }
+    MeshParam desirefx_me_198 {
+    }
+    MeshParam desirefx_me_199 {
+    }
+    MeshParam desirefx_me_2 {
+    }
+    MeshParam desirefx_me_20 {
+    }
+    MeshParam desirefx_me_200 {
+    }
+    MeshParam desirefx_me_201 {
+    }
+    MeshParam desirefx_me_202 {
+    }
+    MeshParam desirefx_me_203 {
+    }
+    MeshParam desirefx_me_204 {
+    }
+    MeshParam desirefx_me_205 {
+    }
+    MeshParam desirefx_me_206 {
+    }
+    MeshParam desirefx_me_207 {
+    }
+    MeshParam desirefx_me_208 {
+    }
+    MeshParam desirefx_me_209 {
+    }
+    MeshParam desirefx_me_21 {
+    }
+    MeshParam desirefx_me_210 {
+    }
+    MeshParam desirefx_me_211 {
+    }
+    MeshParam desirefx_me_212 {
+    }
+    MeshParam desirefx_me_213 {
+    }
+    MeshParam desirefx_me_214 {
+    }
+    MeshParam desirefx_me_215 {
+    }
+    MeshParam desirefx_me_216 {
+    }
+    MeshParam desirefx_me_217 {
+    }
+    MeshParam desirefx_me_218 {
+    }
+    MeshParam desirefx_me_219 {
+    }
+    MeshParam desirefx_me_22 {
+    }
+    MeshParam desirefx_me_220 {
+    }
+    MeshParam desirefx_me_221 {
+    }
+    MeshParam desirefx_me_222 {
+    }
+    MeshParam desirefx_me_223 {
+    }
+    MeshParam desirefx_me_224 {
+    }
+    MeshParam desirefx_me_225 {
+    }
+    MeshParam desirefx_me_226 {
+    }
+    MeshParam desirefx_me_227 {
+    }
+    MeshParam desirefx_me_228 {
+    }
+    MeshParam desirefx_me_229 {
+    }
+    MeshParam desirefx_me_23 {
+    }
+    MeshParam desirefx_me_230 {
+    }
+    MeshParam desirefx_me_231 {
+    }
+    MeshParam desirefx_me_232 {
+    }
+    MeshParam desirefx_me_233 {
+    }
+    MeshParam desirefx_me_234 {
+    }
+    MeshParam desirefx_me_235 {
+    }
+    MeshParam desirefx_me_236 {
+    }
+    MeshParam desirefx_me_237 {
+    }
+    MeshParam desirefx_me_238 {
+    }
+    MeshParam desirefx_me_239 {
+    }
+    MeshParam desirefx_me_24 {
+    }
+    MeshParam desirefx_me_240 {
+    }
+    MeshParam desirefx_me_241 {
+    }
+    MeshParam desirefx_me_242 {
+    }
+    MeshParam desirefx_me_243 {
+    }
+    MeshParam desirefx_me_244 {
+    }
+    MeshParam desirefx_me_245 {
+    }
+    MeshParam desirefx_me_246 {
+    }
+    MeshParam desirefx_me_247 {
+    }
+    MeshParam desirefx_me_248 {
+    }
+    MeshParam desirefx_me_249 {
+    }
+    MeshParam desirefx_me_25 {
+    }
+    MeshParam desirefx_me_250 {
+    }
+    MeshParam desirefx_me_251 {
+    }
+    MeshParam desirefx_me_252 {
+    }
+    MeshParam desirefx_me_253 {
+    }
+    MeshParam desirefx_me_254 {
+    }
+    MeshParam desirefx_me_255 {
+    }
+    MeshParam desirefx_me_256 {
+    }
+    MeshParam desirefx_me_257 {
+    }
+    MeshParam desirefx_me_258 {
+    }
+    MeshParam desirefx_me_259 {
+    }
+    MeshParam desirefx_me_26 {
+    }
+    MeshParam desirefx_me_260 {
+    }
+    MeshParam desirefx_me_261 {
+    }
+    MeshParam desirefx_me_262 {
+    }
+    MeshParam desirefx_me_263 {
+    }
+    MeshParam desirefx_me_264 {
+    }
+    MeshParam desirefx_me_265 {
+    }
+    MeshParam desirefx_me_266 {
+    }
+    MeshParam desirefx_me_267 {
+    }
+    MeshParam desirefx_me_268 {
+    }
+    MeshParam desirefx_me_269 {
+    }
+    MeshParam desirefx_me_27 {
+    }
+    MeshParam desirefx_me_270 {
+    }
+    MeshParam desirefx_me_271 {
+    }
+    MeshParam desirefx_me_272 {
+    }
+    MeshParam desirefx_me_273 {
+    }
+    MeshParam desirefx_me_274 {
+    }
+    MeshParam desirefx_me_275 {
+    }
+    MeshParam desirefx_me_276 {
+    }
+    MeshParam desirefx_me_277 {
+    }
+    MeshParam desirefx_me_278 {
+    }
+    MeshParam desirefx_me_279 {
+    }
+    MeshParam desirefx_me_28 {
+    }
+    MeshParam desirefx_me_280 {
+    }
+    MeshParam desirefx_me_281 {
+    }
+    MeshParam desirefx_me_282 {
+    }
+    MeshParam desirefx_me_283 {
+    }
+    MeshParam desirefx_me_284 {
+    }
+    MeshParam desirefx_me_285 {
+    }
+    MeshParam desirefx_me_286 {
+    }
+    MeshParam desirefx_me_287 {
+    }
+    MeshParam desirefx_me_288 {
+    }
+    MeshParam desirefx_me_289 {
+    }
+    MeshParam desirefx_me_29 {
+    }
+    MeshParam desirefx_me_290 {
+    }
+    MeshParam desirefx_me_291 {
+    }
+    MeshParam desirefx_me_292 {
+    }
+    MeshParam desirefx_me_293 {
+    }
+    MeshParam desirefx_me_294 {
+    }
+    MeshParam desirefx_me_295 {
+    }
+    MeshParam desirefx_me_296 {
+    }
+    MeshParam desirefx_me_297 {
+    }
+    MeshParam desirefx_me_298 {
+    }
+    MeshParam desirefx_me_299 {
+    }
+    MeshParam desirefx_me_3 {
+    }
+    MeshParam desirefx_me_30 {
+    }
+    MeshParam desirefx_me_300 {
+    }
+    MeshParam desirefx_me_301 {
+    }
+    MeshParam desirefx_me_302 {
+    }
+    MeshParam desirefx_me_303 {
+    }
+    MeshParam desirefx_me_304 {
+    }
+    MeshParam desirefx_me_305 {
+    }
+    MeshParam desirefx_me_306 {
+    }
+    MeshParam desirefx_me_307 {
+    }
+    MeshParam desirefx_me_308 {
+    }
+    MeshParam desirefx_me_309 {
+    }
+    MeshParam desirefx_me_31 {
+    }
+    MeshParam desirefx_me_310 {
+    }
+    MeshParam desirefx_me_311 {
+    }
+    MeshParam desirefx_me_312 {
+    }
+    MeshParam desirefx_me_313 {
+    }
+    MeshParam desirefx_me_314 {
+    }
+    MeshParam desirefx_me_315 {
+    }
+    MeshParam desirefx_me_316 {
+    }
+    MeshParam desirefx_me_317 {
+    }
+    MeshParam desirefx_me_318 {
+    }
+    MeshParam desirefx_me_319 {
+    }
+    MeshParam desirefx_me_32 {
+    }
+    MeshParam desirefx_me_320 {
+    }
+    MeshParam desirefx_me_321 {
+    }
+    MeshParam desirefx_me_322 {
+    }
+    MeshParam desirefx_me_323 {
+    }
+    MeshParam desirefx_me_324 {
+    }
+    MeshParam desirefx_me_325 {
+    }
+    MeshParam desirefx_me_326 {
+    }
+    MeshParam desirefx_me_327 {
+    }
+    MeshParam desirefx_me_328 {
+    }
+    MeshParam desirefx_me_329 {
+    }
+    MeshParam desirefx_me_33 {
+    }
+    MeshParam desirefx_me_330 {
+    }
+    MeshParam desirefx_me_331 {
+    }
+    MeshParam desirefx_me_332 {
+    }
+    MeshParam desirefx_me_333 {
+    }
+    MeshParam desirefx_me_334 {
+    }
+    MeshParam desirefx_me_335 {
+    }
+    MeshParam desirefx_me_336 {
+    }
+    MeshParam desirefx_me_337 {
+    }
+    MeshParam desirefx_me_338 {
+    }
+    MeshParam desirefx_me_339 {
+    }
+    MeshParam desirefx_me_34 {
+    }
+    MeshParam desirefx_me_340 {
+    }
+    MeshParam desirefx_me_341 {
+    }
+    MeshParam desirefx_me_342 {
+    }
+    MeshParam desirefx_me_343 {
+    }
+    MeshParam desirefx_me_344 {
+    }
+    MeshParam desirefx_me_345 {
+    }
+    MeshParam desirefx_me_346 {
+    }
+    MeshParam desirefx_me_347 {
+    }
+    MeshParam desirefx_me_348 {
+    }
+    MeshParam desirefx_me_349 {
+    }
+    MeshParam desirefx_me_35 {
+    }
+    MeshParam desirefx_me_350 {
+    }
+    MeshParam desirefx_me_351 {
+    }
+    MeshParam desirefx_me_352 {
+    }
+    MeshParam desirefx_me_353 {
+    }
+    MeshParam desirefx_me_354 {
+    }
+    MeshParam desirefx_me_355 {
+    }
+    MeshParam desirefx_me_356 {
+    }
+    MeshParam desirefx_me_357 {
+    }
+    MeshParam desirefx_me_358 {
+    }
+    MeshParam desirefx_me_359 {
+    }
+    MeshParam desirefx_me_36 {
+    }
+    MeshParam desirefx_me_360 {
+    }
+    MeshParam desirefx_me_361 {
+    }
+    MeshParam desirefx_me_362 {
+    }
+    MeshParam desirefx_me_363 {
+    }
+    MeshParam desirefx_me_364 {
+    }
+    MeshParam desirefx_me_365 {
+    }
+    MeshParam desirefx_me_366 {
+    }
+    MeshParam desirefx_me_367 {
+    }
+    MeshParam desirefx_me_368 {
+    }
+    MeshParam desirefx_me_369 {
+    }
+    MeshParam desirefx_me_37 {
+    }
+    MeshParam desirefx_me_370 {
+    }
+    MeshParam desirefx_me_371 {
+    }
+    MeshParam desirefx_me_372 {
+    }
+    MeshParam desirefx_me_373 {
+    }
+    MeshParam desirefx_me_374 {
+    }
+    MeshParam desirefx_me_375 {
+    }
+    MeshParam desirefx_me_376 {
+    }
+    MeshParam desirefx_me_377 {
+    }
+    MeshParam desirefx_me_378 {
+    }
+    MeshParam desirefx_me_379 {
+    }
+    MeshParam desirefx_me_38 {
+    }
+    MeshParam desirefx_me_380 {
+    }
+    MeshParam desirefx_me_381 {
+    }
+    MeshParam desirefx_me_382 {
+    }
+    MeshParam desirefx_me_383 {
+    }
+    MeshParam desirefx_me_384 {
+    }
+    MeshParam desirefx_me_385 {
+    }
+    MeshParam desirefx_me_386 {
+    }
+    MeshParam desirefx_me_387 {
+    }
+    MeshParam desirefx_me_388 {
+    }
+    MeshParam desirefx_me_389 {
+    }
+    MeshParam desirefx_me_39 {
+    }
+    MeshParam desirefx_me_390 {
+    }
+    MeshParam desirefx_me_391 {
+    }
+    MeshParam desirefx_me_392 {
+    }
+    MeshParam desirefx_me_393 {
+    }
+    MeshParam desirefx_me_394 {
+    }
+    MeshParam desirefx_me_395 {
+    }
+    MeshParam desirefx_me_396 {
+    }
+    MeshParam desirefx_me_397 {
+    }
+    MeshParam desirefx_me_398 {
+    }
+    MeshParam desirefx_me_399 {
+    }
+    MeshParam desirefx_me_4 {
+    }
+    MeshParam desirefx_me_40 {
+    }
+    MeshParam desirefx_me_400 {
+    }
+    MeshParam desirefx_me_401 {
+    }
+    MeshParam desirefx_me_402 {
+    }
+    MeshParam desirefx_me_403 {
+    }
+    MeshParam desirefx_me_404 {
+    }
+    MeshParam desirefx_me_405 {
+    }
+    MeshParam desirefx_me_406 {
+    }
+    MeshParam desirefx_me_407 {
+    }
+    MeshParam desirefx_me_408 {
+    }
+    MeshParam desirefx_me_409 {
+    }
+    MeshParam desirefx_me_41 {
+    }
+    MeshParam desirefx_me_410 {
+    }
+    MeshParam desirefx_me_411 {
+    }
+    MeshParam desirefx_me_412 {
+    }
+    MeshParam desirefx_me_413 {
+    }
+    MeshParam desirefx_me_414 {
+    }
+    MeshParam desirefx_me_415 {
+    }
+    MeshParam desirefx_me_416 {
+    }
+    MeshParam desirefx_me_417 {
+    }
+    MeshParam desirefx_me_418 {
+    }
+    MeshParam desirefx_me_419 {
+    }
+    MeshParam desirefx_me_42 {
+    }
+    MeshParam desirefx_me_420 {
+    }
+    MeshParam desirefx_me_421 {
+    }
+    MeshParam desirefx_me_422 {
+    }
+    MeshParam desirefx_me_423 {
+    }
+    MeshParam desirefx_me_424 {
+    }
+    MeshParam desirefx_me_425 {
+    }
+    MeshParam desirefx_me_426 {
+    }
+    MeshParam desirefx_me_427 {
+    }
+    MeshParam desirefx_me_428 {
+    }
+    MeshParam desirefx_me_429 {
+    }
+    MeshParam desirefx_me_43 {
+    }
+    MeshParam desirefx_me_430 {
+    }
+    MeshParam desirefx_me_431 {
+    }
+    MeshParam desirefx_me_432 {
+    }
+    MeshParam desirefx_me_433 {
+    }
+    MeshParam desirefx_me_434 {
+    }
+    MeshParam desirefx_me_435 {
+    }
+    MeshParam desirefx_me_436 {
+    }
+    MeshParam desirefx_me_437 {
+    }
+    MeshParam desirefx_me_438 {
+    }
+    MeshParam desirefx_me_439 {
+    }
+    MeshParam desirefx_me_44 {
+    }
+    MeshParam desirefx_me_440 {
+    }
+    MeshParam desirefx_me_441 {
+    }
+    MeshParam desirefx_me_442 {
+    }
+    MeshParam desirefx_me_443 {
+    }
+    MeshParam desirefx_me_444 {
+    }
+    MeshParam desirefx_me_445 {
+    }
+    MeshParam desirefx_me_446 {
+    }
+    MeshParam desirefx_me_447 {
+    }
+    MeshParam desirefx_me_448 {
+    }
+    MeshParam desirefx_me_449 {
+    }
+    MeshParam desirefx_me_45 {
+    }
+    MeshParam desirefx_me_450 {
+    }
+    MeshParam desirefx_me_451 {
+    }
+    MeshParam desirefx_me_452 {
+    }
+    MeshParam desirefx_me_453 {
+    }
+    MeshParam desirefx_me_454 {
+    }
+    MeshParam desirefx_me_455 {
+    }
+    MeshParam desirefx_me_456 {
+    }
+    MeshParam desirefx_me_457 {
+    }
+    MeshParam desirefx_me_458 {
+    }
+    MeshParam desirefx_me_459 {
+    }
+    MeshParam desirefx_me_46 {
+    }
+    MeshParam desirefx_me_460 {
+    }
+    MeshParam desirefx_me_461 {
+    }
+    MeshParam desirefx_me_462 {
+    }
+    MeshParam desirefx_me_463 {
+    }
+    MeshParam desirefx_me_464 {
+    }
+    MeshParam desirefx_me_465 {
+    }
+    MeshParam desirefx_me_466 {
+    }
+    MeshParam desirefx_me_467 {
+    }
+    MeshParam desirefx_me_468 {
+    }
+    MeshParam desirefx_me_469 {
+    }
+    MeshParam desirefx_me_47 {
+    }
+    MeshParam desirefx_me_470 {
+    }
+    MeshParam desirefx_me_471 {
+    }
+    MeshParam desirefx_me_472 {
+    }
+    MeshParam desirefx_me_473 {
+    }
+    MeshParam desirefx_me_474 {
+    }
+    MeshParam desirefx_me_475 {
+    }
+    MeshParam desirefx_me_476 {
+    }
+    MeshParam desirefx_me_477 {
+    }
+    MeshParam desirefx_me_478 {
+    }
+    MeshParam desirefx_me_479 {
+    }
+    MeshParam desirefx_me_48 {
+    }
+    MeshParam desirefx_me_480 {
+    }
+    MeshParam desirefx_me_481 {
+    }
+    MeshParam desirefx_me_482 {
+    }
+    MeshParam desirefx_me_483 {
+    }
+    MeshParam desirefx_me_484 {
+    }
+    MeshParam desirefx_me_485 {
+    }
+    MeshParam desirefx_me_486 {
+    }
+    MeshParam desirefx_me_487 {
+    }
+    MeshParam desirefx_me_488 {
+    }
+    MeshParam desirefx_me_489 {
+    }
+    MeshParam desirefx_me_49 {
+    }
+    MeshParam desirefx_me_490 {
+    }
+    MeshParam desirefx_me_491 {
+    }
+    MeshParam desirefx_me_492 {
+    }
+    MeshParam desirefx_me_493 {
+    }
+    MeshParam desirefx_me_494 {
+    }
+    MeshParam desirefx_me_495 {
+    }
+    MeshParam desirefx_me_496 {
+    }
+    MeshParam desirefx_me_497 {
+    }
+    MeshParam desirefx_me_498 {
+    }
+    MeshParam desirefx_me_499 {
+    }
+    MeshParam desirefx_me_5 {
+    }
+    MeshParam desirefx_me_50 {
+    }
+    MeshParam desirefx_me_500 {
+    }
+    MeshParam desirefx_me_501 {
+    }
+    MeshParam desirefx_me_502 {
+    }
+    MeshParam desirefx_me_503 {
+    }
+    MeshParam desirefx_me_504 {
+    }
+    MeshParam desirefx_me_505 {
+    }
+    MeshParam desirefx_me_506 {
+    }
+    MeshParam desirefx_me_507 {
+    }
+    MeshParam desirefx_me_508 {
+    }
+    MeshParam desirefx_me_509 {
+    }
+    MeshParam desirefx_me_51 {
+    }
+    MeshParam desirefx_me_510 {
+    }
+    MeshParam desirefx_me_511 {
+    }
+    MeshParam desirefx_me_512 {
+    }
+    MeshParam desirefx_me_513 {
+    }
+    MeshParam desirefx_me_514 {
+    }
+    MeshParam desirefx_me_515 {
+    }
+    MeshParam desirefx_me_516 {
+    }
+    MeshParam desirefx_me_517 {
+    }
+    MeshParam desirefx_me_518 {
+    }
+    MeshParam desirefx_me_519 {
+    }
+    MeshParam desirefx_me_52 {
+    }
+    MeshParam desirefx_me_520 {
+    }
+    MeshParam desirefx_me_521 {
+    }
+    MeshParam desirefx_me_522 {
+    }
+    MeshParam desirefx_me_523 {
+    }
+    MeshParam desirefx_me_524 {
+    }
+    MeshParam desirefx_me_525 {
+    }
+    MeshParam desirefx_me_526 {
+    }
+    MeshParam desirefx_me_527 {
+    }
+    MeshParam desirefx_me_528 {
+    }
+    MeshParam desirefx_me_529 {
+    }
+    MeshParam desirefx_me_53 {
+    }
+    MeshParam desirefx_me_530 {
+    }
+    MeshParam desirefx_me_531 {
+    }
+    MeshParam desirefx_me_532 {
+    }
+    MeshParam desirefx_me_533 {
+    }
+    MeshParam desirefx_me_534 {
+    }
+    MeshParam desirefx_me_535 {
+    }
+    MeshParam desirefx_me_536 {
+    }
+    MeshParam desirefx_me_537 {
+    }
+    MeshParam desirefx_me_538 {
+    }
+    MeshParam desirefx_me_539 {
+    }
+    MeshParam desirefx_me_54 {
+    }
+    MeshParam desirefx_me_540 {
+    }
+    MeshParam desirefx_me_541 {
+    }
+    MeshParam desirefx_me_542 {
+    }
+    MeshParam desirefx_me_543 {
+    }
+    MeshParam desirefx_me_544 {
+    }
+    MeshParam desirefx_me_545 {
+    }
+    MeshParam desirefx_me_546 {
+    }
+    MeshParam desirefx_me_547 {
+    }
+    MeshParam desirefx_me_548 {
+    }
+    MeshParam desirefx_me_549 {
+    }
+    MeshParam desirefx_me_55 {
+    }
+    MeshParam desirefx_me_550 {
+    }
+    MeshParam desirefx_me_551 {
+    }
+    MeshParam desirefx_me_552 {
+    }
+    MeshParam desirefx_me_553 {
+    }
+    MeshParam desirefx_me_554 {
+    }
+    MeshParam desirefx_me_555 {
+    }
+    MeshParam desirefx_me_556 {
+    }
+    MeshParam desirefx_me_557 {
+    }
+    MeshParam desirefx_me_558 {
+    }
+    MeshParam desirefx_me_559 {
+    }
+    MeshParam desirefx_me_56 {
+    }
+    MeshParam desirefx_me_560 {
+    }
+    MeshParam desirefx_me_561 {
+    }
+    MeshParam desirefx_me_562 {
+    }
+    MeshParam desirefx_me_563 {
+    }
+    MeshParam desirefx_me_564 {
+    }
+    MeshParam desirefx_me_565 {
+    }
+    MeshParam desirefx_me_566 {
+    }
+    MeshParam desirefx_me_567 {
+    }
+    MeshParam desirefx_me_568 {
+    }
+    MeshParam desirefx_me_569 {
+    }
+    MeshParam desirefx_me_57 {
+    }
+    MeshParam desirefx_me_570 {
+    }
+    MeshParam desirefx_me_571 {
+    }
+    MeshParam desirefx_me_572 {
+    }
+    MeshParam desirefx_me_573 {
+    }
+    MeshParam desirefx_me_574 {
+    }
+    MeshParam desirefx_me_575 {
+    }
+    MeshParam desirefx_me_576 {
+    }
+    MeshParam desirefx_me_577 {
+    }
+    MeshParam desirefx_me_578 {
+    }
+    MeshParam desirefx_me_579 {
+    }
+    MeshParam desirefx_me_58 {
+    }
+    MeshParam desirefx_me_580 {
+    }
+    MeshParam desirefx_me_581 {
+    }
+    MeshParam desirefx_me_582 {
+    }
+    MeshParam desirefx_me_583 {
+    }
+    MeshParam desirefx_me_584 {
+    }
+    MeshParam desirefx_me_585 {
+    }
+    MeshParam desirefx_me_586 {
+    }
+    MeshParam desirefx_me_587 {
+    }
+    MeshParam desirefx_me_588 {
+    }
+    MeshParam desirefx_me_589 {
+    }
+    MeshParam desirefx_me_59 {
+    }
+    MeshParam desirefx_me_590 {
+    }
+    MeshParam desirefx_me_591 {
+    }
+    MeshParam desirefx_me_592 {
+    }
+    MeshParam desirefx_me_593 {
+    }
+    MeshParam desirefx_me_594 {
+    }
+    MeshParam desirefx_me_595 {
+    }
+    MeshParam desirefx_me_596 {
+    }
+    MeshParam desirefx_me_597 {
+    }
+    MeshParam desirefx_me_598 {
+    }
+    MeshParam desirefx_me_599 {
+    }
+    MeshParam desirefx_me_6 {
+    }
+    MeshParam desirefx_me_60 {
+    }
+    MeshParam desirefx_me_600 {
+    }
+    MeshParam desirefx_me_601 {
+    }
+    MeshParam desirefx_me_602 {
+    }
+    MeshParam desirefx_me_603 {
+    }
+    MeshParam desirefx_me_604 {
+    }
+    MeshParam desirefx_me_605 {
+    }
+    MeshParam desirefx_me_606 {
+    }
+    MeshParam desirefx_me_607 {
+    }
+    MeshParam desirefx_me_608 {
+    }
+    MeshParam desirefx_me_609 {
+    }
+    MeshParam desirefx_me_61 {
+    }
+    MeshParam desirefx_me_610 {
+    }
+    MeshParam desirefx_me_611 {
+    }
+    MeshParam desirefx_me_612 {
+    }
+    MeshParam desirefx_me_613 {
+    }
+    MeshParam desirefx_me_614 {
+    }
+    MeshParam desirefx_me_615 {
+    }
+    MeshParam desirefx_me_616 {
+    }
+    MeshParam desirefx_me_617 {
+    }
+    MeshParam desirefx_me_618 {
+    }
+    MeshParam desirefx_me_619 {
+    }
+    MeshParam desirefx_me_62 {
+    }
+    MeshParam desirefx_me_620 {
+    }
+    MeshParam desirefx_me_621 {
+    }
+    MeshParam desirefx_me_622 {
+    }
+    MeshParam desirefx_me_623 {
+    }
+    MeshParam desirefx_me_624 {
+    }
+    MeshParam desirefx_me_625 {
+    }
+    MeshParam desirefx_me_626 {
+    }
+    MeshParam desirefx_me_627 {
+    }
+    MeshParam desirefx_me_628 {
+    }
+    MeshParam desirefx_me_629 {
+    }
+    MeshParam desirefx_me_63 {
+    }
+    MeshParam desirefx_me_630 {
+    }
+    MeshParam desirefx_me_631 {
+    }
+    MeshParam desirefx_me_632 {
+    }
+    MeshParam desirefx_me_633 {
+    }
+    MeshParam desirefx_me_634 {
+    }
+    MeshParam desirefx_me_635 {
+    }
+    MeshParam desirefx_me_636 {
+    }
+    MeshParam desirefx_me_637 {
+    }
+    MeshParam desirefx_me_638 {
+    }
+    MeshParam desirefx_me_639 {
+    }
+    MeshParam desirefx_me_64 {
+    }
+    MeshParam desirefx_me_640 {
+    }
+    MeshParam desirefx_me_641 {
+    }
+    MeshParam desirefx_me_642 {
+    }
+    MeshParam desirefx_me_643 {
+    }
+    MeshParam desirefx_me_644 {
+    }
+    MeshParam desirefx_me_645 {
+    }
+    MeshParam desirefx_me_646 {
+    }
+    MeshParam desirefx_me_647 {
+    }
+    MeshParam desirefx_me_648 {
+    }
+    MeshParam desirefx_me_649 {
+    }
+    MeshParam desirefx_me_65 {
+    }
+    MeshParam desirefx_me_650 {
+    }
+    MeshParam desirefx_me_651 {
+    }
+    MeshParam desirefx_me_652 {
+    }
+    MeshParam desirefx_me_653 {
+    }
+    MeshParam desirefx_me_654 {
+    }
+    MeshParam desirefx_me_655 {
+    }
+    MeshParam desirefx_me_656 {
+    }
+    MeshParam desirefx_me_657 {
+    }
+    MeshParam desirefx_me_658 {
+    }
+    MeshParam desirefx_me_659 {
+    }
+    MeshParam desirefx_me_66 {
+    }
+    MeshParam desirefx_me_660 {
+    }
+    MeshParam desirefx_me_661 {
+    }
+    MeshParam desirefx_me_662 {
+    }
+    MeshParam desirefx_me_663 {
+    }
+    MeshParam desirefx_me_664 {
+    }
+    MeshParam desirefx_me_665 {
+    }
+    MeshParam desirefx_me_666 {
+    }
+    MeshParam desirefx_me_667 {
+    }
+    MeshParam desirefx_me_668 {
+    }
+    MeshParam desirefx_me_669 {
+    }
+    MeshParam desirefx_me_67 {
+    }
+    MeshParam desirefx_me_670 {
+    }
+    MeshParam desirefx_me_671 {
+    }
+    MeshParam desirefx_me_672 {
+    }
+    MeshParam desirefx_me_673 {
+    }
+    MeshParam desirefx_me_674 {
+    }
+    MeshParam desirefx_me_675 {
+    }
+    MeshParam desirefx_me_676 {
+    }
+    MeshParam desirefx_me_677 {
+    }
+    MeshParam desirefx_me_678 {
+    }
+    MeshParam desirefx_me_679 {
+    }
+    MeshParam desirefx_me_68 {
+    }
+    MeshParam desirefx_me_680 {
+    }
+    MeshParam desirefx_me_681 {
+    }
+    MeshParam desirefx_me_682 {
+    }
+    MeshParam desirefx_me_683 {
+    }
+    MeshParam desirefx_me_684 {
+    }
+    MeshParam desirefx_me_685 {
+    }
+    MeshParam desirefx_me_686 {
+    }
+    MeshParam desirefx_me_687 {
+    }
+    MeshParam desirefx_me_688 {
+    }
+    MeshParam desirefx_me_689 {
+    }
+    MeshParam desirefx_me_69 {
+    }
+    MeshParam desirefx_me_690 {
+    }
+    MeshParam desirefx_me_691 {
+    }
+    MeshParam desirefx_me_692 {
+    }
+    MeshParam desirefx_me_693 {
+    }
+    MeshParam desirefx_me_694 {
+    }
+    MeshParam desirefx_me_695 {
+    }
+    MeshParam desirefx_me_696 {
+    }
+    MeshParam desirefx_me_697 {
+    }
+    MeshParam desirefx_me_698 {
+    }
+    MeshParam desirefx_me_699 {
+    }
+    MeshParam desirefx_me_7 {
+    }
+    MeshParam desirefx_me_70 {
+    }
+    MeshParam desirefx_me_700 {
+    }
+    MeshParam desirefx_me_701 {
+    }
+    MeshParam desirefx_me_702 {
+    }
+    MeshParam desirefx_me_703 {
+    }
+    MeshParam desirefx_me_704 {
+    }
+    MeshParam desirefx_me_705 {
+    }
+    MeshParam desirefx_me_706 {
+    }
+    MeshParam desirefx_me_707 {
+    }
+    MeshParam desirefx_me_708 {
+    }
+    MeshParam desirefx_me_709 {
+    }
+    MeshParam desirefx_me_71 {
+    }
+    MeshParam desirefx_me_710 {
+    }
+    MeshParam desirefx_me_711 {
+    }
+    MeshParam desirefx_me_712 {
+    }
+    MeshParam desirefx_me_713 {
+    }
+    MeshParam desirefx_me_714 {
+    }
+    MeshParam desirefx_me_715 {
+    }
+    MeshParam desirefx_me_716 {
+    }
+    MeshParam desirefx_me_717 {
+    }
+    MeshParam desirefx_me_718 {
+    }
+    MeshParam desirefx_me_719 {
+    }
+    MeshParam desirefx_me_72 {
+    }
+    MeshParam desirefx_me_720 {
+    }
+    MeshParam desirefx_me_721 {
+    }
+    MeshParam desirefx_me_722 {
+    }
+    MeshParam desirefx_me_723 {
+    }
+    MeshParam desirefx_me_724 {
+    }
+    MeshParam desirefx_me_725 {
+    }
+    MeshParam desirefx_me_726 {
+    }
+    MeshParam desirefx_me_727 {
+    }
+    MeshParam desirefx_me_728 {
+    }
+    MeshParam desirefx_me_729 {
+    }
+    MeshParam desirefx_me_73 {
+    }
+    MeshParam desirefx_me_730 {
+    }
+    MeshParam desirefx_me_731 {
+    }
+    MeshParam desirefx_me_732 {
+    }
+    MeshParam desirefx_me_733 {
+    }
+    MeshParam desirefx_me_734 {
+    }
+    MeshParam desirefx_me_735 {
+    }
+    MeshParam desirefx_me_736 {
+    }
+    MeshParam desirefx_me_737 {
+    }
+    MeshParam desirefx_me_738 {
+    }
+    MeshParam desirefx_me_739 {
+    }
+    MeshParam desirefx_me_74 {
+    }
+    MeshParam desirefx_me_740 {
+    }
+    MeshParam desirefx_me_741 {
+    }
+    MeshParam desirefx_me_742 {
+    }
+    MeshParam desirefx_me_743 {
+    }
+    MeshParam desirefx_me_744 {
+    }
+    MeshParam desirefx_me_745 {
+    }
+    MeshParam desirefx_me_746 {
+    }
+    MeshParam desirefx_me_747 {
+    }
+    MeshParam desirefx_me_748 {
+    }
+    MeshParam desirefx_me_749 {
+    }
+    MeshParam desirefx_me_75 {
+    }
+    MeshParam desirefx_me_750 {
+    }
+    MeshParam desirefx_me_751 {
+    }
+    MeshParam desirefx_me_752 {
+    }
+    MeshParam desirefx_me_753 {
+    }
+    MeshParam desirefx_me_754 {
+    }
+    MeshParam desirefx_me_755 {
+    }
+    MeshParam desirefx_me_756 {
+    }
+    MeshParam desirefx_me_757 {
+    }
+    MeshParam desirefx_me_758 {
+    }
+    MeshParam desirefx_me_759 {
+    }
+    MeshParam desirefx_me_76 {
+    }
+    MeshParam desirefx_me_760 {
+    }
+    MeshParam desirefx_me_761 {
+    }
+    MeshParam desirefx_me_762 {
+    }
+    MeshParam desirefx_me_763 {
+    }
+    MeshParam desirefx_me_764 {
+    }
+    MeshParam desirefx_me_765 {
+    }
+    MeshParam desirefx_me_766 {
+    }
+    MeshParam desirefx_me_767 {
+    }
+    MeshParam desirefx_me_768 {
+    }
+    MeshParam desirefx_me_769 {
+    }
+    MeshParam desirefx_me_77 {
+    }
+    MeshParam desirefx_me_770 {
+    }
+    MeshParam desirefx_me_771 {
+    }
+    MeshParam desirefx_me_772 {
+    }
+    MeshParam desirefx_me_773 {
+    }
+    MeshParam desirefx_me_774 {
+    }
+    MeshParam desirefx_me_775 {
+    }
+    MeshParam desirefx_me_776 {
+    }
+    MeshParam desirefx_me_777 {
+    }
+    MeshParam desirefx_me_778 {
+    }
+    MeshParam desirefx_me_779 {
+    }
+    MeshParam desirefx_me_78 {
+    }
+    MeshParam desirefx_me_780 {
+    }
+    MeshParam desirefx_me_781 {
+    }
+    MeshParam desirefx_me_783 {
+    }
+    MeshParam desirefx_me_784 {
+    }
+    MeshParam desirefx_me_785 {
+    }
+    MeshParam desirefx_me_786 {
+    }
+    MeshParam desirefx_me_787 {
+    }
+    MeshParam desirefx_me_788 {
+    }
+    MeshParam desirefx_me_789 {
+    }
+    MeshParam desirefx_me_79 {
+    }
+    MeshParam desirefx_me_790 {
+    }
+    MeshParam desirefx_me_791 {
+    }
+    MeshParam desirefx_me_792 {
+    }
+    MeshParam desirefx_me_793 {
+    }
+    MeshParam desirefx_me_794 {
+    }
+    MeshParam desirefx_me_795 {
+    }
+    MeshParam desirefx_me_796 {
+    }
+    MeshParam desirefx_me_797 {
+    }
+    MeshParam desirefx_me_798 {
+    }
+    MeshParam desirefx_me_799 {
+    }
+    MeshParam desirefx_me_8 {
+    }
+    MeshParam desirefx_me_80 {
+    }
+    MeshParam desirefx_me_800 {
+    }
+    MeshParam desirefx_me_801 {
+    }
+    MeshParam desirefx_me_802 {
+    }
+    MeshParam desirefx_me_803 {
+    }
+    MeshParam desirefx_me_804 {
+    }
+    MeshParam desirefx_me_805 {
+    }
+    MeshParam desirefx_me_806 {
+    }
+    MeshParam desirefx_me_807 {
+    }
+    MeshParam desirefx_me_808 {
+    }
+    MeshParam desirefx_me_809 {
+    }
+    MeshParam desirefx_me_81 {
+    }
+    MeshParam desirefx_me_810 {
+    }
+    MeshParam desirefx_me_811 {
+    }
+    MeshParam desirefx_me_812 {
+    }
+    MeshParam desirefx_me_813 {
+    }
+    MeshParam desirefx_me_814 {
+    }
+    MeshParam desirefx_me_815 {
+    }
+    MeshParam desirefx_me_816 {
+    }
+    MeshParam desirefx_me_817 {
+    }
+    MeshParam desirefx_me_818 {
+    }
+    MeshParam desirefx_me_819 {
+    }
+    MeshParam desirefx_me_82 {
+    }
+    MeshParam desirefx_me_820 {
+    }
+    MeshParam desirefx_me_821 {
+    }
+    MeshParam desirefx_me_83 {
+    }
+    MeshParam desirefx_me_84 {
+    }
+    MeshParam desirefx_me_85 {
+    }
+    MeshParam desirefx_me_86 {
+    }
+    MeshParam desirefx_me_87 {
+    }
+    MeshParam desirefx_me_88 {
+    }
+    MeshParam desirefx_me_89 {
+    }
+    MeshParam desirefx_me_9 {
+    }
+    MeshParam desirefx_me_90 {
+    }
+    MeshParam desirefx_me_91 {
+    }
+    MeshParam desirefx_me_92 {
+    }
+    MeshParam desirefx_me_93 {
+    }
+    MeshParam desirefx_me_94 {
+    }
+    MeshParam desirefx_me_95 {
+    }
+    MeshParam desirefx_me_96 {
+    }
+    MeshParam desirefx_me_97 {
+    }
+    MeshParam desirefx_me_98 {
+    }
+    MeshParam desirefx_me_99 {
+    }
+   }
+   Common TXOCommonClass "{6A9D74DF783BFFBF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9D74DF783BFE5D}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9D74DF783BFE38}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9D74DF783BFE1D}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9D74DF783BFE04}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9D74DF783BFEEE}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

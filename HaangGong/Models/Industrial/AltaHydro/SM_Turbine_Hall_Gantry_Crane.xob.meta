@@ -1,0 +1,92 @@
+MetaFileClass {
+ Name "{725E9B8513860F7C}Models/Industrial/AltaHydro/SM_Turbine_Hall_Gantry_Crane.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9C8F09794}" {
+     SourceMaterial "Kitbash3d_Machinery_Native4FTrimM1_Blinn1"
+     AssignedMaterial "{6BD388DC4B8B3D61}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native4FTrimM1_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F0978B}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM4_Blinn2"
+     AssignedMaterial "{8DDFB548F1AD32C8}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM4_Blinn2.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09786}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM1_Blinn2"
+     AssignedMaterial "{4C3D62A2BF9327C1}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM1_Blinn2.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09784}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimM2_Blinn2"
+     AssignedMaterial "{0C9CD0048586D4C6}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimM2_Blinn2.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09782}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3CastingLadle_Blinn2"
+     AssignedMaterial "{27B2ECEFE9E09741}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3CastingLadle_Blinn2.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F0967D}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3PaintedSteel_Blinn1"
+     AssignedMaterial "{DF0993D7B50EE157}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3PaintedSteel_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09678}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3SteelRustWear_Blinn1"
+     AssignedMaterial "{0F72CA902BC08A3B}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3SteelRustWear_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09676}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3Cable_Blinn1"
+     AssignedMaterial "{48251C210ED897B7}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3Cable_Blinn1.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C8F09673}" {
+     SourceMaterial "Kitbash3d_Machinery_Native3FTrimL1_Blinn2"
+     AssignedMaterial "{65500147EAE63A24}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimL1_Blinn2.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Beam_C_FTrimM1 {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_Cable" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_CastingLadle" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimL1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM1" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM2" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_FTrimM4" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_PaintedSteel" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native3:OverheadCrane_A_SteelRustWear" {
+    }
+    MeshParam "Kitbash3d_Machinery_Native4:Beam_C_FTrimM1" {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C8A3A8F2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C8A3A8AC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C8A3A891}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C8A3AB78}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C8A3AB68}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C8A3AB5B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

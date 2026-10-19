@@ -7,7 +7,7 @@ $object "" {
  #tag SrcFile_AppName "Maya"
  #tag SrcFile_AppVersion "2022"
  $materials {
-  $material "MI_Rock_B" {
+  $material "M_Rock_B" {
    #UVset 0
   }
  }

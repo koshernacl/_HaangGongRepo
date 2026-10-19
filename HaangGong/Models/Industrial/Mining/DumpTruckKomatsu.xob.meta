@@ -1,0 +1,432 @@
+MetaFileClass {
+ Name "{72F603B87A86E07A}Models/Industrial/Mining/DumpTruckKomatsu.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A9D74DF781B54CA}" {
+     SourceMaterial "MainMat"
+     AssignedMaterial "{7BECC80C43D2A369}Models/Industrial/Mining/Data/MainMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B54B0}" {
+     SourceMaterial "LadleMat"
+     AssignedMaterial "{BB941BAB242B9945}Models/Industrial/Mining/Data/LadleMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B54AC}" {
+     SourceMaterial "SuspensionMat"
+     AssignedMaterial "{3D374EF7C32BB9C7}Models/Industrial/Mining/Data/SuspensionMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B54A9}" {
+     SourceMaterial "DetailsMat"
+     AssignedMaterial "{A7AFAB8AF1CAEBCA}Models/Industrial/Mining/Data/DetailsMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B54A4}" {
+     SourceMaterial "StairsMat"
+     AssignedMaterial "{D992E71C50413749}Models/Industrial/Mining/Data/StairsMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B54A1}" {
+     SourceMaterial "Wheels_DetailsMat"
+     AssignedMaterial "{54459AFA04BE39EC}Models/Industrial/Mining/Data/Wheels_DetailsMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B549B}" {
+     SourceMaterial "WheelsMat"
+     AssignedMaterial "{7FDEFC5ABA6EF6F1}Models/Industrial/Mining/Data/WheelsMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5496}" {
+     SourceMaterial "CabinMat"
+     AssignedMaterial "{0FABF4200F1A0030}Models/Industrial/Mining/Data/CabinMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5495}" {
+     SourceMaterial "DashboardMat"
+     AssignedMaterial "{7F48129FA1E46C47}Models/Industrial/Mining/Data/DashboardMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5491}" {
+     SourceMaterial "GlassMat"
+     AssignedMaterial "{292C13F34900A55E}Models/Industrial/Mining/Data/GlassMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B548A}" {
+     SourceMaterial "InterMat"
+     AssignedMaterial "{6600DFE676320B31}Models/Industrial/Mining/Data/InterMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5488}" {
+     SourceMaterial "MirrorMat"
+     AssignedMaterial "{6B05756CE40F3733}Models/Industrial/Mining/Data/MirrorMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5484}" {
+     SourceMaterial "EngineMat"
+     AssignedMaterial "{814CDE9EAE1D57D5}Models/Industrial/Mining/Data/EngineMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5483}" {
+     SourceMaterial "HeadlightMat"
+     AssignedMaterial "{E8D2FEFA9BCFC27A}Models/Industrial/Mining/Data/HeadlightMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B577F}" {
+     SourceMaterial "HLFMat"
+     AssignedMaterial "{86D02CED2EF55A2A}Models/Industrial/Mining/Data/HLFMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B577A}" {
+     SourceMaterial "HLFRMat"
+     AssignedMaterial "{2F4B7BAB00E85BD8}Models/Industrial/Mining/Data/HLFRMat.emat"
+    }
+    MaterialAssignClass "{6A9D74DF781B5777}" {
+     SourceMaterial "HLBMat"
+     AssignedMaterial "{910723F283BEB0F2}Models/Industrial/Mining/Data/HLBMat.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Armchair_L {
+    }
+    MeshParam Armchair_R {
+    }
+    MeshParam Armrest {
+    }
+    MeshParam Barrels {
+    }
+    MeshParam Cabin {
+    }
+    MeshParam Dashboard {
+    }
+    MeshParam Dashboard_out {
+    }
+    MeshParam Detail1 {
+    }
+    MeshParam Detail2 {
+    }
+    MeshParam Detail3 {
+    }
+    MeshParam Detail4 {
+    }
+    MeshParam Door_L {
+    }
+    MeshParam Door_R {
+    }
+    MeshParam Engine {
+    }
+    MeshParam Glass1 {
+    }
+    MeshParam Glass2 {
+    }
+    MeshParam Glass3 {
+    }
+    MeshParam Glass4 {
+    }
+    MeshParam Glass5 {
+    }
+    MeshParam Glass6 {
+    }
+    MeshParam HLB1 {
+    }
+    MeshParam HLB2 {
+    }
+    MeshParam HLB3 {
+    }
+    MeshParam HLB4 {
+    }
+    MeshParam HLB5 {
+    }
+    MeshParam HLF2 {
+    }
+    MeshParam HLF3 {
+    }
+    MeshParam HLF4 {
+    }
+    MeshParam HLF5 {
+    }
+    MeshParam HLFR1 {
+    }
+    MeshParam HLFR2 {
+    }
+    MeshParam Handler_L {
+    }
+    MeshParam Handler_R {
+    }
+    MeshParam Headlight {
+    }
+    MeshParam Inter_Detail1 {
+    }
+    MeshParam Inter_Detail2 {
+    }
+    MeshParam Inter_Detail3 {
+    }
+    MeshParam Inter_Detail4 {
+    }
+    MeshParam Inter_Detail5 {
+    }
+    MeshParam Inter_Detail6 {
+    }
+    MeshParam Ladle {
+    }
+    MeshParam Main {
+    }
+    MeshParam Mirror_L_1 {
+    }
+    MeshParam Mirror_L_2 {
+    }
+    MeshParam Mirror_R_1 {
+    }
+    MeshParam Mirror_R_2 {
+    }
+    MeshParam Riveting {
+    }
+    MeshParam Stair1 {
+    }
+    MeshParam Stair2 {
+    }
+    MeshParam Stair3 {
+    }
+    MeshParam Stair4 {
+    }
+    MeshParam Stair5 {
+    }
+    MeshParam Stair6 {
+    }
+    MeshParam Stair7 {
+    }
+    MeshParam Stair8 {
+    }
+    MeshParam Stair9 {
+    }
+    MeshParam Steering_wheel {
+    }
+    MeshParam Suspension {
+    }
+    MeshParam Switch1 {
+    }
+    MeshParam Switch2 {
+    }
+    MeshParam Switch3 {
+    }
+    MeshParam Switch4 {
+    }
+    MeshParam Transmission {
+    }
+    MeshParam Transmission_Handler {
+    }
+    MeshParam Wheel1 {
+    }
+    MeshParam Wheel2 {
+    }
+    MeshParam Wheel3 {
+    }
+    MeshParam Wheel4 {
+    }
+    MeshParam Wheel5 {
+    }
+    MeshParam Wheel6 {
+    }
+    MeshParam WheelDetail1 {
+    }
+    MeshParam WheelDetail10 {
+    }
+    MeshParam WheelDetail11 {
+    }
+    MeshParam WheelDetail12 {
+    }
+    MeshParam WheelDetail13 {
+    }
+    MeshParam WheelDetail14 {
+    }
+    MeshParam WheelDetail15 {
+    }
+    MeshParam WheelDetail16 {
+    }
+    MeshParam WheelDetail17 {
+    }
+    MeshParam WheelDetail18 {
+    }
+    MeshParam WheelDetail19 {
+    }
+    MeshParam WheelDetail2 {
+    }
+    MeshParam WheelDetail20 {
+    }
+    MeshParam WheelDetail21 {
+    }
+    MeshParam WheelDetail22 {
+    }
+    MeshParam WheelDetail23 {
+    }
+    MeshParam WheelDetail24 {
+    }
+    MeshParam WheelDetail25 {
+    }
+    MeshParam WheelDetail26 {
+    }
+    MeshParam WheelDetail27 {
+    }
+    MeshParam WheelDetail28 {
+    }
+    MeshParam WheelDetail29 {
+    }
+    MeshParam WheelDetail3 {
+    }
+    MeshParam WheelDetail30 {
+    }
+    MeshParam WheelDetail31 {
+    }
+    MeshParam WheelDetail32 {
+    }
+    MeshParam WheelDetail33 {
+    }
+    MeshParam WheelDetail34 {
+    }
+    MeshParam WheelDetail35 {
+    }
+    MeshParam WheelDetail36 {
+    }
+    MeshParam WheelDetail37 {
+    }
+    MeshParam WheelDetail38 {
+    }
+    MeshParam WheelDetail39 {
+    }
+    MeshParam WheelDetail4 {
+    }
+    MeshParam WheelDetail40 {
+    }
+    MeshParam WheelDetail41 {
+    }
+    MeshParam WheelDetail42 {
+    }
+    MeshParam WheelDetail43 {
+    }
+    MeshParam WheelDetail44 {
+    }
+    MeshParam WheelDetail45 {
+    }
+    MeshParam WheelDetail46 {
+    }
+    MeshParam WheelDetail47 {
+    }
+    MeshParam WheelDetail48 {
+    }
+    MeshParam WheelDetail49 {
+    }
+    MeshParam WheelDetail5 {
+    }
+    MeshParam WheelDetail50 {
+    }
+    MeshParam WheelDetail51 {
+    }
+    MeshParam WheelDetail52 {
+    }
+    MeshParam WheelDetail53 {
+    }
+    MeshParam WheelDetail54 {
+    }
+    MeshParam WheelDetail55 {
+    }
+    MeshParam WheelDetail56 {
+    }
+    MeshParam WheelDetail57 {
+    }
+    MeshParam WheelDetail58 {
+    }
+    MeshParam WheelDetail59 {
+    }
+    MeshParam WheelDetail6 {
+    }
+    MeshParam WheelDetail60 {
+    }
+    MeshParam WheelDetail61 {
+    }
+    MeshParam WheelDetail62 {
+    }
+    MeshParam WheelDetail63 {
+    }
+    MeshParam WheelDetail64 {
+    }
+    MeshParam WheelDetail65 {
+    }
+    MeshParam WheelDetail66 {
+    }
+    MeshParam WheelDetail67 {
+    }
+    MeshParam WheelDetail68 {
+    }
+    MeshParam WheelDetail69 {
+    }
+    MeshParam WheelDetail7 {
+    }
+    MeshParam WheelDetail70 {
+    }
+    MeshParam WheelDetail71 {
+    }
+    MeshParam WheelDetail72 {
+    }
+    MeshParam WheelDetail73 {
+    }
+    MeshParam WheelDetail74 {
+    }
+    MeshParam WheelDetail75 {
+    }
+    MeshParam WheelDetail76 {
+    }
+    MeshParam WheelDetail77 {
+    }
+    MeshParam WheelDetail78 {
+    }
+    MeshParam WheelDetail79 {
+    }
+    MeshParam WheelDetail8 {
+    }
+    MeshParam WheelDetail80 {
+    }
+    MeshParam WheelDetail81 {
+    }
+    MeshParam WheelDetail82 {
+    }
+    MeshParam WheelDetail83 {
+    }
+    MeshParam WheelDetail84 {
+    }
+    MeshParam WheelDetail85 {
+    }
+    MeshParam WheelDetail86 {
+    }
+    MeshParam WheelDetail87 {
+    }
+    MeshParam WheelDetail88 {
+    }
+    MeshParam WheelDetail89 {
+    }
+    MeshParam WheelDetail9 {
+    }
+    MeshParam WheelDetail90 {
+    }
+    MeshParam WheelDetail91 {
+    }
+    MeshParam WheelDetail92 {
+    }
+    MeshParam WheelDetail93 {
+    }
+    MeshParam WheelDetail94 {
+    }
+   }
+   Common TXOCommonClass "{6A9D74DF7F80EF71}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9D74DF7F809DB2}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9D74DF7F809F35}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9D74DF7F809E7E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9D74DF7F809E10}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9D74DF7F809EB9}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

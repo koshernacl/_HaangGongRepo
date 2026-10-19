@@ -3,6 +3,20 @@ GenericEntity {
  components {
   MeshObject "{6A84CB4CFF17DD7E}" {
    Object "{4A59E333A8B19E2F}HaangGongRocks/Mesh/SM_Rock_E.xob"
+   Materials {
+    MaterialAssignClass "{6AA105DFC5FA0786}" {
+     SourceMaterial "M_Rock_E"
+     AssignedMaterial "{10D3EB095106F795}HaangGongRocks/SM_Rock_E_Mossy.emat"
+    }
+    MaterialAssignClass "{6AA105DFC5FA0676}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{10D3EB095106F795}HaangGongRocks/SM_Rock_E_Mossy.emat"
+    }
+    MaterialAssignClass "{6AA105DFC5FA0675}" {
+     SourceMaterial "MI_Rock_E"
+     AssignedMaterial "{10D3EB095106F795}HaangGongRocks/SM_Rock_E_Mossy.emat"
+    }
+   }
   }
  }
  coords 0 0 -45.026

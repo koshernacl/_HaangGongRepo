@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0D45DE015942F9C5}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3FTrimW_Blinn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

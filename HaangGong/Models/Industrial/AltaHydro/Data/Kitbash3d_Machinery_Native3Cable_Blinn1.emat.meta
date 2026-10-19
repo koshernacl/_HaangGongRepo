@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{48251C210ED897B7}Models/Industrial/AltaHydro/Data/Kitbash3d_Machinery_Native3Cable_Blinn1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

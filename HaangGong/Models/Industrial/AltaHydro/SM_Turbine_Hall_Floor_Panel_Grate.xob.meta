@@ -1,0 +1,452 @@
+MetaFileClass {
+ Name "{12F1E682A7012E3D}Models/Industrial/AltaHydro/SM_Turbine_Hall_Floor_Panel_Grate.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9C4695163}" {
+     SourceMaterial "lambert3"
+     AssignedMaterial "{91C4E9C846585D22}Models/Industrial/AltaHydro/Data/lambert3.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9C469515D}" {
+     SourceMaterial "aiStandardSurface1"
+     AssignedMaterial "{A8B4B70D3EA6B81E}Models/Industrial/AltaHydro/Data/aiStandardSurface1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam pCube402 {
+    }
+    MeshParam pCube403 {
+    }
+    MeshParam pCube404 {
+    }
+    MeshParam pCube405 {
+    }
+    MeshParam pCube406 {
+    }
+    MeshParam pCube407 {
+    }
+    MeshParam pCube408 {
+    }
+    MeshParam pCube409 {
+    }
+    MeshParam pCube410 {
+    }
+    MeshParam pCube411 {
+    }
+    MeshParam pCube412 {
+    }
+    MeshParam pCube413 {
+    }
+    MeshParam pCube414 {
+    }
+    MeshParam pCube415 {
+    }
+    MeshParam pCube416 {
+    }
+    MeshParam pCube417 {
+    }
+    MeshParam pCube418 {
+    }
+    MeshParam pCube419 {
+    }
+    MeshParam pCube420 {
+    }
+    MeshParam pCube421 {
+    }
+    MeshParam pCube422 {
+    }
+    MeshParam pCube423 {
+    }
+    MeshParam pCube424 {
+    }
+    MeshParam pCube425 {
+    }
+    MeshParam pCube426 {
+    }
+    MeshParam pCube427 {
+    }
+    MeshParam pCube428 {
+    }
+    MeshParam pCube429 {
+    }
+    MeshParam pCube430 {
+    }
+    MeshParam pCube431 {
+    }
+    MeshParam pCube432 {
+    }
+    MeshParam pCube433 {
+    }
+    MeshParam pCube434 {
+    }
+    MeshParam pCube435 {
+    }
+    MeshParam pCube436 {
+    }
+    MeshParam pCube437 {
+    }
+    MeshParam pCube438 {
+    }
+    MeshParam pCube439 {
+    }
+    MeshParam pCube440 {
+    }
+    MeshParam pCube441 {
+    }
+    MeshParam pCube442 {
+    }
+    MeshParam pCube443 {
+    }
+    MeshParam pCube444 {
+    }
+    MeshParam pCube445 {
+    }
+    MeshParam pCube446 {
+    }
+    MeshParam pCube447 {
+    }
+    MeshParam pCube448 {
+    }
+    MeshParam pCube449 {
+    }
+    MeshParam pCube450 {
+    }
+    MeshParam pCube451 {
+    }
+    MeshParam pCube452 {
+    }
+    MeshParam pCube453 {
+    }
+    MeshParam pCube454 {
+    }
+    MeshParam pCube455 {
+    }
+    MeshParam pCube456 {
+    }
+    MeshParam pCube457 {
+    }
+    MeshParam pCube458 {
+    }
+    MeshParam pCube459 {
+    }
+    MeshParam pCube460 {
+    }
+    MeshParam pCube461 {
+    }
+    MeshParam pCube462 {
+    }
+    MeshParam pCube463 {
+    }
+    MeshParam pCube464 {
+    }
+    MeshParam pCube465 {
+    }
+    MeshParam pCube466 {
+    }
+    MeshParam pCube467 {
+    }
+    MeshParam pCube468 {
+    }
+    MeshParam pCube469 {
+    }
+    MeshParam pCube470 {
+    }
+    MeshParam pCube471 {
+    }
+    MeshParam pCube472 {
+    }
+    MeshParam pCube473 {
+    }
+    MeshParam pCube474 {
+    }
+    MeshParam pCube475 {
+    }
+    MeshParam pCube476 {
+    }
+    MeshParam pCube477 {
+    }
+    MeshParam pCube478 {
+    }
+    MeshParam pCube479 {
+    }
+    MeshParam pCube480 {
+    }
+    MeshParam pCube481 {
+    }
+    MeshParam pCube482 {
+    }
+    MeshParam pCube483 {
+    }
+    MeshParam pCube484 {
+    }
+    MeshParam pCube485 {
+    }
+    MeshParam pCube486 {
+    }
+    MeshParam pCube487 {
+    }
+    MeshParam pCube488 {
+    }
+    MeshParam pCube489 {
+    }
+    MeshParam pCube490 {
+    }
+    MeshParam pCube491 {
+    }
+    MeshParam pCube492 {
+    }
+    MeshParam pCube493 {
+    }
+    MeshParam pCube494 {
+    }
+    MeshParam pCube495 {
+    }
+    MeshParam pCube496 {
+    }
+    MeshParam pCube497 {
+    }
+    MeshParam pCube498 {
+    }
+    MeshParam pCube499 {
+    }
+    MeshParam pCube500 {
+    }
+    MeshParam pCube502 {
+    }
+    MeshParam pCube503 {
+    }
+    MeshParam pCube504 {
+    }
+    MeshParam pCube505 {
+    }
+    MeshParam pCube506 {
+    }
+    MeshParam pCube507 {
+    }
+    MeshParam pCube508 {
+    }
+    MeshParam pCube509 {
+    }
+    MeshParam pCube510 {
+    }
+    MeshParam pCube511 {
+    }
+    MeshParam pCube512 {
+    }
+    MeshParam pCube513 {
+    }
+    MeshParam pCube514 {
+    }
+    MeshParam pCube515 {
+    }
+    MeshParam pCube516 {
+    }
+    MeshParam pCube517 {
+    }
+    MeshParam pCube518 {
+    }
+    MeshParam pCube519 {
+    }
+    MeshParam pCube520 {
+    }
+    MeshParam pCube521 {
+    }
+    MeshParam pCube522 {
+    }
+    MeshParam pCube523 {
+    }
+    MeshParam pCube524 {
+    }
+    MeshParam pCube525 {
+    }
+    MeshParam pCube526 {
+    }
+    MeshParam pCube527 {
+    }
+    MeshParam pCube528 {
+    }
+    MeshParam pCube529 {
+    }
+    MeshParam pCube530 {
+    }
+    MeshParam pCube531 {
+    }
+    MeshParam pCube532 {
+    }
+    MeshParam pCube533 {
+    }
+    MeshParam pCube534 {
+    }
+    MeshParam pCube535 {
+    }
+    MeshParam pCube536 {
+    }
+    MeshParam pCube537 {
+    }
+    MeshParam pCube538 {
+    }
+    MeshParam pCube539 {
+    }
+    MeshParam pCube540 {
+    }
+    MeshParam pCube541 {
+    }
+    MeshParam pCube542 {
+    }
+    MeshParam pCube543 {
+    }
+    MeshParam pCube544 {
+    }
+    MeshParam pCube545 {
+    }
+    MeshParam pCube546 {
+    }
+    MeshParam pCube547 {
+    }
+    MeshParam pCube548 {
+    }
+    MeshParam pCube549 {
+    }
+    MeshParam pCube550 {
+    }
+    MeshParam pCube551 {
+    }
+    MeshParam pCube552 {
+    }
+    MeshParam pCube553 {
+    }
+    MeshParam pCube554 {
+    }
+    MeshParam pCube555 {
+    }
+    MeshParam pCube556 {
+    }
+    MeshParam pCube557 {
+    }
+    MeshParam pCube558 {
+    }
+    MeshParam pCube559 {
+    }
+    MeshParam pCube560 {
+    }
+    MeshParam pCube561 {
+    }
+    MeshParam pCube562 {
+    }
+    MeshParam pCube563 {
+    }
+    MeshParam pCube564 {
+    }
+    MeshParam pCube565 {
+    }
+    MeshParam pCube566 {
+    }
+    MeshParam pCube567 {
+    }
+    MeshParam pCube568 {
+    }
+    MeshParam pCube569 {
+    }
+    MeshParam pCube570 {
+    }
+    MeshParam pCube571 {
+    }
+    MeshParam pCube572 {
+    }
+    MeshParam pCube573 {
+    }
+    MeshParam pCube574 {
+    }
+    MeshParam pCube575 {
+    }
+    MeshParam pCube576 {
+    }
+    MeshParam pCube577 {
+    }
+    MeshParam pCube578 {
+    }
+    MeshParam pCube579 {
+    }
+    MeshParam pCube580 {
+    }
+    MeshParam pCube581 {
+    }
+    MeshParam pCube582 {
+    }
+    MeshParam pCube583 {
+    }
+    MeshParam pCube584 {
+    }
+    MeshParam pCube585 {
+    }
+    MeshParam pCube586 {
+    }
+    MeshParam pCube587 {
+    }
+    MeshParam pCube588 {
+    }
+    MeshParam pCube589 {
+    }
+    MeshParam pCube590 {
+    }
+    MeshParam pCube591 {
+    }
+    MeshParam pCube592 {
+    }
+    MeshParam pCube593 {
+    }
+    MeshParam pCube603 {
+    }
+    MeshParam pCube604 {
+    }
+    MeshParam pCube605 {
+    }
+    MeshParam pCube612 {
+    }
+    MeshParam pCube613 {
+    }
+    MeshParam pCube614 {
+    }
+    MeshParam pCube615 {
+    }
+    MeshParam pCube616 {
+    }
+    MeshParam pCube617 {
+    }
+    MeshParam pCube618 {
+    }
+    MeshParam pCube619 {
+    }
+    MeshParam pCube620 {
+    }
+    MeshParam polySurface21 {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C8929A8A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C8929553}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C892953E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C892952E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C8929522}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C8929517}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

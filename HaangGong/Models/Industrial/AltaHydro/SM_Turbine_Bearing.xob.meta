@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{FD7EF61D3EFEBE04}Models/Industrial/AltaHydro/SM_Turbine_Bearing.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C4E9CBD9A003}" {
+     SourceMaterial "lambert14"
+     AssignedMaterial "{097E96FE52F4BB81}Models/Industrial/AltaHydro/Data/lambert14.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBD9A0FB}" {
+     SourceMaterial "aiStandardSurface3"
+     AssignedMaterial "{0254D9D68CF65E65}Models/Industrial/AltaHydro/Data/aiStandardSurface3.emat"
+    }
+    MaterialAssignClass "{6AA2C4E9CBD9A0F6}" {
+     SourceMaterial "lambert15"
+     AssignedMaterial "{FD76D1665F29D3F5}Models/Industrial/AltaHydro/Data/lambert15.emat"
+    }
+   }
+   MeshParams {
+    MeshParam pCylinder65 {
+    }
+    MeshParam pasted__factory_unit_16 {
+    }
+    MeshParam polySurface35 {
+    }
+   }
+   Common TXOCommonClass "{6AA2C4E9C8965448}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C4E9C896540F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C4E9C89654FD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89654EF}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C4E9C89654E3}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C4E9C89654D5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

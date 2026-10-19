@@ -1,0 +1,96 @@
+MetaFileClass {
+ Name "{C306BCFEFB7201B3}Development/VikingLineAmorella.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2C484B7CD3088}" {
+     SourceMaterial "ClipperBlack"
+     AssignedMaterial "{913D1D6FD8AC7277}Development/Data/ClipperBlack.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD336F}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{EE886496E7B99CD8}Development/Data/Material.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD336A}" {
+     SourceMaterial "White"
+     AssignedMaterial "{E42C077FBF5B2B12}Development/Data/White.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD3360}" {
+     SourceMaterial "VikingLogoremovebgpreview"
+     AssignedMaterial "{EE64EA147D8EB8F8}Development/Data/VikingLogoremovebgpreview.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD335F}" {
+     SourceMaterial "Black112"
+     AssignedMaterial "{4E9124056D8EF286}Development/Data/Black112.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD335D}" {
+     SourceMaterial "kaideremovebgpreview"
+     AssignedMaterial "{B181C98C5893C612}Development/Data/kaideremovebgpreview.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD3350}" {
+     SourceMaterial "kaidevalkremovebgpreview"
+     AssignedMaterial "{CD541FB2E2DBB313}Development/Data/kaidevalkremovebgpreview.emat"
+    }
+    MaterialAssignClass "{6AA2C484B7CD334F}" {
+     SourceMaterial "Nimetön"
+     AssignedMaterial "{02163D9917ADC002}Development/Data/Nimetön.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Amorellaname {
+    }
+    MeshParam "VikingLogo-removebg-preview" {
+    }
+    MeshParam gracelines {
+    }
+    MeshParam hull {
+    }
+    MeshParam irregurals {
+    }
+    MeshParam lifeboat {
+    }
+    MeshParam lifeboats {
+    }
+    MeshParam radarSTANDARD {
+    }
+    MeshParam rails {
+    }
+    MeshParam railslight {
+    }
+    MeshParam vents {
+    }
+    MeshParam ventsirregural {
+    }
+    MeshParam winches {
+    }
+    MeshParam windows {
+    }
+   }
+   Common TXOCommonClass "{6AA2C484B7EF1BE0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.12 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2C484B7EF1A52}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2C484B7EF1A19}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2C484B7EF1AF5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2C484B7EF1AD3}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2C484B7EF1AB4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
