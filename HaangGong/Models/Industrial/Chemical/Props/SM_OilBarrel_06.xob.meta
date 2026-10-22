@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{A31D2AE8D22F4DF5}Models/Industrial/Chemical/Props/SM_OilBarrel_06.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA728F7E5A605F9}" {
+     SourceMaterial "MI_WoodenPallet_1"
+     AssignedMaterial "{545493B339D1B76C}Models/Industrial/Chemical/Props/Data/MI_WoodenPallet_1.emat"
+    }
+    MaterialAssignClass "{6AA728F7E5A605E8}" {
+     SourceMaterial "MI_OilBarrel_2"
+     AssignedMaterial "{B50219FA35C219B6}Models/Industrial/Chemical/Props/Data/MI_OilBarrel_2.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_OilBarrel_06 {
+    }
+   }
+   Common TXOCommonClass "{6AA7275D8A8CF291}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA7275D8A8CED5E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA7275D8A8CED48}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA7275D8A8CED38}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA7275D8A8CED2D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA7275D8A8CED1E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

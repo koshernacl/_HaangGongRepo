@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{70D06CC9410A371A}Models/Industrial/FactoryUA/Data/MI_Van_01_White.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

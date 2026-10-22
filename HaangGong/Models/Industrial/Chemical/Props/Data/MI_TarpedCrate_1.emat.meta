@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D55113FACEA71A74}Models/Industrial/Chemical/Props/Data/MI_TarpedCrate_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

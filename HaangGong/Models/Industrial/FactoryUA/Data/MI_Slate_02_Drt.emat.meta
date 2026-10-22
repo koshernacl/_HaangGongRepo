@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B0FAA2B366F3618C}Models/Industrial/FactoryUA/Data/MI_Slate_02_Drt.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

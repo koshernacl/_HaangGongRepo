@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1A4DF775F9EA36B5}Models/Industrial/FactoryUA/Data/MI_Ladder_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

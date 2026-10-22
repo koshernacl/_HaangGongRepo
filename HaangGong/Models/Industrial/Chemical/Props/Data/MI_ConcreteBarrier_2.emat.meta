@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D1918F17932D30BF}Models/Industrial/Chemical/Props/Data/MI_ConcreteBarrier_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

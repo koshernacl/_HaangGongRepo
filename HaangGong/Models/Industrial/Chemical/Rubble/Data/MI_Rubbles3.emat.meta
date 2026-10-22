@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8F31E115880953A4}Models/Industrial/Chemical/Rubble/Data/MI_Rubbles3.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5E8A562CC782AF01}Models/Industrial/Chemical/Props/Data/MI_OilDrill1_7.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

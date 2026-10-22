@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{41A71443DB2C2144}Models/Industrial/Chemical/Architecture/Data/MI_TrussStructure.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

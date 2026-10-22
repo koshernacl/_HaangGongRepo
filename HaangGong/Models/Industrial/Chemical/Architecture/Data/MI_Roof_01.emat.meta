@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{11841DF42E74D4C2}Models/Industrial/Chemical/Architecture/Data/MI_Roof_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{20E33CC1DD5448BF}Models/Industrial/FactoryUA/Data/MI_Wooden_Boxes_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

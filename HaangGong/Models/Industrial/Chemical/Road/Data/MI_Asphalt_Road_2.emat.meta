@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9BD1C281CF2A3257}Models/Industrial/Chemical/Road/Data/MI_Asphalt_Road_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

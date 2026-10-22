@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6814867711C2BF51}Models/Industrial/FactoryUA/Data/MI_GoodsSet_B.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

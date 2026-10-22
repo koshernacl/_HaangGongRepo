@@ -1,0 +1,70 @@
+MetaFileClass {
+ Name "{0FF5E5D69A7A59DD}Models/Industrial/Chemical/Architecture/SM_SphericalTank_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA728F7DBC3EC28}" {
+     SourceMaterial "MI_LaddersRail"
+     AssignedMaterial "{CC7FD0435317A6DB}Models/Industrial/Chemical/Architecture/Data/MI_LaddersRail.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECF8}" {
+     SourceMaterial "MI_TrussStructure"
+     AssignedMaterial "{41A71443DB2C2144}Models/Industrial/Chemical/Architecture/Data/MI_TrussStructure.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECF6}" {
+     SourceMaterial "MI_Pipe_01"
+     AssignedMaterial "{DD6EE8CE1C050D6F}Models/Industrial/Chemical/Architecture/Data/MI_Pipe_01.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECEC}" {
+     SourceMaterial "MI_Pipe_02"
+     AssignedMaterial "{8386C18DA3888360}Models/Industrial/Chemical/Architecture/Data/MI_Pipe_02.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECDF}" {
+     SourceMaterial "MI_Platform_02"
+     AssignedMaterial "{A532CF0161D67922}Models/Industrial/Chemical/Architecture/Data/MI_Platform_02.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECD3}" {
+     SourceMaterial "MI_SphericalTank_1"
+     AssignedMaterial "{1106AAAB35265648}Models/Industrial/Chemical/Architecture/Data/MI_SphericalTank_1.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECCE}" {
+     SourceMaterial "MI_DistillationTank"
+     AssignedMaterial "{AC7F780C921DF0CF}Models/Industrial/Chemical/Architecture/Data/MI_DistillationTank.emat"
+    }
+    MaterialAssignClass "{6AA728F7DBC3ECC2}" {
+     SourceMaterial "MI_Chimney_5"
+     AssignedMaterial "{B28BAB6077CC2CF5}Models/Industrial/Chemical/Architecture/Data/MI_Chimney_5.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_SphericalTank_01 {
+    }
+   }
+   Common TXOCommonClass "{6AA7275DF28CC427}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA7275DF28CC4F3}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA7275DF28CC4DD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA7275DF28CC4CA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA7275DF28CC4BF}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA7275DF28CC4B2}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{362C747BD5621BD5}Models/Industrial/Chemical/Architecture/SM_Staircase_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA728F7D40D541A}" {
+     SourceMaterial "MI_Platform_02"
+     AssignedMaterial "{A532CF0161D67922}Models/Industrial/Chemical/Architecture/Data/MI_Platform_02.emat"
+    }
+    MaterialAssignClass "{6AA728F7D40D5413}" {
+     SourceMaterial "MI_LaddersRail"
+     AssignedMaterial "{CC7FD0435317A6DB}Models/Industrial/Chemical/Architecture/Data/MI_LaddersRail.emat"
+    }
+    MaterialAssignClass "{6AA728F7D40D540E}" {
+     SourceMaterial "MI_TrussStructure"
+     AssignedMaterial "{41A71443DB2C2144}Models/Industrial/Chemical/Architecture/Data/MI_TrussStructure.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Staircase_01 {
+    }
+   }
+   Common TXOCommonClass "{6AA7275DF28A6B62}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA7275DF28A6B2E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA7275DF28A6B19}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA7275DF28A6B06}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA7275DF28A6BFB}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA7275DF28A6BEF}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

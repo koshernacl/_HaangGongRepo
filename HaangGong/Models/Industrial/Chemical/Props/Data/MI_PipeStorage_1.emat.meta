@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3AAE3CE9E0CD84A7}Models/Industrial/Chemical/Props/Data/MI_PipeStorage_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,24 @@
+MatRiver {
+ Color 0.006 0.012 0.02 1
+ ZEnable 0
+ ZWrite 0
+ Cull none
+ NormalMap "{6FD571B76D28FB58}Terrains/Common/Water/waterNormal.edds"
+ NormalMapping 15
+ SunPower 1024
+ WaterVisibility 3
+ HalfLightDistance 30
+ RefractOffset 0.01
+ RefractScale 0.02
+ ChromAberation 0.2
+ UnderWaterMaterial "{B9FD14BB4F70D556}Terrains/Common/Water/UnderWater/pondUnderwater.emat"
+ CausticMap "{EA764AD7A6112284}Terrains/Common/Water/caustic.edds"
+ CausticUVScale 5
+ Caustic 0.541
+ WetFloor 0.394
+ Fresnel 0.162
+ UserMapping 0.487
+ UserPower 2.045
+ ShoreWetnessAmount 0.375
+ FlowNormalInfl 2
+}

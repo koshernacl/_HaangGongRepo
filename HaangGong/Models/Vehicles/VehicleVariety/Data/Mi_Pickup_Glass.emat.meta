@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{432947AE3DCB6515}Models/Vehicles/VehicleVariety/Data/Mi_Pickup_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

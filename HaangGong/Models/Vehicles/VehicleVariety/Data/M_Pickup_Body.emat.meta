@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7C0A8C8F25FE26E3}Models/Vehicles/VehicleVariety/Data/M_Pickup_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

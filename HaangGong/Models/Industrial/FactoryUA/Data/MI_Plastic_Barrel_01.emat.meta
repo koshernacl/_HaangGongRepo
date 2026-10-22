@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{67A3704F4BA825EA}Models/Industrial/FactoryUA/Data/MI_Plastic_Barrel_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,58 @@
+MetaFileClass {
+ Name "{E0964D7F87D7391F}Models/Vehicles/VehicleVariety/SM_Truck_Box.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AAB189724A88F2B}" {
+     SourceMaterial "M_BoxTruck_Body"
+     AssignedMaterial "{E7AE611C109442D3}Models/Vehicles/VehicleVariety/Data/M_BoxTruck_Body.emat"
+    }
+    MaterialAssignClass "{6AAB189724A88F19}" {
+     SourceMaterial "M_BoxTruck_Interior"
+     AssignedMaterial "{11DE5A675B9C0B54}Models/Vehicles/VehicleVariety/Data/M_BoxTruck_Interior.emat"
+    }
+    MaterialAssignClass "{6AAB189724A88F14}" {
+     SourceMaterial "M_BoxTruck_Chassis"
+     AssignedMaterial "{460A4271224143DF}Models/Vehicles/VehicleVariety/Data/M_BoxTruck_Chassis.emat"
+    }
+    MaterialAssignClass "{6AAB189724A88F12}" {
+     SourceMaterial "Mi_BoxTruck_Glass"
+     AssignedMaterial "{C65067B748FF7896}Models/Vehicles/VehicleVariety/Data/Mi_BoxTruck_Glass.emat"
+    }
+    MaterialAssignClass "{6AAB189724A88F11}" {
+     SourceMaterial "M_BoxTruck_Box"
+     AssignedMaterial "{3F4B47A5C99672A2}Models/Vehicles/VehicleVariety/Data/M_BoxTruck_Box.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Truck_Box {
+    }
+   }
+   Common TXOCommonClass "{6AAB18972B2C0465}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AAB18972B2C0425}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AAB18972B2C0410}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AAB18972B2C0403}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AAB18972B2C04F7}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AAB18972B2C04E8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

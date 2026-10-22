@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{279C30E5B43D5709}Models/Industrial/FactoryUA/Data/MI_Card_Boxes_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

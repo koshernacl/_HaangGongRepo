@@ -1,0 +1,51 @@
+MetaFileClass {
+ Name "{385273BA358CD165}Models/Infrastructure/ConcreteArch/SM_Bridge_SuspensionArch_Rib_Interior.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AAB1880AC7A0330}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{1CED0C95510D0E7C}Models/Infrastructure/ConcreteArch/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Rib_Interior {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Rib_Interior {
+     SurfaceProperties {
+      "{63134CCD10F90319}lambert1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AAB188092E3F3BA}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AAB188092E3B43A}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AAB188092E3B732}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AAB188092E3B791}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AAB188092E3B141}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AAB188092E3B196}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

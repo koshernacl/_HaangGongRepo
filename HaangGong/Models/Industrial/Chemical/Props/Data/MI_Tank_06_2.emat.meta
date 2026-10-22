@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1B0ECF2E0720B8FD}Models/Industrial/Chemical/Props/Data/MI_Tank_06_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

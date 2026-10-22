@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C11264CB68EBC04E}Models/Industrial/FactoryUA/Data/MI_Grass_Tile_0.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

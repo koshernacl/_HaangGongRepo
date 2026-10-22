@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EBEA30B98A4F97B9}Models/Industrial/Chemical/Props/Data/MI_OilBarrel_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{64E5EB1CF270C2BE}Models/Industrial/Chemical/Architecture/SM_Chimney_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA7275DF3324816}" {
+     SourceMaterial "MI_Chimney_1"
+     AssignedMaterial "{A5BB973CBA87D690}Models/Industrial/Chemical/Architecture/Data/MI_Chimney_1.emat"
+    }
+    MaterialAssignClass "{6AA7275DF332480F}" {
+     SourceMaterial "Fbx_Default_Material"
+     AssignedMaterial "{1CF0056F8965AA3E}Models/Industrial/Chemical/Architecture/Data/Fbx_Default_Material.emat"
+    }
+    MaterialAssignClass "{6AA7275DF332480A}" {
+     SourceMaterial "MI_Chimney_2"
+     AssignedMaterial "{FB53BE7F050A589F}Models/Industrial/Chemical/Architecture/Data/MI_Chimney_2.emat"
+    }
+    MaterialAssignClass "{6AA7275DF3324809}" {
+     SourceMaterial "MI_Chimney_5"
+     AssignedMaterial "{B28BAB6077CC2CF5}Models/Industrial/Chemical/Architecture/Data/MI_Chimney_5.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Chimney_01 {
+    }
+   }
+   Common TXOCommonClass "{6AA7275DF1F0F7D3}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA7275DF1F0F79C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA7275DF1F0F785}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA7275DF1F0F675}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA7275DF1F0F666}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA7275DF1F0F65B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

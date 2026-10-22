@@ -1,0 +1,346 @@
+MetaFileClass {
+ Name "{56ECA2C96A117A1C}Models/Infrastructure/PedestrianBridge/150M_PedestrianBridge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AAB4D0D968A4EB1}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{5C3B3136E1C66D5A}Models/Infrastructure/PedestrianBridge/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cube_1 {
+    }
+    MeshParam Cube_1_10 {
+    }
+    MeshParam Cube_1_100 {
+    }
+    MeshParam Cube_1_11 {
+    }
+    MeshParam Cube_1_12 {
+    }
+    MeshParam Cube_1_13 {
+    }
+    MeshParam Cube_1_14 {
+    }
+    MeshParam Cube_1_15 {
+    }
+    MeshParam Cube_1_16 {
+    }
+    MeshParam Cube_1_17 {
+    }
+    MeshParam Cube_1_18 {
+    }
+    MeshParam Cube_1_19 {
+    }
+    MeshParam Cube_1_2 {
+    }
+    MeshParam Cube_1_20 {
+    }
+    MeshParam Cube_1_21 {
+    }
+    MeshParam Cube_1_22 {
+    }
+    MeshParam Cube_1_23 {
+    }
+    MeshParam Cube_1_24 {
+    }
+    MeshParam Cube_1_25 {
+    }
+    MeshParam Cube_1_26 {
+    }
+    MeshParam Cube_1_27 {
+    }
+    MeshParam Cube_1_28 {
+    }
+    MeshParam Cube_1_29 {
+    }
+    MeshParam Cube_1_3 {
+    }
+    MeshParam Cube_1_30 {
+    }
+    MeshParam Cube_1_31 {
+    }
+    MeshParam Cube_1_32 {
+    }
+    MeshParam Cube_1_33 {
+    }
+    MeshParam Cube_1_34 {
+    }
+    MeshParam Cube_1_35 {
+    }
+    MeshParam Cube_1_36 {
+    }
+    MeshParam Cube_1_37 {
+    }
+    MeshParam Cube_1_38 {
+    }
+    MeshParam Cube_1_39 {
+    }
+    MeshParam Cube_1_4 {
+    }
+    MeshParam Cube_1_40 {
+    }
+    MeshParam Cube_1_41 {
+    }
+    MeshParam Cube_1_42 {
+    }
+    MeshParam Cube_1_43 {
+    }
+    MeshParam Cube_1_44 {
+    }
+    MeshParam Cube_1_45 {
+    }
+    MeshParam Cube_1_46 {
+    }
+    MeshParam Cube_1_47 {
+    }
+    MeshParam Cube_1_48 {
+    }
+    MeshParam Cube_1_49 {
+    }
+    MeshParam Cube_1_5 {
+    }
+    MeshParam Cube_1_50 {
+    }
+    MeshParam Cube_1_51 {
+    }
+    MeshParam Cube_1_52 {
+    }
+    MeshParam Cube_1_53 {
+    }
+    MeshParam Cube_1_54 {
+    }
+    MeshParam Cube_1_55 {
+    }
+    MeshParam Cube_1_56 {
+    }
+    MeshParam Cube_1_57 {
+    }
+    MeshParam Cube_1_58 {
+    }
+    MeshParam Cube_1_59 {
+    }
+    MeshParam Cube_1_6 {
+    }
+    MeshParam Cube_1_60 {
+    }
+    MeshParam Cube_1_61 {
+    }
+    MeshParam Cube_1_62 {
+    }
+    MeshParam Cube_1_63 {
+    }
+    MeshParam Cube_1_64 {
+    }
+    MeshParam Cube_1_65 {
+    }
+    MeshParam Cube_1_66 {
+    }
+    MeshParam Cube_1_67 {
+    }
+    MeshParam Cube_1_68 {
+    }
+    MeshParam Cube_1_69 {
+    }
+    MeshParam Cube_1_7 {
+    }
+    MeshParam Cube_1_70 {
+    }
+    MeshParam Cube_1_71 {
+    }
+    MeshParam Cube_1_72 {
+    }
+    MeshParam Cube_1_73 {
+    }
+    MeshParam Cube_1_74 {
+    }
+    MeshParam Cube_1_75 {
+    }
+    MeshParam Cube_1_76 {
+    }
+    MeshParam Cube_1_77 {
+    }
+    MeshParam Cube_1_78 {
+    }
+    MeshParam Cube_1_79 {
+    }
+    MeshParam Cube_1_8 {
+    }
+    MeshParam Cube_1_80 {
+    }
+    MeshParam Cube_1_81 {
+    }
+    MeshParam Cube_1_82 {
+    }
+    MeshParam Cube_1_83 {
+    }
+    MeshParam Cube_1_84 {
+    }
+    MeshParam Cube_1_85 {
+    }
+    MeshParam Cube_1_86 {
+    }
+    MeshParam Cube_1_87 {
+    }
+    MeshParam Cube_1_88 {
+    }
+    MeshParam Cube_1_89 {
+    }
+    MeshParam Cube_1_9 {
+    }
+    MeshParam Cube_1_90 {
+    }
+    MeshParam Cube_1_91 {
+    }
+    MeshParam Cube_1_92 {
+    }
+    MeshParam Cube_1_93 {
+    }
+    MeshParam Cube_1_94 {
+    }
+    MeshParam Cube_1_95 {
+    }
+    MeshParam Cube_1_96 {
+    }
+    MeshParam Cube_1_97 {
+    }
+    MeshParam Cube_1_98 {
+    }
+    MeshParam Cube_1_99 {
+    }
+    MeshParam Extrude {
+    }
+    MeshParam Extrude_10 {
+    }
+    MeshParam Extrude_11 {
+    }
+    MeshParam Extrude_12 {
+    }
+    MeshParam Extrude_13 {
+    }
+    MeshParam Extrude_14 {
+    }
+    MeshParam Extrude_15 {
+    }
+    MeshParam Extrude_16 {
+    }
+    MeshParam Extrude_17 {
+    }
+    MeshParam Extrude_18 {
+    }
+    MeshParam Extrude_19 {
+    }
+    MeshParam Extrude_2 {
+    }
+    MeshParam Extrude_20 {
+    }
+    MeshParam Extrude_21 {
+    }
+    MeshParam Extrude_22 {
+    }
+    MeshParam Extrude_23 {
+    }
+    MeshParam Extrude_24 {
+    }
+    MeshParam Extrude_25 {
+    }
+    MeshParam Extrude_26 {
+    }
+    MeshParam Extrude_27 {
+    }
+    MeshParam Extrude_28 {
+    }
+    MeshParam Extrude_29 {
+    }
+    MeshParam Extrude_3 {
+    }
+    MeshParam Extrude_30 {
+    }
+    MeshParam Extrude_31 {
+    }
+    MeshParam Extrude_32 {
+    }
+    MeshParam Extrude_33 {
+    }
+    MeshParam Extrude_34 {
+    }
+    MeshParam Extrude_35 {
+    }
+    MeshParam Extrude_36 {
+    }
+    MeshParam Extrude_37 {
+    }
+    MeshParam Extrude_38 {
+    }
+    MeshParam Extrude_39 {
+    }
+    MeshParam Extrude_4 {
+    }
+    MeshParam Extrude_40 {
+    }
+    MeshParam Extrude_41 {
+    }
+    MeshParam Extrude_42 {
+    }
+    MeshParam Extrude_43 {
+    }
+    MeshParam Extrude_44 {
+    }
+    MeshParam Extrude_45 {
+    }
+    MeshParam Extrude_46 {
+    }
+    MeshParam Extrude_47 {
+    }
+    MeshParam Extrude_48 {
+    }
+    MeshParam Extrude_49 {
+    }
+    MeshParam Extrude_5 {
+    }
+    MeshParam Extrude_50 {
+    }
+    MeshParam Extrude_6 {
+    }
+    MeshParam Extrude_7 {
+    }
+    MeshParam Extrude_8 {
+    }
+    MeshParam Extrude_9 {
+    }
+    MeshParam Sweep {
+    }
+    MeshParam Sweep_1 {
+    }
+    MeshParam Sweep_2 {
+    }
+   }
+   Common TXOCommonClass "{6AAB4D0D96995E66}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Maxon"
+   ApplicationName "Cinema 4D2026.1.2"
+   ApplicationVersion "2026.1.2"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AAB4D0D96994C28}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AAB4D0D96994CC3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AAB4D0D96994F78}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AAB4D0D96994F3E}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AAB4D0D96994F02}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

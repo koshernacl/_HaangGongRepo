@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3F4B47A5C99672A2}Models/Vehicles/VehicleVariety/Data/M_BoxTruck_Box.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{545493B339D1B76C}Models/Industrial/Chemical/Props/Data/MI_WoodenPallet_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

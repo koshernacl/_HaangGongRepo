@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8E6F23A7E46F5316}Models/Industrial/Chemical/Architecture/Data/MI_Wall_04.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

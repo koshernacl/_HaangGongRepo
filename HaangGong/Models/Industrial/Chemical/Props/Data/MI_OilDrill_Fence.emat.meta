@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{53F22B0F28699699}Models/Industrial/Chemical/Props/Data/MI_OilDrill_Fence.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

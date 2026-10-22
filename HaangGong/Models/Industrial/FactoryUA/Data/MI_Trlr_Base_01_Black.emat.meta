@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8987953A990096A5}Models/Industrial/FactoryUA/Data/MI_Trlr_Base_01_Black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

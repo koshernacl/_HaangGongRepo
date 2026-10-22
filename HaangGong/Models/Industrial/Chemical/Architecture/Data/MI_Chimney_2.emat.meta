@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FB53BE7F050A589F}Models/Industrial/Chemical/Architecture/Data/MI_Chimney_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

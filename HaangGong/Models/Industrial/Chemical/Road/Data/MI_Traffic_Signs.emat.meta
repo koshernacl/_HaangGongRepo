@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E054D387EB55E117}Models/Industrial/Chemical/Road/Data/MI_Traffic_Signs.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

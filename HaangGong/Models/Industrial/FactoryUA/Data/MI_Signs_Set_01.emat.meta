@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A787B803CD75FB1}Models/Industrial/FactoryUA/Data/MI_Signs_Set_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

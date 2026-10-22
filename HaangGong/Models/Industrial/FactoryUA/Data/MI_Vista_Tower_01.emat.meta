@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9D3776B75E8A3099}Models/Industrial/FactoryUA/Data/MI_Vista_Tower_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

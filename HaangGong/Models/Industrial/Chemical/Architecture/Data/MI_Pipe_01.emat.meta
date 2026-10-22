@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DD6EE8CE1C050D6F}Models/Industrial/Chemical/Architecture/Data/MI_Pipe_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
