@@ -1,0 +1,8 @@
+WallGeneratorEntity {
+ ID "6AB151D3A3791425"
+ Flags 0x100003 0
+ m_iSeed 22031
+ MiddleObject "{0EB227516B2B16BA}Development/Tunnel_Mid.et"
+ FirstObject "{E2BE65AA766B66E9}Development/Tunnel_Start.et"
+ LastObject "{2715A5B9973A58B3}Development/Tunnel_End.et"
+}

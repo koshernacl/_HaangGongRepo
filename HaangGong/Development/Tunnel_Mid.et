@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "6AB151D0FCB8BFFD"
+ components {
+  MeshObject "{6AB151D0DA912288}" {
+   Object "{DA99A332F09C676B}Development/SM_Tunnel_Mockup_Straight.xob"
+  }
+ }
+}

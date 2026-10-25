@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{687FD2B2B7473A82}Models/Infrastructure/TunnelRockBig/Data/T_TunnelRockBig_Connector_20M.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

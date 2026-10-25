@@ -1,0 +1,2021 @@
+Vehicle : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SU25_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames + {
+    "{51DEB7938E1C8285}Sounds/SU25/Vehicles_SU25_Engine.acp" "{B12946540CB7BED0}Sounds/Weapons/Launchers/_SharedData/IR_Module/WCS_Weapons_Launchers_IR_Module.acp" "{69E4ACCB00000701}Sounds/SU25/SU25_MissileWarning.acp" "{69E4ACCB000E0008}Sounds/SU25/SU25_Gear.acp"
+   }
+   SoundPoints {
+    SoundPointInfo Engine {
+     PivotID "cog_jnt"
+    }
+   }
+  }
+  JFC_FlightController "{6AB11C6E571B74B7}" {
+   m_fControlRate 4
+   m_fPitchControlRate 2.5
+   m_fYawControlRate 1.5
+   m_fPitchInputScale 1
+   m_bPersistentPitch 0
+   m_fMouseFlightPitchSens 0.02
+   m_fMouseFlightRollSens 0.02
+   m_fInputAttackSeconds 0
+  }
+  JFC_FuelBurnComponent "{6AB11C6E571B773E}" {
+   m_fBurnIdle 700
+   m_fBurnMax 4400
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{92B52DCC2E818765}Prefabs/Vehicles/FixedWing/SU25/SK_West_Attack_A10.xob"
+   LODFactors {
+    20 1 1 1
+   }
+  }
+  PFC_FreeLookController "{6AB11C6E571B773F}" {
+  }
+  PFC_NwkMovementComponent "{6AB11C6E571B773D}" {
+   m_fSendIntervalMs 50
+   m_fHardSnapThresholdMeters 15
+   m_fPositionCorrectionRate 5
+   m_fMaxExtrapolationSec 0.3
+   m_bVelocitySteerApply 1
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active Active
+   Mass 14000
+   CenterOfMass 0 1.48 0.154
+   ResponseIndex "Vehicle"
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    SCR_CompartmentDoorInfo "{6AB11C6E571B7739}" {
+     ContextName "GetInPilot"
+     EntryPositionInfo PointInfo "{6AB11C6E571B7735}" {
+      Offset -1.6895 0 2.9974
+     }
+     ExitPositionInfo PointInfo "{6AB11C6E571B7732}" {
+      Offset -1.6895 0 2.9974
+     }
+     ExitTeleportPositionInfo PointInfo "{6AB11C6E571B7733}" {
+      Offset -1.6895 0 2.9974
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     GetOutAligningTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     DefaultOccupantName "Pilot"
+     CompartmentUniqueName "PilotCompartment"
+     CompartmentAction SCR_GetInUserAction "{6AB11C6E571B772C}" {
+      ParentContextList {
+       "GetInPilot"
+      }
+      UIInfo SCR_ActionUIInfo "{6AB11C6E571B772A}" {
+       Name "Get In (Pilot)"
+       m_sIconName "veh_pilot"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{6AB11C6E571B7728}" {
+      ParentContextList {
+       "GetOutPilot"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Offset -0.0001 1.9225 3.3345
+     }
+     ForcedFreeLook 1
+     DoorInfoList {
+      0
+     }
+     BaseCoverage 0.3
+    }
+   }
+  }
+  SCR_BaseEffectManagerComponent "{6AB11C6E571B7725}" {
+   m_aEffectModules {
+    SCR_EffectModule "{6AB11C6E571B7721}" {
+     m_sParticle "{69E4ACCB00000263}Particles/SU25_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AB11C6E571B7707}" {
+      Offset -0.7807 1.2645 -3.6791
+      Angles -90 0 -180
+     }
+     m_bTickOnFrame 1
+     m_bShowEffectInWB 0
+     m_aEffectActions {
+      SU25_EffectParticleSignalAction "{6AB11C6E571B7705}" {
+      }
+     }
+    }
+    SCR_EffectModule "{6AB11C6E571B7703}" {
+     m_sParticle "{69E4ACCB00000263}Particles/SU25_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AB11C6E571BB302}" {
+      Offset 0.7807 1.2645 -3.6791
+      Angles -90 0 -180
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SU25_EffectParticleSignalAction "{6AB11C6E571BB300}" {
+      }
+     }
+    }
+    SCR_EffectModule "{6AB11C6E571BB3FF}" {
+     m_sParticle "{69E4ACCB00000265}Particles/SU25_EngineFume.ptc"
+     m_effectPosition PointInfo "{6AB11C6E571BB3FE}" {
+      Offset -0.7782 1.2645 -4.2682
+      Angles 90 -90 -180
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SU25_EffectParticleSignalAction "{6AB11C6E571BB3FD}" {
+       m_fThreshold 0.92
+      }
+     }
+    }
+    SCR_EffectModule "{6AB11C6E571BB3FC}" {
+     m_sParticle "{69E4ACCB00000265}Particles/SU25_EngineFume.ptc"
+     m_effectPosition PointInfo "{6AB11C6E571A22EB}" {
+      Offset 0.7782 1.2645 -4.2682
+      Angles 90 -90 -180
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SU25_EffectParticleSignalAction "{6AB11C6E571A22ED}" {
+       m_fThreshold 0.92
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_SU25_Name"
+    Icon "{D8D6C7FCC65DC442}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Airplane.edds"
+    m_Image "{1AC10A5F4A649BBB}UI/SU-25_EditableEntity.edds"
+    m_aAuthoredLabels + {
+     VEHICLE_AIRPLANE FACTION_USSR CONTENT_MODDED
+    }
+   }
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 3660
+     m_fInitialFuelTankState 3660
+     m_MaxFlowCapacityIn VEHICLE_HELICOPTER
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fSpeedMax 300
+   m_fDist_Max 15
+   m_fDist_Min 8
+   m_fDist_Desired 12
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{C4488C37C3B56126}Models/SU25/Damaged/su25_damaged.xob"
+      m_fDefaultWreckMass 14000
+     }
+     m_sDestructionParticle "{20541EDA53B413EA}Particles/Logistics/Explosion/Fuel/Explosion_Fuel_Huge.ptc"
+     m_vParticleOffset 0 1.5 0
+     m_fFireDamageOccupants 0
+     m_sDamagedParticle "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sDamagedParticleHeavy "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sBurningParticle "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+    }
+   }
+  }
+  SU25_AIPilot "{6AB11C6E571A22FF}" {
+   m_fGroundSteerScale 1
+  }
+  SU25_CCIPComponent "{6AB11C6E571A22F0}" {
+   m_aProfiles {
+    SU25_CCIPProfile "{6AB11C6E571A22F2}" {
+     m_iGroupIndex 1
+     m_fMuzzleSpeed 720
+     m_fDragFactor 0.001
+    }
+   }
+  }
+  SU25_CockpitControlSignals "{6AB11C6E571A22F4}" {
+  }
+  SU25_CockpitShake "{6AB11C6E571A22F5}" {
+  }
+  SU25_EngineController "{6AB11C6E571A22F6}" {
+  }
+  SU25_FlapsAnimDriver "{6AB11C6E571A4FEF}" {
+  }
+  SU25_FlightAssistComponent "{6AB11C6E571A4FEE}" {
+   m_bEnabled 0
+   m_fAbsorptionRate 0
+   m_bPitchHoldEnabled 1
+  }
+  SU25_FlightModelV2 "{6AB11C6E571A4FD1}" {
+   m_fMaxThrustPerEngine 44000
+   m_iNumEngines 2
+   m_fMaxControlDeflectionDeg 25
+   m_fFlapDeflectionDeg 30
+   m_fGustIntensity 0.12
+   m_fFuselageDragArea 0.5
+   m_fAngularDamping 0.25
+   m_fGrossMassFull 14000
+   m_fFuelDensity 0.78
+   m_aSurfaceDefs {
+    JFC_AeroSurfaceDefV2 "{6AB11C6E571A4FD5}" {
+     m_sLabel "Wing"
+     m_vPosition 0.3 2 1.3
+     m_bMirror 1
+     m_iControlAxis NONE
+     m_fLiftSlope 5.7
+     m_fSkinFriction 0.006
+     m_fZeroLiftAoA -2
+     m_fStallAngleHigh 19
+     m_fStallAngleLow -17
+     m_fFlapFraction 0
+     m_fEfficiency 0.9
+     m_vTipLEOffset 6.88 0 -2.47
+     m_fRootChord 3.456
+     m_fTipChord 1.023
+    }
+    JFC_AeroSurfaceDefV2 "{6AB11C6E571A4FD7}" {
+     m_sLabel "Aileron"
+     m_vPosition 5.5 2 -2
+     m_bMirror 1
+     m_iControlAxis AILERON
+     m_fChord 0.7
+     m_fSpan 1.7
+     m_fLiftSlope 5.5
+     m_fSkinFriction 0.006
+     m_fZeroLiftAoA 0
+     m_fStallAngleHigh 30
+     m_fStallAngleLow -30
+     m_fFlapFraction 0.6
+     m_fEfficiency 0.8
+     m_fAspectRatioOverride 6.12
+     m_bIncrementOnly 1
+    }
+    JFC_AeroSurfaceDefV2 "{6AB11C6E571A4FD9}" {
+     m_sLabel "Flap"
+     m_vPosition 2.7 2 -2
+     m_vRotation 0 0 0
+     m_bMirror 1
+     m_iControlAxis FLAPS
+     m_fChord 1
+     m_fSpan 3.6
+     m_fLiftSlope 5.5
+     m_fSkinFriction 0.006
+     m_fZeroLiftAoA 0
+     m_fStallAngleHigh 24
+     m_fStallAngleLow -24
+     m_fFlapFraction 1
+     m_fEfficiency 0.8
+     m_fAspectRatioOverride 6.12
+     m_bIncrementOnly 1
+    }
+    JFC_AeroSurfaceDefV2 "{6AB11C6E571A4FD8}" {
+     m_sLabel "Elevator"
+     m_vPosition 0.3 2 -4.8
+     m_vRotation 0 0 0
+     m_bMirror 1
+     m_iControlAxis ELEVATOR
+     m_fLiftSlope 5
+     m_fSkinFriction 0.006
+     m_fZeroLiftAoA 2
+     m_fStallAngleHigh 28
+     m_fStallAngleLow -28
+     m_fFlapFraction 0.85
+     m_fEfficiency 0.8
+     m_vTipLEOffset 2 0 -0.861
+     m_fRootChord 2.06
+     m_fTipChord 0.74
+    }
+    PFC_AeroSurfaceDef "{6AB11C6E571A4FDD}" {
+     m_sLabel "Rudder"
+     m_vPosition 0 3.2 -6.5
+     m_vRotation 0 0 90
+     m_bMirror 0
+     m_iControlAxis RUDDER
+     m_fChord 1.6
+     m_fSpan 1.9
+     m_fLiftSlope 5
+     m_fSkinFriction 0.006
+     m_fZeroLiftAoA 0
+     m_fStallAngleHigh 18
+     m_fStallAngleLow -18
+     m_fFlapFraction 0.4
+     m_fEfficiency 0.8
+     m_fAspectRatioOverride 1.4
+    }
+    PFC_AeroSurfaceDef "{6AB11C6E571A4FC1}" {
+     m_sLabel "FuselageSide"
+     m_vPosition 0 1.6 0.6
+     m_vRotation 0 0 90
+     m_bMirror 0
+     m_iControlAxis NONE
+     m_fChord 12
+     m_fSpan 1.3
+     m_fLiftSlope 1.2
+     m_fSkinFriction 0.001
+     m_fZeroLiftAoA 0
+     m_fStallAngleHigh 25
+     m_fStallAngleLow -25
+     m_fFlapFraction 0
+     m_fEfficiency 0.7
+     m_fAspectRatioOverride 0.11
+    }
+    PFC_AeroSurfaceDef "{6AB11C6E571A4FC0}" {
+     m_sLabel "v_Stab"
+     m_vPosition 0 3.3 -5.4
+     m_vRotation 0 0 90
+     m_bMirror 0
+     m_iControlAxis NONE
+     m_fChord 1.6
+     m_fSpan 2.5
+     m_fLiftSlope 1.2
+     m_fSkinFriction 0.001
+     m_fZeroLiftAoA 0
+     m_fStallAngleHigh 25
+     m_fStallAngleLow -25
+     m_fFlapFraction 0
+     m_fEfficiency 0.7
+     m_fAspectRatioOverride 0.11
+    }
+   }
+   m_fSpoolUpTau 1
+   m_fSpoolDownTau 2.5
+   m_fIdleThrustFraction 0.07
+   m_fThrustLapseExponent 0.85
+   m_fDragRiseFactor 0
+   m_fControlFalloffStartSpeed 220
+   m_fControlFalloffEndSpeed 320
+   m_fControlEffectivenessMin 1
+   m_fAirbrakeDragArea 2.2
+   m_fGLimit 8
+   m_fGLimitNegative -2
+   m_fGLimiterMinAuthority 1
+   m_fPitchRateDamper 0
+   m_fPitchDamperStickRelief 0.15
+   m_fBuffetStartAoA 15
+   m_fOverspeedBuffetStartSpeed 0
+   m_fGroundEffectSpan 0
+   m_fMachTuckStartSpeed 0
+   m_fDamageControlFloor 0.35
+   m_fDamageDragArea 1.2
+   m_fDamageBuffetScale 0.5
+   m_fWingDropStartAoA 20
+   m_fWheelBrakeDecel 6
+   m_fParkingHoldSpeed 0.5
+   m_fRollPivotHeight 1.4
+   m_fMachAeroStart 0.3
+   m_fStallScaleAtCap 0.62
+   m_fStallShrinkStartMach 0.45
+   m_fOswaldMachFloor 0.75
+   m_fWaveDragRefArea 30
+   m_fWaveDragSweepDeg 15
+   m_fWaveDragThickness 0.105
+   m_fWaveDragScale 140
+   m_fMachACShiftChords 0.12
+   m_fMachACShiftStartMach 0.74
+   m_fMachACShiftEndMach 0.92
+   m_fDownwashSlope 0.44
+   m_fDownwashE0 1
+   m_fDownwashFlapDeg 3.5
+   m_sDownwashLabels "Elevator"
+   m_vInertiaTensor 110000 140000 45000
+   m_fRefWingArea 30
+   m_fRefChord 2.46
+   m_fRefSpan 14.36
+   m_fRefLength 15.36
+   m_fCmq 38
+   m_fClp 0.25
+   m_fCnr 0.15
+   m_fDerivPostStallFadeAoA 19
+   m_bFcsPitch 1
+   m_iFcsPitchMode "G-command"
+   m_fFcsGCmdKp 2.8
+   m_fFcsGCmdKi 5
+   m_fFcsQbarRef 20000
+   m_fFcsAuthorityFloor 0.35
+   m_fFcsRateGain 0
+   m_fFcsGAuthorityFloor 0.3
+   m_fFcsGLeadTau 0.12
+   m_fFcsGIntGain 0.35
+   m_fFcsGPropGain 0.1
+   m_fFcsActuatorTau 0.03
+   m_fFcsActuatorRateDeg 200
+   m_fFcsDirectExpo 0.4
+   m_bFcsDirectQbarAuth 1
+   m_fFcsDirectRateGain 0.12
+   m_bFcsDirectTrimHold 1
+   m_fFcsDirectStickThreshold 0.05
+   m_aEngineDefs {
+    JFC_EngineDefV2 "{6AB11C6E571A4FC9}" {
+     m_vPosition -0.7 1.2 -1.5
+    }
+    JFC_EngineDefV2 "{6AB11C6E571A4FC8}" {
+     m_vPosition 0.7 1.2 -1.5
+    }
+   }
+   m_fThrustCurveExp 1.7
+   m_fThrustMachDipMach 0.45
+   m_fThrustMachDipMult 0.93
+   m_fThrustMachHighMach 0.85
+   m_fThrustMachHighMult 1.02
+   m_fBuffetAoAAtM0 20
+   m_fBuffetAoAAtHighMach 11
+   m_fBuffetMachStart 0.45
+   m_fBuffetMachEnd 0.8
+  }
+  SU25_GearController "{6AB11C6E571A4FCB}" {
+  }
+  SU25_HardpointManagerComponent "{6AB11C6E571A4FCA}" {
+   m_aHardpoints {
+    SU25_HardpointDef "{6AB11C6E571A4FCC}" {
+     m_sName "Pylon L1"
+     m_iSlotIndex 2
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4FB1}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.176
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FBC}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FBF}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4FBE}" {
+     m_sName "Pylon R1"
+     m_iSlotIndex 3
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4FA1}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.176
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FA0}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FA3}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4FA5}" {
+     m_sName "Pylon L2"
+     m_iSlotIndex 4
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4FA4}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FA7}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FA6}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4FA9}" {
+     m_sName "Pylon R2"
+     m_iSlotIndex 5
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4FA8}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FAB}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FAD}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4FAC}" {
+     m_sName "Pylon L3"
+     m_iSlotIndex 6
+     m_iDefaultOption 1
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4FAF}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4FAE}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F90}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4F93}" {
+     m_sName "Pylon R3"
+     m_iSlotIndex 7
+     m_iDefaultOption 1
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4F92}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F95}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F97}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4F99}" {
+     m_sName "Rail L4"
+     m_iSlotIndex 8
+     m_iDefaultOption -1
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4F98}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F9B}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F9D}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4F9C}" {
+     m_sName "Rail R4"
+     m_iSlotIndex 9
+     m_iDefaultOption -1
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4F9F}" {
+       m_sName "UB-16 rockets"
+       m_sPodPrefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+       m_vOffset 0 -0.346 -0.165
+       m_vAngles -90 0 0
+       m_fMass 140
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 500
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F81}" {
+       m_sName "FAB-250 bomb"
+       m_sPodPrefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+       m_vOffset 0 0.237 -0.165
+       m_vAngles -90 0 0
+       m_fMass 280
+       m_bCcip 1
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F80}" {
+       m_sName "GUV-8700 gun pod"
+       m_sPodPrefab "{670071B5E52E2279}Prefabs/Weapons/AircraftWeapons/MachineGuns/GUV8700/MachineGuns_GUV8700_Base.et"
+       m_vOffset 0 -0.174 0.01
+       m_vAngles -90 0 0
+       m_fMass 450
+       m_bNativeGun 1
+       m_bCcip 1
+       m_fCcipMuzzleSpeed 720
+       m_fCcipDragFactor 0.001
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4F82}" {
+     m_sName "Rail L5"
+     m_iSlotIndex 10
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4F85}" {
+       m_sName "R-60 missile"
+       m_sPodPrefab "{69E4ACCB000D0002}Prefabs/Weapons/Guns/SU25_Pod_R60_Single.et"
+       m_vOffset 0 0.162 -0.06
+       m_vAngles -88.949 -0.001 -0.001
+       m_fMass 60
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F87}" {
+       m_sName "R-60 triple rack"
+       m_sPodPrefab "{0288489064436380}Prefabs/Weapons/AircraftWeapons/MissilePods/R60/Pod_R60.et"
+       m_vOffset 0 0.162 0.04
+       m_vAngles -88.949 -0.001 -0.001
+       m_fMass 200
+      }
+     }
+    }
+    SU25_HardpointDef "{6AB11C6E571A4F86}" {
+     m_sName "Rail R5"
+     m_iSlotIndex 11
+     m_iDefaultOption 0
+     m_aOptions {
+      SU25_ArmamentOption "{6AB11C6E571A4F88}" {
+       m_sName "R-60 missile"
+       m_sPodPrefab "{69E4ACCB000D0002}Prefabs/Weapons/Guns/SU25_Pod_R60_Single.et"
+       m_vOffset 0 0.162 -0.06
+       m_vAngles -88.949 -0.001 -0.001
+       m_fMass 60
+      }
+      SU25_ArmamentOption "{6AB11C6E571A4F8B}" {
+       m_sName "R-60 triple rack"
+       m_sPodPrefab "{0288489064436380}Prefabs/Weapons/AircraftWeapons/MissilePods/R60/Pod_R60.et"
+       m_vOffset 0 0.162 0.04
+       m_vAngles -88.949 -0.001 -0.001
+       m_fMass 200
+      }
+     }
+    }
+   }
+   m_sEmptyPodPrefab "{69E4ACCB000D0001}Prefabs/Weapons/Guns/SU25_Pod_Empty.et"
+  }
+  SU25_JetBlastComponent "{6AB11C6E571A4F8D}" {
+   m_fConeStartRadius 0.3
+   m_fConeEndRadius 2
+   m_fMaxForce 2000
+  }
+  SU25_MWSHostAlarm "{6AB11C6E571A4F8F}" {
+   m_sSoundEvent "SU25_MWS_INCOMING"
+  }
+  SU25_MirrorPIPComponent "{6AB11C6E571A4F8E}" {
+   m_aMirrors {
+    SU25_MirrorDef "{6AB11C6E571A4E70}" {
+     m_sSlotName "MirrorGlassL"
+     m_Plane PointInfo "{6AB11C6E571A4E72}" {
+      Offset -0.6681 2.66 3.6276
+      Angles 0 165 0
+     }
+    }
+    SU25_MirrorDef "{6AB11C6E571A4E75}" {
+     m_sSlotName "MirrorGlassR"
+     m_Plane PointInfo "{6AB11C6E571A4E77}" {
+      Offset 0.6681 2.66 3.6276
+      Angles 0 195 0
+     }
+    }
+   }
+   m_fFov 80
+  }
+  SU25_VortexController "{6AB11C6E571A4E76}" {
+   m_fCoreSpiralRadius 0.7
+   m_fCoreSpiralRate 35
+   m_aPoints {
+    SU25_VortexPoint "{6AB11C6E571A4E7B}" {
+     m_Position PointInfo "{6AB11C6E571A4E52}" {
+      Offset -7.0098 1.7725 -2.764
+     }
+    }
+    SU25_VortexPoint "{6AB11C6E571A4E54}" {
+     m_Position PointInfo "{6AB11C6E571A4E56}" {
+      Offset 7.0098 1.7725 -2.764
+     }
+    }
+   }
+   m_aVaporPoints {
+    SU25_VortexPoint "{6AB11C6E571A4E59}" {
+     m_Position PointInfo "{6AB11C6E571A4E58}" {
+      Offset 3.6104 2.1478 -0.2703
+      Angles 0 18.6548 0
+     }
+    }
+    SU25_VortexPoint "{6AB11C6E571A4E5A}" {
+     m_Position PointInfo "{6AB11C6E571A4E5D}" {
+      Offset -3.6104 2.1478 -0.2703
+      Angles 0 -18.6548 0
+     }
+    }
+   }
+   m_aVaporCorePoints {
+    SU25_VortexPoint "{6AB11C6E571A4E5F}" {
+     m_Position PointInfo "{6AB11C6E571A4E5E}" {
+      Offset -4.9 2.05 -0.35
+      Angles 0 -18.6548 0
+     }
+    }
+    SU25_VortexPoint "{6AB11C6E571A4E40}" {
+     m_Position PointInfo "{6AB11C6E571A4E42}" {
+      Offset 4.9 2.05 -0.35
+      Angles 0 18.6548 0
+     }
+    }
+   }
+  }
+  SU25_WingFlexDriver "{6AB11C6E571A4E44}" {
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" : "{A25CB790B888B786}Prefabs/Vehicles/Core/Components/VehicleWheeledSimulation_Base.ct" {
+   SignalsSourceAccess SignalsSourceAccessClass "{4D8B26DEA5769EFB}" {
+   }
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxPower 1
+     MaxTorque 1
+     RpmIdle 850
+     RpmRedline 6000
+     RpmMax 7000
+     Output "Clutch"
+    }
+    Clutch Clutch Clutch {
+     Output "Gearbox"
+    }
+    Gearbox Gearbox Gearbox {
+     Forward +{
+     }
+     Reverse 4
+    }
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      TorqueShare 0
+      HasHandbrake 1
+      Suspension Suspension "{4D8B26DFF8859A7B}" {
+       MaxSteeringAngle 30
+       SpringRate 240
+       CompressionDamper 12000
+       RelaxationDamper 18000
+       MaxTravelUp 0.2
+       MaxTravelDown 0.2
+      }
+      Wheel Wheel "{4D8B26DFFE211745}" {
+       Radius 0.34
+       Mass 250
+       BrakeTorque 150
+      }
+      Tyre Tyre "{6AB11C6E571A4E31}" {
+       Roughness 0.15
+       LongitudinalFriction 0.2
+       LateralFriction 2
+       RollingResistance 0.01
+       RollingDrag 0.5
+       Tread 1
+      }
+      WheelPositions {
+       WheelPosition Wheel_L01 {
+        PivotID "v_wheel_L01"
+       }
+       WheelPosition Wheel_R01 {
+        PivotID "v_wheel_L01"
+       }
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      TorqueShare 0.001
+      HasHandbrake 1
+      Suspension Suspension "{4D8B26DF2B10AE05}" {
+       SpringRate 480
+       CompressionDamper 20000
+       RelaxationDamper 28000
+       MaxTravelUp 0.2
+       MaxTravelDown 0.2
+      }
+      Wheel Wheel "{4D8B26DF30A4E4D7}" {
+       Radius 0.42
+       Mass 250
+       BrakeTorque 150
+      }
+      Tyre Tyre "{6AB11C6E571A4E34}" {
+       Roughness 0.15
+       LongitudinalFriction 0.2
+       LateralFriction 2
+       RollingResistance 0.01
+       RollingDrag 0.5
+       Tread 1
+      }
+      WheelPositions {
+       WheelPosition Wheel_L02 {
+        PivotID "v_wheel_L02"
+       }
+       WheelPosition Wheel_R02 {
+        PivotID "v_wheel_R02"
+       }
+      }
+     }
+    }
+    Aerodynamics Aerodynamics "{6AB11C6E571A4E39}" {
+     ReferenceArea 0
+     DragCoefficient 0
+    }
+    Pacejka Pacejka "{6AB11C6E571A4E3D}" {
+     Longitudinal PacejkaLongitudinal "{6AB11C6E571A4E3E}" {
+      b0 1.65
+      b1 -110
+      b2 1800
+      b3 23.3
+      b4 410
+      b5 0.075
+      b6 0
+      b7 0.055
+      b8 -0.024
+      b9 0.014
+      b10 0.26
+     }
+     Lateral PacejkaLateral "{6AB11C6E571A4E23}" {
+      a0 1.55
+      a1 -55
+      a2 1750
+      a3 1900
+      a4 7.2
+      a5 0.014
+      a6 -0.24
+      a7 1
+      a8 -0.03
+      a9 -0.001
+      a10 -0.15
+      a11 -8.5
+      a12 -0.29
+      a13 17.8
+      a14 -2.4
+     }
+     Aligning PacejkaAligning "{6AB11C6E571A4E24}" {
+      c0 2.2
+      c1 -4.3
+      c2 -4.4
+      c3 -1.9
+      c4 -9.6
+      c5 0.023
+      c6 0
+      c7 0.044
+      c8 -0.58
+      c9 0.18
+      c10 0.043
+      c11 0.048
+      c12 -0.004
+      c13 -0.18
+      c14 0.14
+      c16 -1.029
+      c17 0.27
+      c18 -1.1
+     }
+    }
+    RaycastLayer "VehicleCast"
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    BaseWeaponManagerComponent "{6AB11C6E571A4E28}" {
+    }
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{50E6E6F81354B90F}" {
+       InfoDisplays {
+        SCR_AnalogGauge "{50E6E9C4280A17FE}" {
+         m_eShow 0
+        }
+        SCR_AnalogGauge "{50E6E9C42E916085}" {
+         m_eShow 0
+        }
+        SCR_AnalogGaugeSmall "{50E6F12BB4D36587}" {
+         m_eShow 0
+        }
+        SCR_HandBrakeInfo "{5A76D38944ABC993}" {
+         m_sParentSlot "Slot-ParkingBrake"
+        }
+        SCR_GearShiftInfo "{5A76D38943D54CC0}" {
+         m_eShow 0
+        }
+        SCR_LightManagerInfo "{5A76D388B11B0BD0}" {
+         m_eShow 0
+        }
+        SCR_LightManagerInfo "{5A76D3888F5360E3}" {
+         m_eShow 0
+        }
+        SCR_LightManagerInfoMulti "{5C86B47E6A990CAA}" {
+         m_eShow 0
+        }
+        SCR_AnalogGauge "{69A8A34B00000001}" : "{A6154EC770D56FC3}Configs/VehicleHUD/VehicleGauge_AirSpeed.conf" {
+         m_eShow 7
+         m_fValueMax 1300
+         m_fSectionEveryNthValue 100
+        }
+        SCR_AnalogGauge360 "{69A8A34B00000002}" : "{804134174BC81C08}Configs/VehicleHUD/VehicleGauge_Altitude.conf" {
+         m_eShow 7
+        }
+        SCR_AnalogGaugeNonLinear "{69A8A34B00000003}" : "{C911AB54F0CAF8F7}Configs/VehicleHUD/VehicleGauge_AltitudeAGL.conf" {
+         m_eShow 7
+        }
+        SCR_AnalogGauge "{69A8A34B00000004}" : "{23F5C4FE46344A4B}Configs/VehicleHUD/VehicleGauge_ClimbRate.conf" {
+         m_eShow 7
+        }
+        SCR_AnalogGauge "{69E4ACCB00000006}" : "{69E4ACCB00000210}Configs/VehicleHUD/VehicleGauge_Throttle.conf" {
+         m_eShow 7
+        }
+        SU25_VInfoGear "{69E4ACCB00000007}" : "{FEFB3AEC39AA8ABF}Configs/VehicleHUD/VehicleInfo_Base.conf" {
+         m_sParentSlot "Slot-Gear"
+         m_eShow 7
+         m_sIcon "veh_wheel"
+         m_eColor WHITE
+         m_bShowGhost 1
+         m_sIconTexture "{69E4ACCB00000220}UI/Textures/Icons/gear_down.edds"
+        }
+        SU25_VInfoFlaps "{69E4ACCB00000008}" : "{FEFB3AEC39AA8ABF}Configs/VehicleHUD/VehicleInfo_Base.conf" {
+         m_sParentSlot "Slot-Flaps"
+         m_eShow 7
+         m_sIcon "veh_auto_hover"
+         m_eColor WHITE
+         m_bShowGhost 1
+        }
+        JFC_VInfoFCSOverride "{69E4ACCB00000009}" : "{FEFB3AEC39AA8ABF}Configs/VehicleHUD/VehicleInfo_Base.conf" {
+         m_sParentSlot "Slot-FCSOverride"
+         m_eShow 7
+         m_eColor WHITE
+         m_sIconTexture "{EFB97AB599C7FD56}UI/Textures/Editor/fcs_override.edds"
+        }
+       }
+       m_LayoutPath "{69E4ACCB00000200}UI/layouts/HUD/VehicleHUD_SU25.layout"
+       m_sContentWidget "Content"
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{6AB11C6E571A4E1A}" {
+         m_bCanUpdate 1
+         m_sSlotName "Slot_Vehicle"
+        }
+       }
+      }
+      WCS_Armament_WeaponInfoVehicle "{6AB11C6E571A4E1F}" {
+       m_LayoutPath "{2E427134219C809E}UI/Layouts/HUD/WeaponInfo/WCS_Armament_WeaponInfo.layout"
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{6AB11C6E571A4E01}" {
+         m_bCanUpdate 1
+         m_sSlotName "Slot_WeaponInfo"
+        }
+       }
+       m_bIsEnabled 1
+       m_sInterfaceSettingName "m_bShowWeaponInfo"
+      }
+      SCR_WeaponInfo_MultiWeaponTurret "{6AB11C6E571A4E03}" {
+       m_LayoutPath "{1FE821A29ACEA938}UI/layouts/HUD/WeaponInfo/WeaponInfo_MultiWeaponTurret.layout"
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{6AB11C6E571A4E05}" {
+         m_bCanUpdate 1
+         m_sSlotName "Slot_WeaponInfo"
+        }
+       }
+       m_bIsEnabled 0
+       m_sInterfaceSettingName "m_bShowWeaponInfo"
+       m_sTurretSlot "Hardpoints"
+       m_FiremodeIconsConfig GroupWeaponFiremode "{69E4ACCB00000052}" : "{4789C90C5591CBC7}Configs/VehicleHUD/VehicleWeaponInfo_GroupWeaponFiremodes.conf" {
+       }
+       m_AmmoTypeIcons SCR_AmmoTypeInfoConfig "{69E4ACCB00000053}" : "{8D3E102893955B15}Configs/Inventory/ItemHints/MagazineAmmoType.conf" {
+       }
+       m_aShowQuantityIndicator {
+        RIPPLE
+       }
+      }
+     }
+    }
+   }
+  }
+  CarProcAnimComponent "{A201E6A6F82F2CDA}" {
+   Enabled 1
+   Parameters {
+    ProcAnimParams "{6AB11C6E571A4E0B}" {
+     ResourceName "{69E4ACCB00000231}Configs/ProcAnims/SU25_ControlSurfaces.pap"
+     BoneNames {
+      "lf_elevator_1_jnt" "rt_elevator_1_jnt" "rudder_1_jnt" "rudder_2_jnt" "lf_aileron_3_jnt" "rt_aileron_3_jnt" "lf_winglet_1_jnt" "lf_winglet_2_jnt" "rt_winglet_1_jnt" "rt_winglet_2_jnt"
+     }
+    }
+    ProcAnimParams "{6AB11C6E571A4E0D}" {
+     ResourceName "{69E4ACCB00000234}Configs/ProcAnims/SU25_Suspension.pap"
+     BoneNames {
+      "v_wheel_L02" "v_wheel_R02" "front_chassis_1_jnt" "front_chassis_2_jnt" "v_wheel_L01"
+     }
+    }
+   }
+  }
+  WCS_Armament_AircraftInfraredEmitterComponent "{6AB11C6E571A4E0F}" {
+   m_vPosition 0 1.5 -4.2
+  }
+  WCS_Armament_DispenserManagerComponent "{6AB11C6E571A4EF1}" {
+   m_FlareInfo WCS_Armament_DispenserFlareInfo "{6AB11C6E571A4EF2}" {
+    m_aActionEnabledCompartments {
+     "PilotCompartment"
+    }
+    m_FireInputActionTrigger PRESSED
+    m_FireModes {
+     WCS_Armament_DispenserSingleFireMode "{6AB11C6E571A4EF4}" {
+      m_iFireIntervalMS 150
+     }
+    }
+   }
+  }
+  WCS_Armament_GroundVehicleInfraredEmitterComponent "{62B0B51C54CF7AA5}" {
+   Enabled 0
+  }
+  WCS_Armament_LoadoutComponent "{6AB11C6E571A4EF6}" {
+   m_ArmamentGroups {
+    WCS_Armament_SlotGroup "{6AB11C6E571A4EFA}" {
+     slotIndex 1
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EFC}" {
+     prefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EE1}" {
+       Position PointInfo "{6AB11C6E571A4EE3}" {
+        PivotID "v_hardpoint_l_1"
+        Offset 0 -0.346 -0.1764
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EE4}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4EE9}" {
+      }
+     }
+     slotIndex 2
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EEB}" {
+     prefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EED}" {
+       Position PointInfo "{6AB11C6E571A4EEF}" {
+        PivotID "v_hardpoint_r_1"
+        Offset 0 -0.346 -0.1764
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4ED0}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4ED2}" {
+      }
+     }
+     slotIndex 3
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4ED4}" {
+     prefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4ED6}" {
+       Position PointInfo "{6AB11C6E571A4ED8}" {
+        PivotID "v_hardpoint_l_2"
+        Offset 0 -0.3457 -0.1648
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EDA}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4EDC}" {
+      }
+     }
+     slotIndex 4
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EDE}" {
+     prefab "{6547A281622ADD71}Prefabs/Weapons/AircraftWeapons/RocketPods/UB1657/Pod_UB1657.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EC3}" {
+       Position PointInfo "{6AB11C6E571A4EC5}" {
+        PivotID "v_hardpoint_r_2"
+        Offset 0 -0.3457 -0.1648
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EC7}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4EC9}" {
+      }
+     }
+     slotIndex 5
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4ECB}" {
+     prefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4ECD}" {
+       Position PointInfo "{6AB11C6E571A4ECF}" {
+        PivotID "v_hardpoint_l_3"
+        Offset 0 0.237 -0.1648
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EB1}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4EB2}" {
+      }
+     }
+     slotIndex 6
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EB4}" {
+     prefab "{1063832CCE78191D}Prefabs/Weapons/AircraftWeapons/BombPods/Pod_BDZUMK.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EB6}" {
+       Position PointInfo "{6AB11C6E571A4EB8}" {
+        PivotID "v_hardpoint_r_3"
+        Offset 0 0.237 -0.1648
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EBA}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4EBC}" {
+      }
+     }
+     slotIndex 7
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EBE}" {
+     prefab "{69E4ACCB000D0001}Prefabs/Weapons/Guns/SU25_Pod_Empty.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EA3}" {
+       Position PointInfo "{6AB11C6E571A4EA5}" {
+        PivotID "v_hardpoint_l_4"
+        Offset 0 -0.174 0.0101
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EA7}" {
+       m_iFireIntervalMS 200
+      }
+     }
+     slotIndex 8
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4EA9}" {
+     prefab "{69E4ACCB000D0001}Prefabs/Weapons/Guns/SU25_Pod_Empty.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4EAA}" {
+       Position PointInfo "{6AB11C6E571A4EAC}" {
+        PivotID "v_hardpoint_r_4"
+        Offset 0 -0.174 0.0101
+        Angles -90 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4EAE}" {
+       m_iFireIntervalMS 200
+      }
+     }
+     slotIndex 9
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4E93}" {
+     prefab "{69E4ACCB000D0002}Prefabs/Weapons/Guns/SU25_Pod_R60_Single.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4E95}" {
+       Position PointInfo "{6AB11C6E571A4E97}" {
+        PivotID "v_hardpoint_l_5"
+        Offset 0 0.1622 -0.0597
+        Angles -88.9489 -0.0008 -0.0007
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4E99}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4E9A}" {
+      }
+     }
+     slotIndex 10
+    }
+    WCS_Armament_WeaponGroup "{6AB11C6E571A4E9C}" {
+     prefab "{69E4ACCB000D0002}Prefabs/Weapons/Guns/SU25_Pod_R60_Single.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AB11C6E571A4E81}" {
+       Position PointInfo "{6AB11C6E571A4E83}" {
+        PivotID "v_hardpoint_r_5"
+        Offset 0 0.1622 -0.0597
+        Angles -88.9489 -0.0008 -0.0007
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AB11C6E571A4E84}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AB11C6E571A4E86}" {
+      }
+     }
+     slotIndex 11
+    }
+   }
+   m_sPilotCompartmentUniqueName "PilotCompartment"
+   FireInputActionTrigger DOWN
+  }
+  WCS_Armament_MWSComponent "{6AB11C6E571A4E8B}" {
+   m_eThreatSizeDetection 112
+   m_sMissileDetectedSoundName "SU25_MWS_INCOMING"
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{6AB11C6E571A4E8C}" {
+   Enabled 1
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{6AB11C6E571A4E8E}" {
+     m_fLockFov 5
+     m_sCompartmentUniqueName "PilotCompartment"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     PivotID "v_wheel_L01"
+     Angles 0 0 90
+     MergePhysics 1
+     Prefab "{69E4ACCB00000050}Prefabs/Vehicles/Wheeled/SU25_Wheel_Front.et"
+     RegisterDamage 1
+     m_iWheelIndex 0
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     PivotID "v_wheel_L02"
+     Angles 0 90 0
+     MergePhysics 1
+     Prefab "{69E4ACCB00000051}Prefabs/Vehicles/Wheeled/SU25_Wheel_Rear.et"
+     RegisterDamage 1
+     m_iWheelIndex 2
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     PivotID "v_wheel_R02"
+     Angles 0 90 0
+     MergePhysics 1
+     Prefab "{69E4ACCB00000051}Prefabs/Vehicles/Wheeled/SU25_Wheel_Rear.et"
+     RegisterDamage 1
+     m_iWheelIndex 3
+    }
+    EntitySlotInfo MirrorGlassL {
+     Prefab "{69E4ACCB00000732}Prefabs/Vehicles/FixedWing/SU25/VehParts/SU25_MirrorGlass_L.et"
+    }
+    EntitySlotInfo MirrorGlassR {
+     Prefab "{69E4ACCB00000733}Prefabs/Vehicles/FixedWing/SU25/VehParts/SU25_MirrorGlass_R.et"
+    }
+    WCS_Armament_DispenserSlotInfo flares_left {
+     PivotID "cog_jnt"
+     Offset -3.7943 0 -0.504
+     Angles -10.8118 90 90
+     MergePhysics 1
+     Prefab "{69E4ACCB00000720}Prefabs/Weapons/Countermeasures/SU25_Dispenser_Flare.et"
+     DisablePhysicsInteraction 1
+    }
+    WCS_Armament_DispenserSlotInfo flares_right {
+     PivotID "cog_jnt"
+     Offset -3.7943 0 -0.504
+     Angles 10.0414 90 90
+     MergePhysics 1
+     Prefab "{69E4ACCB00000720}Prefabs/Weapons/Countermeasures/SU25_Dispenser_Flare.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SU25_PilotSight {
+     Offset 0.0057 2.5876 4.0033
+     MergePhysics 1
+     Prefab "{69E4ACCB00000330}Prefabs/Vehicles/FixedWing/SU25/VehParts/SU25_sight_pilot.et"
+     RegisterDamage 1
+     RegisterActionSignals 1
+    }
+   }
+  }
+  WeaponSlotComponent "{6AB11C6E571A4910}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_L4 {
+    PivotID "v_hardpoint_l_4"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 8
+  }
+  WeaponSlotComponent "{6AB11C6E571A4915}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_R4 {
+    PivotID "v_hardpoint_r_4"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 9
+  }
+  WeaponSlotComponent "{6AB11C6E571A4917}" {
+   shouldHandleObstruction 0
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 10
+  }
+  WeaponSlotComponent "{6AB11C6E571A4918}" {
+   shouldHandleObstruction 0
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 11
+  }
+  WeaponSlotComponent "{6AB11C6E571A492E}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_R3 {
+    PivotID "v_hardpoint_r_3"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 7
+  }
+  WeaponSlotComponent "{6AB11C6E571A4961}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_L1 {
+    PivotID "v_hardpoint_l_1"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 2
+  }
+  WeaponSlotComponent "{6AB11C6E571A4962}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_R1 {
+    PivotID "v_hardpoint_r_1"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 3
+  }
+  WeaponSlotComponent "{6AB11C6E571A4967}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_L2 {
+    PivotID "v_hardpoint_l_2"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 4
+  }
+  WeaponSlotComponent "{6AB11C6E571A4968}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_R2 {
+    PivotID "v_hardpoint_r_2"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 5
+  }
+  WeaponSlotComponent "{6AB11C6E571A496D}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Hardpoint_L3 {
+    PivotID "v_hardpoint_l_3"
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 6
+  }
+  WeaponSlotComponent "{6AB11C6E571A497D}" {
+   WeaponType MachineGun
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot GSH3020 {
+    Offset -0.2804 1.7193 4.2437
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{003036C854E0DC48}Prefabs/Weapons/AircraftWeapons/MachineGuns/UPK23/MachineGuns_GSh_30_20_Dual.et"
+   WeaponSlotIndex 1
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6AB11C6E571A491C}" {
+     ContextName "GetInPilot"
+     Position PointInfo "{6AB11C6E571A491E}" {
+      Offset -0.6833 1.6 3.2001
+     }
+    }
+    UserActionContext "{6AB11C6E571A4903}" {
+     ContextName "GetOutPilot"
+     Position PointInfo "{6AB11C6E571A4905}" {
+      Offset -0.4346 2.4442 3.2531
+     }
+    }
+    UserActionContext "{6AB11C6E571A4906}" {
+     ContextName "cockpit_autopilot"
+     Position PointInfo "{6AB11C6E571A4908}" {
+      Offset 0.3301 2.0964 3.7874
+     }
+     Radius 0.35
+    }
+    UserActionContext "{6AB11C6E571A490A}" {
+     ContextName "fuel_cap"
+     Position PointInfo "{6AB11C6E571A490D}" {
+      Offset -1.323 1.5536 1.4544
+     }
+    }
+    UserActionContext "{6AB11C6E571A490C}" {
+     ContextName "hood_repair"
+     Position PointInfo "{6AB11C6E571A490F}" {
+      Offset 0 1.7694 6.6723
+     }
+    }
+    UserActionContext "{6AB11C6E571A49F1}" {
+     ContextName "hardpoint_0"
+     Position PointInfo "{6AB11C6E571A49F3}" {
+      PivotID "v_hardpoint_l_1"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49F4}" {
+     ContextName "hardpoint_1"
+     Position PointInfo "{6AB11C6E571A49F6}" {
+      PivotID "v_hardpoint_r_1"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49FB}" {
+     ContextName "hardpoint_2"
+     Position PointInfo "{6AB11C6E571A49FD}" {
+      PivotID "v_hardpoint_l_2"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49FE}" {
+     ContextName "hardpoint_3"
+     Position PointInfo "{6AB11C6E571A49E0}" {
+      PivotID "v_hardpoint_r_2"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49E2}" {
+     ContextName "hardpoint_4"
+     Position PointInfo "{6AB11C6E571A49E7}" {
+      PivotID "v_hardpoint_l_3"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49E9}" {
+     ContextName "hardpoint_5"
+     Position PointInfo "{6AB11C6E571A49EB}" {
+      PivotID "v_hardpoint_r_3"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49EC}" {
+     ContextName "hardpoint_6"
+     Position PointInfo "{6AB11C6E571A49EE}" {
+      PivotID "v_hardpoint_l_4"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49D3}" {
+     ContextName "hardpoint_7"
+     Position PointInfo "{6AB11C6E571A49D5}" {
+      PivotID "v_hardpoint_r_4"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49D7}" {
+     ContextName "hardpoint_8"
+     Position PointInfo "{6AB11C6E571A49D8}" {
+      PivotID "v_hardpoint_l_5"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+    UserActionContext "{6AB11C6E571A49DA}" {
+     ContextName "hardpoint_9"
+     Position PointInfo "{6AB11C6E571A49DF}" {
+      PivotID "v_hardpoint_r_5"
+      Offset 0 -0.45 0
+     }
+     Radius 1.2
+    }
+   }
+   additionalActions {
+    JFC_AutopilotToggleAction "{6AB11C6E571A49C2}" {
+     ParentContextList {
+      "cockpit_autopilot"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB11C6E571A49C4}" {
+      Name "Engage autopilot"
+     }
+     Duration 1
+     "Sort Priority" 10
+    }
+    JFC_LoiterMapAction "{6AB11C6E571A49C9}" {
+     ParentContextList {
+      "cockpit_autopilot"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB11C6E571A49CB}" {
+      Name "Set loiter point"
+     }
+     "Sort Priority" 8
+    }
+    JFC_LoiterDisableAction "{6AB11C6E571A49CC}" {
+     ParentContextList {
+      "cockpit_autopilot"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB11C6E571A49CE}" {
+      Name "Turn off loiter"
+     }
+     "Sort Priority" 7
+    }
+    JFC_FCSOverrideAction "{6AB11C6E571A49B3}" {
+     ParentContextList {
+      "cockpit_autopilot"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB11C6E571A49B4}" {
+      Name "Override FCS (direct law)"
+     }
+     "Sort Priority" 9
+    }
+    SU25_ToggleMirrorsAction "{6AB11C6E571A49B6}" {
+     ParentContextList {
+      "cockpit_autopilot"
+     }
+     UIInfo SCR_ActionUIInfo "{6AB11C6E571A49B8}" {
+      Name "Toggle mirrors"
+     }
+     "Sort Priority" 5
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49BD}" {
+     ParentContextList {
+      "hardpoint_0"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 0
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49BE}" {
+     ParentContextList {
+      "hardpoint_0"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 0
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49A2}" {
+     ParentContextList {
+      "hardpoint_0"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 0
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49A4}" {
+     ParentContextList {
+      "hardpoint_0"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 0
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49A9}" {
+     ParentContextList {
+      "hardpoint_1"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 1
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49AA}" {
+     ParentContextList {
+      "hardpoint_1"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 1
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A49AC}" {
+     ParentContextList {
+      "hardpoint_1"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 1
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4991}" {
+     ParentContextList {
+      "hardpoint_1"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 1
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4992}" {
+     ParentContextList {
+      "hardpoint_2"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 2
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4997}" {
+     ParentContextList {
+      "hardpoint_2"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 2
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4999}" {
+     ParentContextList {
+      "hardpoint_2"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 2
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A499A}" {
+     ParentContextList {
+      "hardpoint_2"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 2
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A499F}" {
+     ParentContextList {
+      "hardpoint_3"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 3
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4980}" {
+     ParentContextList {
+      "hardpoint_3"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 3
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4985}" {
+     ParentContextList {
+      "hardpoint_3"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 3
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4987}" {
+     ParentContextList {
+      "hardpoint_3"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 3
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4988}" {
+     ParentContextList {
+      "hardpoint_4"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 4
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A498D}" {
+     ParentContextList {
+      "hardpoint_4"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 4
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A498E}" {
+     ParentContextList {
+      "hardpoint_4"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 4
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4873}" {
+     ParentContextList {
+      "hardpoint_4"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 4
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4875}" {
+     ParentContextList {
+      "hardpoint_5"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 5
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4876}" {
+     ParentContextList {
+      "hardpoint_5"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 5
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A487B}" {
+     ParentContextList {
+      "hardpoint_5"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 5
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A487C}" {
+     ParentContextList {
+      "hardpoint_5"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 5
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4861}" {
+     ParentContextList {
+      "hardpoint_6"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 6
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4862}" {
+     ParentContextList {
+      "hardpoint_6"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 6
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4867}" {
+     ParentContextList {
+      "hardpoint_6"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 6
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4868}" {
+     ParentContextList {
+      "hardpoint_6"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 6
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A486D}" {
+     ParentContextList {
+      "hardpoint_7"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 7
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A486F}" {
+     ParentContextList {
+      "hardpoint_7"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 7
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4850}" {
+     ParentContextList {
+      "hardpoint_7"
+     }
+     Duration 1
+     "Sort Priority" 8
+     m_iHardpointIndex 7
+     m_iOptionIndex 2
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4855}" {
+     ParentContextList {
+      "hardpoint_7"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 7
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4856}" {
+     ParentContextList {
+      "hardpoint_8"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 8
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A485B}" {
+     ParentContextList {
+      "hardpoint_8"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 8
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A485C}" {
+     ParentContextList {
+      "hardpoint_8"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 8
+     m_iOptionIndex -1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4841}" {
+     ParentContextList {
+      "hardpoint_9"
+     }
+     Duration 1
+     "Sort Priority" 10
+     m_iHardpointIndex 9
+     m_iOptionIndex 0
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4842}" {
+     ParentContextList {
+      "hardpoint_9"
+     }
+     Duration 1
+     "Sort Priority" 9
+     m_iHardpointIndex 9
+     m_iOptionIndex 1
+    }
+    SU25_HardpointSwapAction "{6AB11C6E571A4847}" {
+     ParentContextList {
+      "hardpoint_9"
+     }
+     Duration 1
+     "Sort Priority" 7
+     m_iHardpointIndex 9
+     m_iOptionIndex -1
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimGraph "{2A2124B34BBD5BFC}Animations/SU25.agr"
+   AnimInstance "{C74B716857B40912}Animations/SU25.asi"
+   StartNode "MasterBlend"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
+    AnimGraph "{2E7DC909B8C4128F}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.agr"
+    AnimInstance "{E01854FEDB1BA7B0}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A_player.asi"
+   }
+  }
+  NwkCarMovementComponent "{5D6CA5AFEC980F35}" {
+   Enabled 0
+  }
+ }
+}

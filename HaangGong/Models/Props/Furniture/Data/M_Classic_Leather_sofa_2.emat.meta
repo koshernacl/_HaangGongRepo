@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{32C2515FCFC5ADEB}Models/Props/Furniture/Data/M_Classic_Leather_sofa_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

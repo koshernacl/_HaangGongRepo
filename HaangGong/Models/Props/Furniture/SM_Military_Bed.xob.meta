@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{D7C6D30D0D024142}Models/Props/Furniture/SM_Military_Bed.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AB0C982FF8BD2F1}" {
+     SourceMaterial "M_Military_Bed"
+     AssignedMaterial "{6C95D67C7EF3154F}Models/Props/Furniture/Data/M_Military_Bed.emat"
+    }
+    MaterialAssignClass "{6AB0C982FF8BD2E4}" {
+     SourceMaterial "M_Military_Bed_Grid"
+     AssignedMaterial "{5783242095002BF7}Models/Props/Furniture/Data/M_Military_Bed_Grid.emat"
+    }
+    MaterialAssignClass "{6AB0C982FF8BD2E2}" {
+     SourceMaterial "M_Military_Bed_Matress_with_Blanket"
+     AssignedMaterial "{536A303325ACF886}Models/Props/Furniture/Data/M_Military_Bed_Matress_with_Blanket.emat"
+    }
+    MaterialAssignClass "{6AB0C982FF8BD2E1}" {
+     SourceMaterial "M_Military_Bed_Matress"
+     AssignedMaterial "{479FA8954335DE8C}Models/Props/Furniture/Data/M_Military_Bed_Matress.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Military_Bed {
+    }
+   }
+   Common TXOCommonClass "{6AB0C982E383051C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB0C982E38305E9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB0C982E38305D2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB0C982E38305C5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB0C982E38305B9}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB0C982E38305AB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

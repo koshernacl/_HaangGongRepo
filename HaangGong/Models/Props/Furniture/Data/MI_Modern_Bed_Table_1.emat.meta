@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA86D7FBCFFA145C}Models/Props/Furniture/Data/MI_Modern_Bed_Table_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

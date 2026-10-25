@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{35402A2E40EDFA9D}Prefabs/Vehicles/FixedWing/SU25/Data/MI_West_Attack_A10_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

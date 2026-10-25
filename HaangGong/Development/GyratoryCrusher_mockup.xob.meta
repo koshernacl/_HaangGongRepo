@@ -1,0 +1,102 @@
+MetaFileClass {
+ Name "{D67281AF6A1D64C4}Development/GyratoryCrusher_mockup.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AAF03AE83AC8BEF}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{ADC85409867A7462}Development/Data/lambert1.emat"
+    }
+    MaterialAssignClass "{6AAF03AE83AC8BE5}" {
+     SourceMaterial "pasted__MI_TrussStructure9"
+     AssignedMaterial "{6FAF1F1F03BB6082}Development/Data/pasted__MI_TrussStructure9.emat"
+    }
+    MaterialAssignClass "{6AAF03AE83AC8BE1}" {
+     SourceMaterial "pasted__pasted__T_Elevator_Motors"
+     AssignedMaterial "{F61ED5F120435999}Development/Data/pasted__pasted__T_Elevator_Motors.emat"
+    }
+    MaterialAssignClass "{6AAF03AE83AC8BDF}" {
+     SourceMaterial "HumanBodyblinn1"
+     AssignedMaterial "{407C575769284B91}Development/Data/HumanBodyblinn1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam humanBody {
+    }
+    MeshParam pCube3 {
+    }
+    MeshParam pCube4 {
+    }
+    MeshParam pCylinder1 {
+    }
+    MeshParam pCylinder2 {
+    }
+    MeshParam pCylinder3 {
+    }
+    MeshParam pCylinder6 {
+    }
+    MeshParam pCylinder7 {
+    }
+    MeshParam pPlane1 {
+    }
+    MeshParam pasted__SM_Truss_04 {
+    }
+    MeshParam pasted__pasted__pasted__closingPart3 {
+    }
+    MeshParam pasted__pasted__pasted__parts1 {
+    }
+    MeshParam pasted__polySurface105 {
+    }
+    MeshParam pasted__polySurface106 {
+    }
+    MeshParam pasted__polySurface119 {
+    }
+    MeshParam pasted__polySurface124 {
+    }
+    MeshParam pasted__polySurface169 {
+    }
+    MeshParam pasted__polySurface182 {
+    }
+    MeshParam pasted__polySurface97 {
+    }
+    MeshParam polySurface1 {
+    }
+    MeshParam polySurface3 {
+    }
+    MeshParam polySurface4 {
+    }
+    MeshParam polySurface5 {
+    }
+    MeshParam polySurface7 {
+    }
+    MeshParam polySurface8 {
+    }
+   }
+   Common TXOCommonClass "{6AAF03AE8346242E}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AAF03AE8346DBA2}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AAF03AE8346DA43}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AAF03AE8346DAFE}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AAF03AE8346DAC0}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AAF03AE8346DA84}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

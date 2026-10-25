@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "6AB31B5480246174"
+ components {
+  MeshObject "{6AB31B54E439EC43}" {
+   Object "{79AC9E729EC8E6E5}Models/Infrastructure/TunnelRockBig/SM_TunnelRockBig_20M_Var_01.xob"
+  }
+ }
+}

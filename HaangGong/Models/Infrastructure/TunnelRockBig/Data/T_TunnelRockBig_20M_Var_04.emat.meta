@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5658BA090CF5CF70}Models/Infrastructure/TunnelRockBig/Data/T_TunnelRockBig_20M_Var_04.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

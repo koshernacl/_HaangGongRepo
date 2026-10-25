@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8C8CB190F91B367F}HaangGongRocks/Materials/Grassy/SM_Rock_I_Mossy_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

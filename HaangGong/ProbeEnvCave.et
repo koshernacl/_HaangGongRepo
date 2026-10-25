@@ -1,0 +1,22 @@
+GameEnvironmentProbeEntity : "{94B6B47CDA125A62}Prefabs/Structures/Core/ProbeEnvCave_base.et" {
+ ID "58D2E24A8AAA7B24"
+ coords 9642.746 8.797 5436.926
+ {
+  $grp ProbeVolume {
+   {
+    ID "6AB31B5677474B4B"
+    coords 6.317 -1.498 22.626
+    Box BoundingVolume "{52AC89E0272CFE5F}" {
+     Size 9.895 7.721 29.848
+    }
+   }
+   {
+    ID "6AB31B567747D61D"
+    coords 1.731 -0.738 5.414
+    Box BoundingVolume "{52AC89E0335AE51C}" {
+     Size 14.609 8.515 37.774
+    }
+   }
+  }
+ }
+}

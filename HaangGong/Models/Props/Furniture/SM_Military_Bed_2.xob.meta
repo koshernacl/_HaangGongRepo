@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{CDD297494AD1E0D8}Models/Props/Furniture/SM_Military_Bed_2.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AB0C982FFFBE48F}" {
+     SourceMaterial "M_Military_Bed"
+     AssignedMaterial "{6C95D67C7EF3154F}Models/Props/Furniture/Data/M_Military_Bed.emat"
+    }
+    MaterialAssignClass "{6AB0C982FFFBE489}" {
+     SourceMaterial "M_Military_Bed_Grid"
+     AssignedMaterial "{5783242095002BF7}Models/Props/Furniture/Data/M_Military_Bed_Grid.emat"
+    }
+    MaterialAssignClass "{6AB0C982FFFBE487}" {
+     SourceMaterial "M_Military_Bed_Matress_with_Blanket"
+     AssignedMaterial "{536A303325ACF886}Models/Props/Furniture/Data/M_Military_Bed_Matress_with_Blanket.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Military_Bed_2 {
+    }
+   }
+   Common TXOCommonClass "{6AB0C982E380E541}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB0C982E380E50F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB0C982E380E5FB}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB0C982E380E5EA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB0C982E380E5DE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB0C982E380E5D3}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

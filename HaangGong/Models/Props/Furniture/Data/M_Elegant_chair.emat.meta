@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A8B77D7AFD69C2BF}Models/Props/Furniture/Data/M_Elegant_chair.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{9B0583C47CB0F15A}Models/Infrastructure/TunnelRockBig/SM_TunnelRockBig_10M_Var_02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AB31B54D417426E}" {
+     SourceMaterial "T_TunnelRockBig_10M_Var_01_And_02"
+     AssignedMaterial "{087F2F929C846EF2}Models/Infrastructure/TunnelRockBig/Data/T_TunnelRockBig_10M_Var_01_And_02.emat"
+    }
+   }
+   MeshParams {
+    MeshParam TunnelRockBig_10M_Var_02_LP {
+    }
+   }
+   Common TXOCommonClass "{6AB2D8BC293C4CB2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB2D8BC293C4F7F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB2D8BC293C4F6C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB2D8BC293C4F5F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB2D8BC293C4F52}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB2D8BC293C4F49}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

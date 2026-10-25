@@ -12,6 +12,15 @@ MetaFileClass {
     MeshParam SM_Rock_A {
     }
    }
+   GeometryParams {
+    GeometryParam UTM_Rock_A {
+     SurfaceProperties {
+      "{49D937A295B927C0}M_Rock_A.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
    Common TXOCommonClass "{6A84CB4E87E92881}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
    ApplicationVendor "Autodesk"

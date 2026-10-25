@@ -1,0 +1,4 @@
+ParticleEffectEntity : "{F87BDCA400309DB2}Prefabs/Particles/EnvironmentParticle_Base.et" {
+ ID "6530AD13A4C2F9E4"
+ EffectPath "{7916630A430AAD00}Particles/Enviroment/Water/Water_fall.ptc"
+}

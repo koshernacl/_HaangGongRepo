@@ -1,0 +1,30 @@
+GenericEntity {
+ ID "6A84CB5C733C28B9"
+ components {
+  MeshObject "{6A84CB4CF821D990}" {
+   Object "{A44D322241F440CF}HaangGongRocks/Mesh/SM_Rock_G.xob"
+   Materials {
+    MaterialAssignClass "{6AA105DE2D2B2D71}" {
+     SourceMaterial "M_Rock_G"
+     AssignedMaterial "{7BEFDDC8C907FA60}HaangGongRocks/Materials/Grassy/SM_Rock_G_Grassy.emat"
+    }
+    MaterialAssignClass "{6AA105DE2D2B2D5D}" {
+     SourceMaterial "MI_Rock_G"
+     AssignedMaterial "{7BEFDDC8C907FA60}HaangGongRocks/Materials/Grassy/SM_Rock_G_Grassy.emat"
+    }
+   }
+  }
+  RigidBody "{6AA0D35F9AA48C48}" {
+   Layers 0x1 0
+   ResponseIndex "Normal"
+   Geometries {
+    PhysicsModelGeometry "{6AB31B59D4D2C9C5}" {
+     LayerPreset "Rock"
+     Collider "UTM_Rock_G"
+    }
+   }
+   Static 1
+  }
+ }
+ coords -19.015 -5.54 -3.18
+}

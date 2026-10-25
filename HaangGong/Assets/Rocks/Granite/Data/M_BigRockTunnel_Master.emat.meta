@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{127C4F2FA5047D90}Assets/Rocks/Granite/Data/M_BigRockTunnel_Master.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
