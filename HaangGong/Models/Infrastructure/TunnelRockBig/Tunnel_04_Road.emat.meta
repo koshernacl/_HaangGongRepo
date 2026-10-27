@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D173015DDB0DC536}Models/Infrastructure/TunnelRockBig/Tunnel_04_Road.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

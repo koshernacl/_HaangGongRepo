@@ -11,9 +11,18 @@ MetaFileClass {
    MeshParams {
     MeshParam Remesh {
     }
+    MeshParam Sweep {
+    }
    }
    GeometryParams {
     GeometryParam UTM_Remesh {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Sweep {
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
      }
