@@ -10,9 +10,10 @@ MatPBRMulti {
   TilingU 25
   TilingV 20
  }
- DirtOpacity 0.8
+ DirtOpacity 0.64
  DirtLayerSharpness 30.01
- DirtColor 0.539 0.539 0.539 1
+ DirtColor 0.392 0.392 0.392 1
+ DirtRoughness 1.507
  DirtBCRMap "{29D7083F1CBC01B7}Assets/Rocks/Granite/Data/Granite_moss_02_BCR.edds"
  DirtMaskMap "{80AEFF0F4B810E3C}Assets/Rocks/Granite/Data/Granite_moss_02_MASK.edds"
  DirtUVTransform MatUVTransform "{042A6732E68CBEB9}" {
@@ -20,21 +21,25 @@ MatPBRMulti {
   TilingV 20
  }
  GlobalMCRMap "{9A463D5737C9D3B4}HaangGongRocks/Textures/T_Rock_D_AlbedoRoughness.edds"
- OverlayWhitePower 0.1
+ OverlayWhitePower 0.243
  MaskMap "{E550402A7CD25B80}HaangGongRocks/Textures/T_Rock_D_MASK_Mossy.edds"
- MaskBlueScale 1.985
+ MaskRedScale 2.721
+ MaskGreenScale 3.566
+ MaskBlueScale 0.441
  NormalPower 1.5
  GlobalNMOMap "{0E1D45B1E340172C}HaangGongRocks/Textures/T_Rock_D_NNMTAO.edds"
  TopDownProjectionEnable "Mask + World normal"
- TopDownProjectionStart 45
- TopDownProjectionAngleEnd 92.65
- TopDownProjectionPosition 0.588
+ TopDownProjectionStart 67.5
+ TopDownProjectionAngleEnd 116.47
+ TopDownProjectionPosition 0.051
+ TopDownProjectionContrast 1
  Enabled_4 1
- Color_4 0.133 0.198 0.123 1
- BCR_4 "{BA022D8750988896}HaangGongRocks/Textures/Rock053_4K-JPG_Color.edds"
- NMO_4 "{794098116F35B112}Assets/Rocks/Granite/Data/Granite_01_NMO.edds"
- MaskSharpness_4 2
- Mask_4 "{4B9C7CC56249C673}Assets/Rocks/Granite/Data/Granite_01_MASK.edds"
+ Color_4 0.607 0.691 0.575 1
+ BCR_4 "{6927291AAAA083F0}Assets/Rocks/Granite/Data/Granite_moss_01_BCR.edds"
+ NMO_4 "{110FB3ADC5CB5329}Assets/Rocks/Granite/Data/Granite_moss_02_NMO.edds"
+ MaskSharpness_4 0.735
+ Mask_4 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ MaskUVScale_4 0.369
  UVTransform_4 MatUVTransform "{042A6732F7C796DA}" {
   TilingU 25
   TilingV 20

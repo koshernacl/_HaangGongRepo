@@ -1,0 +1,24 @@
+GenericEntity {
+ ID "6AB927CC4BB74F02"
+ components {
+  MeshObject "{6AB927CC4BB74FFE}" {
+   Object "{4A59E333A8B19E2F}HaangGongRocks/Mesh/SM_Rock_E.xob"
+   Materials {
+    MaterialAssignClass "{6AB927C1E830A5C8}" {
+     SourceMaterial "M_Rock_E"
+     AssignedMaterial "{8F2A1DB4A968C298}HaangGongRocks/Materials/Barren/SM_Rock_E_Barren.emat"
+    }
+   }
+  }
+  RigidBody "{6AB927CC4BB78E7A}" {
+   Geometries {
+    PhysicsModelGeometry "{6AB927CC4BB78E7B}" {
+     LayerPreset "Rock"
+     Collider "UTM_Rock_E"
+    }
+   }
+   Static 1
+  }
+ }
+ coords 0 0 -45.026
+}

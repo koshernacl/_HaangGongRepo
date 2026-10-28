@@ -30,18 +30,19 @@ MatPBRMulti {
  GlobalNMOMap "{CFFF925BAD7E0225}HaangGongRocks/Textures/T_Rock_A_NNMTAO.edds"
  TopDownProjectionEnable "Mask + World normal"
  TopDownProjectionStart 67.5
- TopDownProjectionAngleEnd 92.65
- TopDownProjectionPosition 0.015
+ TopDownProjectionAngleEnd 116.47
+ TopDownProjectionPosition 0.051
  TopDownProjectionContrast 1
  Enabled_4 1
- Color_4 0.175 0.24 0.165 1
- BCR_4 "{BA022D8750988896}HaangGongRocks/Textures/Rock053_4K-JPG_Color.edds"
- NMO_4 "{794098116F35B112}Assets/Rocks/Granite/Data/Granite_01_NMO.edds"
- MaskSharpness_4 1.029
+ Color_4 0.607 0.691 0.575 1
+ BCR_4 "{6927291AAAA083F0}Assets/Rocks/Granite/Data/Granite_moss_01_BCR.edds"
+ NMO_4 "{110FB3ADC5CB5329}Assets/Rocks/Granite/Data/Granite_moss_02_NMO.edds"
+ MaskSharpness_4 0.735
  Mask_4 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ MaskUVScale_4 0.369
  UVTransform_4 MatUVTransform "{042A6732F7C796DA}" {
-  TilingU 25
-  TilingV 20
+  TilingU 5
+  TilingV 5
  }
  Metalness_4 0
  Enabled_3 1
