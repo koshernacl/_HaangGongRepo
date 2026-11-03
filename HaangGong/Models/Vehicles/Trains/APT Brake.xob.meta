@@ -1,0 +1,186 @@
+MetaFileClass {
+ Name "{BFECF6BA0CDEC364}Models/Vehicles/Trains/APT Brake.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ABD0511DB058F75}" {
+     SourceMaterial "Roof_Black"
+     AssignedMaterial "{821A9B17CD0B216C}Models/Vehicles/Trains/Data/Roof_Black.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F69}" {
+     SourceMaterial "Wheels"
+     AssignedMaterial "{DEF2303A4236FCC2}Models/Vehicles/Trains/Data/Wheels.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F67}" {
+     SourceMaterial "Cream"
+     AssignedMaterial "{B6E627A9F957CF9F}Models/Vehicles/Trains/Data/Cream.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F62}" {
+     SourceMaterial "Ceiling_Light"
+     AssignedMaterial "{3B5F96762E1CC69D}Models/Vehicles/Trains/Data/Ceiling_Light.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F61}" {
+     SourceMaterial "Data_Plate"
+     AssignedMaterial "{C018006EFF06AEB7}Models/Vehicles/Trains/Data/Data_Plate.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F5C}" {
+     SourceMaterial "White"
+     AssignedMaterial "{D600CEE578BB4216}Models/Vehicles/Trains/Data/White.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F5A}" {
+     SourceMaterial "Carpet"
+     AssignedMaterial "{622CC1533B08310C}Models/Vehicles/Trains/Data/Carpet.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F58}" {
+     SourceMaterial "Live_Wires"
+     AssignedMaterial "{5DF9FFCE6570F45B}Models/Vehicles/Trains/Data/Live_Wires.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F56}" {
+     SourceMaterial "Red"
+     AssignedMaterial "{5714F213D497E034}Models/Vehicles/Trains/Data/Red.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F52}" {
+     SourceMaterial "Body"
+     AssignedMaterial "{87B59A7ED711B5A4}Models/Vehicles/Trains/Data/Body.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F4E}" {
+     SourceMaterial "Button_Silver"
+     AssignedMaterial "{37203E59BEF6893D}Models/Vehicles/Trains/Data/Button_Silver.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F4D}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{BB790E51EA5D7CA7}Models/Vehicles/Trains/Data/Glass.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F4B}" {
+     SourceMaterial "Frosted"
+     AssignedMaterial "{A78D5F13024F2286}Models/Vehicles/Trains/Data/Frosted.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F49}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{875C82467E818F75}Models/Vehicles/Trains/Data/Material.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F45}" {
+     SourceMaterial "Yellow"
+     AssignedMaterial "{D7C1B1537066799F}Models/Vehicles/Trains/Data/Yellow.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F43}" {
+     SourceMaterial "Black_Plastic"
+     AssignedMaterial "{5D723BF36B88BFFC}Models/Vehicles/Trains/Data/Black_Plastic.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F3F}" {
+     SourceMaterial "Seats"
+     AssignedMaterial "{80F44C285047B732}Models/Vehicles/Trains/Data/Seats.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F3D}" {
+     SourceMaterial "Cream_Clean"
+     AssignedMaterial "{AAE690AB7F2B9144}Models/Vehicles/Trains/Data/Cream_Clean.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F38}" {
+     SourceMaterial "Orange"
+     AssignedMaterial "{F8C808915409031D}Models/Vehicles/Trains/Data/Orange.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F35}" {
+     SourceMaterial "Tables"
+     AssignedMaterial "{83700591E9FBDD41}Models/Vehicles/Trains/Data/Tables.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F2E}" {
+     SourceMaterial "Silver_Gold"
+     AssignedMaterial "{CAE97D74847809EF}Models/Vehicles/Trains/Data/Silver_Gold.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F2D}" {
+     SourceMaterial "Red_Pipe"
+     AssignedMaterial "{FF36FA1317AA6DAA}Models/Vehicles/Trains/Data/Red_Pipe.emat"
+    }
+    MaterialAssignClass "{6ABD0511DB058F2B}" {
+     SourceMaterial "Roof_Grey"
+     AssignedMaterial "{CE5FCB3EFF1D3BAF}Models/Vehicles/Trains/Data/Roof_Grey.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Bogie {
+    }
+    MeshParam "Bogie.001" {
+    }
+    MeshParam "Botton Panels" {
+    }
+    MeshParam Braces {
+    }
+    MeshParam "Ceiling Lights" {
+    }
+    MeshParam "Data Plate" {
+    }
+    MeshParam "Interior Walls" {
+    }
+    MeshParam "Live Wires" {
+    }
+    MeshParam "Live Wires.001" {
+    }
+    MeshParam "Main Body" {
+    }
+    MeshParam Number {
+    }
+    MeshParam "Rear Door" {
+    }
+    MeshParam "Rear Door Surround" {
+    }
+    MeshParam "Rear Doors" {
+    }
+    MeshParam "Roof Racks" {
+    }
+    MeshParam Seats {
+    }
+    MeshParam "Side Vents" {
+    }
+    MeshParam Sockets {
+    }
+    MeshParam Step {
+    }
+    MeshParam "Step.001" {
+    }
+    MeshParam Tables {
+    }
+    MeshParam "This gap may close" {
+    }
+    MeshParam "Undercarriage.001" {
+    }
+    MeshParam "Undercarriage.002" {
+    }
+    MeshParam Wheels {
+    }
+    MeshParam "Wheels Rear" {
+    }
+    MeshParam "Wires and Pipes.001" {
+    }
+    MeshParam "Wires and Pipes.002" {
+    }
+    MeshParam "Yellow Strip" {
+    }
+   }
+   Common TXOCommonClass "{6ABD0511DADF195D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ABD0511DADF0CD4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ABD0511DADF0F74}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ABD0511DADF0F31}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ABD0511DADF0FF3}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ABD0511DADF0FB2}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

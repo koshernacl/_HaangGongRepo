@@ -1,0 +1,480 @@
+MetaFileClass {
+ Name "{DC42E13B46DF092E}Models/Structures/Airport/SM_AirportTerminal_HangingScreens.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ABD0517E4696F99}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{618F18934BC836E9}Models/Structures/Airport/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam polySurface13630 {
+    }
+    MeshParam polySurface13631 {
+    }
+    MeshParam polySurface13632 {
+    }
+    MeshParam polySurface13633 {
+    }
+    MeshParam polySurface13634 {
+    }
+    MeshParam polySurface13635 {
+    }
+    MeshParam polySurface13636 {
+    }
+    MeshParam polySurface13637 {
+    }
+    MeshParam polySurface13638 {
+    }
+    MeshParam polySurface13639 {
+    }
+    MeshParam polySurface13640 {
+    }
+    MeshParam polySurface13641 {
+    }
+    MeshParam polySurface13642 {
+    }
+    MeshParam polySurface13643 {
+    }
+    MeshParam polySurface13644 {
+    }
+    MeshParam polySurface13645 {
+    }
+    MeshParam polySurface13646 {
+    }
+    MeshParam polySurface13647 {
+    }
+    MeshParam polySurface13648 {
+    }
+    MeshParam polySurface13649 {
+    }
+    MeshParam polySurface13650 {
+    }
+    MeshParam polySurface13651 {
+    }
+    MeshParam polySurface13652 {
+    }
+    MeshParam polySurface13653 {
+    }
+    MeshParam polySurface13654 {
+    }
+    MeshParam polySurface13655 {
+    }
+    MeshParam polySurface13656 {
+    }
+    MeshParam polySurface13657 {
+    }
+    MeshParam polySurface13658 {
+    }
+    MeshParam polySurface13659 {
+    }
+    MeshParam polySurface13660 {
+    }
+    MeshParam polySurface13661 {
+    }
+    MeshParam polySurface13662 {
+    }
+    MeshParam polySurface13663 {
+    }
+    MeshParam polySurface13664 {
+    }
+    MeshParam polySurface13665 {
+    }
+    MeshParam polySurface13666 {
+    }
+    MeshParam polySurface13667 {
+    }
+    MeshParam polySurface13668 {
+    }
+    MeshParam polySurface13669 {
+    }
+    MeshParam polySurface13670 {
+    }
+    MeshParam polySurface13671 {
+    }
+    MeshParam polySurface13672 {
+    }
+    MeshParam polySurface13673 {
+    }
+    MeshParam polySurface13674 {
+    }
+    MeshParam polySurface13675 {
+    }
+    MeshParam polySurface13676 {
+    }
+    MeshParam polySurface13677 {
+    }
+    MeshParam polySurface13678 {
+    }
+    MeshParam polySurface13679 {
+    }
+    MeshParam polySurface13680 {
+    }
+    MeshParam polySurface13681 {
+    }
+    MeshParam polySurface13682 {
+    }
+    MeshParam polySurface13683 {
+    }
+    MeshParam polySurface13684 {
+    }
+    MeshParam polySurface13685 {
+    }
+    MeshParam polySurface13686 {
+    }
+    MeshParam polySurface13687 {
+    }
+    MeshParam polySurface13688 {
+    }
+    MeshParam polySurface13689 {
+    }
+    MeshParam polySurface13690 {
+    }
+    MeshParam polySurface13691 {
+    }
+    MeshParam polySurface13692 {
+    }
+    MeshParam polySurface13693 {
+    }
+    MeshParam polySurface13694 {
+    }
+    MeshParam polySurface13695 {
+    }
+    MeshParam polySurface13696 {
+    }
+    MeshParam polySurface13697 {
+    }
+    MeshParam polySurface13698 {
+    }
+    MeshParam polySurface13699 {
+    }
+    MeshParam polySurface13700 {
+    }
+    MeshParam polySurface13701 {
+    }
+    MeshParam polySurface13702 {
+    }
+    MeshParam polySurface13703 {
+    }
+    MeshParam polySurface13704 {
+    }
+    MeshParam polySurface13705 {
+    }
+    MeshParam polySurface13706 {
+    }
+    MeshParam polySurface13707 {
+    }
+    MeshParam polySurface13708 {
+    }
+    MeshParam polySurface13709 {
+    }
+    MeshParam polySurface13710 {
+    }
+    MeshParam polySurface13711 {
+    }
+    MeshParam polySurface13712 {
+    }
+    MeshParam polySurface13713 {
+    }
+    MeshParam polySurface13714 {
+    }
+    MeshParam polySurface13715 {
+    }
+    MeshParam polySurface13716 {
+    }
+    MeshParam polySurface13717 {
+    }
+    MeshParam polySurface13718 {
+    }
+    MeshParam polySurface13719 {
+    }
+    MeshParam polySurface13720 {
+    }
+    MeshParam polySurface13721 {
+    }
+    MeshParam polySurface13722 {
+    }
+    MeshParam polySurface13723 {
+    }
+    MeshParam polySurface13724 {
+    }
+    MeshParam polySurface13725 {
+    }
+    MeshParam polySurface13726 {
+    }
+    MeshParam polySurface13727 {
+    }
+    MeshParam polySurface13728 {
+    }
+    MeshParam polySurface13729 {
+    }
+    MeshParam polySurface13730 {
+    }
+    MeshParam polySurface13731 {
+    }
+    MeshParam polySurface13732 {
+    }
+    MeshParam polySurface13733 {
+    }
+    MeshParam polySurface13734 {
+    }
+    MeshParam polySurface13735 {
+    }
+    MeshParam polySurface13736 {
+    }
+    MeshParam polySurface13737 {
+    }
+    MeshParam polySurface13738 {
+    }
+    MeshParam polySurface13739 {
+    }
+    MeshParam polySurface13740 {
+    }
+    MeshParam polySurface13741 {
+    }
+    MeshParam polySurface13742 {
+    }
+    MeshParam polySurface13743 {
+    }
+    MeshParam polySurface13744 {
+    }
+    MeshParam polySurface13745 {
+    }
+    MeshParam polySurface13746 {
+    }
+    MeshParam polySurface13747 {
+    }
+    MeshParam polySurface13748 {
+    }
+    MeshParam polySurface13749 {
+    }
+    MeshParam polySurface13750 {
+    }
+    MeshParam polySurface13751 {
+    }
+    MeshParam polySurface13752 {
+    }
+    MeshParam polySurface13753 {
+    }
+    MeshParam polySurface13754 {
+    }
+    MeshParam polySurface13755 {
+    }
+    MeshParam polySurface13756 {
+    }
+    MeshParam polySurface13757 {
+    }
+    MeshParam polySurface13758 {
+    }
+    MeshParam polySurface13759 {
+    }
+    MeshParam polySurface13760 {
+    }
+    MeshParam polySurface13761 {
+    }
+    MeshParam polySurface13762 {
+    }
+    MeshParam polySurface13763 {
+    }
+    MeshParam polySurface13764 {
+    }
+    MeshParam polySurface13765 {
+    }
+    MeshParam polySurface13766 {
+    }
+    MeshParam polySurface13767 {
+    }
+    MeshParam polySurface13768 {
+    }
+    MeshParam polySurface13769 {
+    }
+    MeshParam polySurface13770 {
+    }
+    MeshParam polySurface13771 {
+    }
+    MeshParam polySurface13772 {
+    }
+    MeshParam polySurface13773 {
+    }
+    MeshParam polySurface13774 {
+    }
+    MeshParam polySurface13775 {
+    }
+    MeshParam polySurface13776 {
+    }
+    MeshParam polySurface13777 {
+    }
+    MeshParam polySurface13778 {
+    }
+    MeshParam polySurface13779 {
+    }
+    MeshParam polySurface13780 {
+    }
+    MeshParam polySurface13781 {
+    }
+    MeshParam polySurface13782 {
+    }
+    MeshParam polySurface13783 {
+    }
+    MeshParam polySurface13784 {
+    }
+    MeshParam polySurface13785 {
+    }
+    MeshParam polySurface13786 {
+    }
+    MeshParam polySurface13787 {
+    }
+    MeshParam polySurface13788 {
+    }
+    MeshParam polySurface13789 {
+    }
+    MeshParam polySurface13790 {
+    }
+    MeshParam polySurface13791 {
+    }
+    MeshParam polySurface13792 {
+    }
+    MeshParam polySurface13793 {
+    }
+    MeshParam polySurface13794 {
+    }
+    MeshParam polySurface13795 {
+    }
+    MeshParam polySurface13796 {
+    }
+    MeshParam polySurface13797 {
+    }
+    MeshParam polySurface13798 {
+    }
+    MeshParam polySurface13799 {
+    }
+    MeshParam polySurface13800 {
+    }
+    MeshParam polySurface13801 {
+    }
+    MeshParam polySurface13802 {
+    }
+    MeshParam polySurface13803 {
+    }
+    MeshParam polySurface13804 {
+    }
+    MeshParam polySurface13805 {
+    }
+    MeshParam polySurface13806 {
+    }
+    MeshParam polySurface13807 {
+    }
+    MeshParam polySurface13808 {
+    }
+    MeshParam polySurface13809 {
+    }
+    MeshParam polySurface13810 {
+    }
+    MeshParam polySurface13811 {
+    }
+    MeshParam polySurface13812 {
+    }
+    MeshParam polySurface13813 {
+    }
+    MeshParam polySurface13814 {
+    }
+    MeshParam polySurface13815 {
+    }
+    MeshParam polySurface13816 {
+    }
+    MeshParam polySurface13817 {
+    }
+    MeshParam polySurface13818 {
+    }
+    MeshParam polySurface13819 {
+    }
+    MeshParam polySurface13820 {
+    }
+    MeshParam polySurface13821 {
+    }
+    MeshParam polySurface13822 {
+    }
+    MeshParam polySurface13823 {
+    }
+    MeshParam polySurface13824 {
+    }
+    MeshParam polySurface13825 {
+    }
+    MeshParam polySurface13826 {
+    }
+    MeshParam polySurface13827 {
+    }
+    MeshParam polySurface13828 {
+    }
+    MeshParam polySurface13829 {
+    }
+    MeshParam polySurface13830 {
+    }
+    MeshParam polySurface13831 {
+    }
+    MeshParam polySurface13832 {
+    }
+    MeshParam polySurface13833 {
+    }
+    MeshParam polySurface13834 {
+    }
+    MeshParam polySurface13835 {
+    }
+    MeshParam polySurface13836 {
+    }
+    MeshParam polySurface13837 {
+    }
+    MeshParam polySurface13838 {
+    }
+    MeshParam polySurface13839 {
+    }
+    MeshParam polySurface13840 {
+    }
+    MeshParam polySurface13841 {
+    }
+    MeshParam polySurface13842 {
+    }
+    MeshParam polySurface13843 {
+    }
+    MeshParam polySurface13844 {
+    }
+    MeshParam polySurface13845 {
+    }
+    MeshParam polySurface13846 {
+    }
+    MeshParam polySurface13847 {
+    }
+    MeshParam polySurface13848 {
+    }
+    MeshParam polySurface13849 {
+    }
+   }
+   Common TXOCommonClass "{6ABD0517EBB5F962}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ABD0517EBB5F923}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ABD0517EBB5F90E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ABD0517EBB5F9FE}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ABD0517EBB5F9F5}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ABD0517EBB5F9E8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

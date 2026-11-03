@@ -2,7 +2,7 @@ MatPBRMulti {
  Color 0.956 0.92 0.889 1
  SurfaceProperties "{D745FD8FC67DB26A}Common/Materials/Game/stone.gamemat"
  Specular 0.706 0.706 0.706 1
- VFXMap "{990C0B3569EF814C}Assets/Rocks/Granite/Data/GraniteCliff_01_VFX.edds"
+ VFXMap "{A074608E879A25CB}Assets/_SharedData/DetailMask/ST_Dirt_01_Mask1.edds"
  MetalnessScale 0
  MudColor 0.533 0.533 0.533 1
  MudMetalness 0
@@ -20,7 +20,7 @@ MatPBRMulti {
   TilingU 25
   TilingV 20
  }
- GlobalMCRMap "{4D2F2140C364279F}HaangGongRocks/Textures/T_Rock_A_AlbedoRoughness.edds"
+ GlobalMCRMap "{1B25C111F7327EF3}HaangGongRocks/Textures/T_Rock_J_AlbedoRoughness.edds"
  OverlayWhitePower 0.243
  MaskMap "{F01E34F8F9A49861}HaangGongRocks/Textures/T_Rock_J_MASK_Mossy.edds"
  MaskRedScale 2.721

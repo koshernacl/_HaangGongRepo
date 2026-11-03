@@ -1,0 +1,108 @@
+MetaFileClass {
+ Name "{849BA28E8032EBE6}Models/Structures/Airport/SM_AirportTerminal_PillarScreens.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ABD0517E088A31C}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{618F18934BC836E9}Models/Structures/Airport/Data/lambert1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam polySurface2532 {
+    }
+    MeshParam polySurface2533 {
+    }
+    MeshParam polySurface2534 {
+    }
+    MeshParam polySurface2535 {
+    }
+    MeshParam polySurface2536 {
+    }
+    MeshParam polySurface2537 {
+    }
+    MeshParam polySurface2538 {
+    }
+    MeshParam polySurface2539 {
+    }
+    MeshParam polySurface2540 {
+    }
+    MeshParam polySurface2541 {
+    }
+    MeshParam polySurface2542 {
+    }
+    MeshParam polySurface2543 {
+    }
+    MeshParam polySurface2544 {
+    }
+    MeshParam polySurface2545 {
+    }
+    MeshParam polySurface2546 {
+    }
+    MeshParam polySurface2547 {
+    }
+    MeshParam polySurface2548 {
+    }
+    MeshParam polySurface2549 {
+    }
+    MeshParam polySurface2550 {
+    }
+    MeshParam polySurface2551 {
+    }
+    MeshParam polySurface2552 {
+    }
+    MeshParam polySurface2553 {
+    }
+    MeshParam polySurface2554 {
+    }
+    MeshParam polySurface2555 {
+    }
+    MeshParam polySurface2556 {
+    }
+    MeshParam polySurface2557 {
+    }
+    MeshParam polySurface2558 {
+    }
+    MeshParam polySurface2559 {
+    }
+    MeshParam polySurface2560 {
+    }
+    MeshParam polySurface2561 {
+    }
+    MeshParam polySurface2562 {
+    }
+    MeshParam polySurface2563 {
+    }
+    MeshParam polySurface2564 {
+    }
+    MeshParam polySurface2565 {
+    }
+   }
+   Common TXOCommonClass "{6ABD0517EBAE4297}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ABD0517EBAE7D5F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ABD0517EBAE7D4D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ABD0517EBAE7D3E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ABD0517EBAE7D35}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ABD0517EBAE7D29}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
