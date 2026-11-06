@@ -1,0 +1,82 @@
+MetaFileClass {
+ Name "{32B970A3B49731E3}Development/PARKING_GARAGE_END_LEFT.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ACB582E3EC57E69}" {
+     SourceMaterial "Conecrete"
+     AssignedMaterial "{CC149274C1155F2D}Development/Data/Conecrete.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E3C}" {
+     SourceMaterial "Tiles_orange"
+     AssignedMaterial "{7C4E7386FCABC6B2}Development/Data/Tiles_orange.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E35}" {
+     SourceMaterial "Metall_gray"
+     AssignedMaterial "{1F964A733DC5A956}Development/Data/Metall_gray.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E33}" {
+     SourceMaterial "Tiles_ral_7024"
+     AssignedMaterial "{8FF0FFC4B54E3B35}Development/Data/Tiles_ral_7024.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E29}" {
+     SourceMaterial "Stucco_white"
+     AssignedMaterial "{9AC8C5ACE6759EB9}Development/Data/Stucco_white.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E24}" {
+     SourceMaterial "Stucco_gray"
+     AssignedMaterial "{6366ADAED00D2C40}Development/Data/Stucco_gray.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E22}" {
+     SourceMaterial "Frames_plastik"
+     AssignedMaterial "{D4D9E8A6278F9DAF}Development/Data/Frames_plastik.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E1A}" {
+     SourceMaterial "Material_#38"
+     AssignedMaterial "{D33C0B88BBD5E4A1}Development/Data/Material_#38.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E18}" {
+     SourceMaterial "Asphalt"
+     AssignedMaterial "{A9FC977B3FAE749E}Development/Data/Asphalt.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E0A}" {
+     SourceMaterial "roof"
+     AssignedMaterial "{89A541728C0DFA1B}Development/Data/roof.emat"
+    }
+    MaterialAssignClass "{6ACB582E3EC57E06}" {
+     SourceMaterial "Keramogranit"
+     AssignedMaterial "{D04DF1935D26082D}Development/Data/Keramogranit.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Line011 {
+    }
+   }
+   Common TXOCommonClass "{6ACB582E20527E05}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ACB582E20527EC8}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ACB582E20527EB6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ACB582E20527EA8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ACB582E20527E9F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ACB582E20527E93}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
