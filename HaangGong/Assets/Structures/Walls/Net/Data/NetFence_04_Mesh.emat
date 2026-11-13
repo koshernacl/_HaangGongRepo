@@ -1,0 +1,24 @@
+MatPBRBasic {
+ Color 0.386 0.373 0.367 1
+ SpecularIBL 0.352 0.352 0.352 1
+ Diffuse 0.533 0.506 0.483 1
+ Cull none
+ OccludeRain 0
+ OccludeWetness 0
+ NoDecals 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ SpecularMul 0.476
+ AlphaTest 1.5
+ AlphaMul 2.3
+ BlendMode AlphaBlend
+ CrossFade 0
+ MetalnessScale 0.7
+ BCRMap "{609602E2672C0F4C}Assets/_SharedData/Metal/ST_Steel_Net_02_BCR.edds"
+ OpacityMap "{D0B3F2A73E6C75C8}Assets/_SharedData/Metal/ST_Steel_Net_02_mips_A.edds"
+ NormalPower 2
+ NMOMap "{584EB970BE5B5DD2}Assets/_SharedData/Metal/ST_Steel_Net_02_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{598C749A13D1451A}" {
+  TilingU 350
+  TilingV 450
+ }
+}

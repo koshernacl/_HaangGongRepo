@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6706F4D0D05007F5}Models/Industrial/FactoryUA/Materials/M_Bags_01_ANFO.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

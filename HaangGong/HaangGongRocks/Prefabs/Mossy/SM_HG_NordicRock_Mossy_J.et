@@ -4,9 +4,9 @@ GenericEntity {
   MeshObject "{6A84CB4CF94E7A54}" {
    Object "{32DC7F19911E04D9}HaangGongRocks/Mesh/SM_Rock_J.xob"
    Materials {
-    MaterialAssignClass "{6AB927C25D0C4B53}" {
+    MaterialAssignClass "{6ACCE48BB0D187D2}" {
      SourceMaterial "M_Rock_J"
-     AssignedMaterial "{F73B15BF06841050}HaangGongRocks/Materials/Mossy/SM_Rock_J_Mossy_2.emat"
+     AssignedMaterial "{27A5FF3B4E8FDB2D}HaangGongRocks/Materials/Mossy/SM_Rock_J_Mossy_2_2.emat"
     }
    }
   }

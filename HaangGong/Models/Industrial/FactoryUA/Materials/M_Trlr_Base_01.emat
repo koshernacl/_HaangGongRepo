@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{097498461B2064F9}Models/Industrial/FactoryUA/FactoryUATextures/T_Trlr_Base_01_D.edds"
+ NMOMap "{8DF48E2433E77648}Models/Industrial/FactoryUA/FactoryUATextures/T_Trlr_Base_01_N.edds"
+}

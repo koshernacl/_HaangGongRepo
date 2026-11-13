@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C3FC6B3BA91BB90A}Assets/Structures/Walls/Net/Data/NetFence_04_Mesh.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,5 +1,5 @@
 TerrainMaterial {
- Color 0.154 0.214 0.215 1
+ Color 0.415 0.415 0.415 1
  Diffuse 1 1 1 1
  SurfaceProperties "{6ADE4EF6A8AD9019}Common/Materials/Game/gravel.gamemat"
  BCRMap "{A63E46947BDE99D5}Terrains/Common/Surfaces/Data/Debris_Rock_01_BCR.edds"

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8CA0E7091A9B7AA6}HaangGongRocks/Prefabs/Barren/SM_HG_NordicRock_Barren_G_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

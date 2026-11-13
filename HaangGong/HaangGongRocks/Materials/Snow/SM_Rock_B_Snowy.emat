@@ -1,0 +1,81 @@
+MatPBRMulti {
+ Color 0.956 0.92 0.889 1
+ SurfaceProperties "{D745FD8FC67DB26A}Common/Materials/Game/stone.gamemat"
+ Specular 0.706 0.706 0.706 1
+ GlobalLayerAngleStart 34.41
+ GlobalLayerPosition 0.691
+ VFXMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ MetalnessScale 0
+ MudColor 0.533 0.533 0.533 1
+ MudMetalness 0
+ MudUVTransform MatUVTransform "{042A673281BEEECE}" {
+  TilingU 25
+  TilingV 20
+ }
+ DirtOpacity 0.46
+ DirtLayerSharpness 13.681
+ DirtColor 0.639 0.579 0.45 1
+ DirtRoughness 1.507
+ DirtBCRMap "{29D7083F1CBC01B7}Assets/Rocks/Granite/Data/Granite_moss_02_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ DirtUVTransform MatUVTransform "{042A6732E68CBEB9}" {
+  TilingU 25
+  TilingV 20
+ }
+ GlobalMCRMap "{C1A78A14F7A699F7}HaangGongRocks/Textures/T_Rock_B_AlbedoRoughness.edds"
+ OverlayWhitePower 0.243
+ MaskMap "{0036321138CB5537}HaangGongRocks/Textures/T_Rock_B_MASK_Mossy.edds"
+ MaskRedScale 2.721
+ MaskGreenScale 3.566
+ MaskBlueScale 0.441
+ NormalPower 1.5
+ GlobalNMOMap "{8F5E20FD976BF122}HaangGongRocks/Textures/T_Rock_B_NNMTAO.edds"
+ TopDownProjectionEnable "Mask + World normal"
+ TopDownProjectionStart 64.85
+ TopDownProjectionAngleEnd 92.65
+ TopDownProjectionPosition 0.051
+ TopDownProjectionContrast 1
+ Enabled_4 1
+ BCR_4 "{5B59A12DBA60BE8D}Assets/_SharedData/Concrete/ST_Concrete_Clean_02_BCR.edds"
+ NMO_4 "{110FB3ADC5CB5329}Assets/Rocks/Granite/Data/Granite_moss_02_NMO.edds"
+ MaskSharpness_4 0.221
+ Mask_4 "{0DC0CF2664DE6DE5}Assets/_SharedData/DetailMask/ST_Scratch_01_Mask1.edds"
+ MaskUVScale_4 0.369
+ UVTransform_4 MatUVTransform "{042A6732F7C796DA}" {
+  TilingU 25
+  TilingV 20
+ }
+ Metalness_4 0
+ Enabled_3 1
+ BCR_3 "{93550F53CF86DDA6}Assets/_SharedData/Asphalt/ST_Asphalt_01_BCR.edds"
+ NMO_3 "{4650BB3A40425B97}Assets/Rocks/Granite/Data/Granite_05_NMO.edds"
+ MaskSharpness_3 3.75
+ Mask_3 "{EDBC56194C78A396}Assets/Rocks/Granite/Data/Granite_05_MASK.edds"
+ UVTransform_3 MatUVTransform "{042A6732DD040915}" {
+  TilingU 25
+  TilingV 20
+ }
+ Metalness_3 0
+ Enabled_2 1
+ Color_2 0.328 0.328 0.328 1
+ BCR_2 "{016802A6005E61CB}Assets/Rocks/Granite/Data/Granite_02_BCR.edds"
+ NMO_2 "{39B0B934D9293355}Assets/Rocks/Granite/Data/Granite_02_NMO.edds"
+ MaskSharpness_2 1.174
+ MaskOffset_2 0.349
+ Mask_2 "{EDBC56194C78A396}Assets/Rocks/Granite/Data/Granite_05_MASK.edds"
+ UVTransform_2 MatUVTransform "{042A6732DB109C64}" {
+  TilingU 25
+  TilingV 20
+ }
+ DetNormal_2 1.5
+ Metalness_2 0
+ Color_1 0.262 0.262 0.262 1
+ BCR_1 "{C1A78A14F7A699F7}HaangGongRocks/Textures/T_Rock_B_AlbedoRoughness.edds"
+ NMO_1 "{8F5E20FD976BF122}HaangGongRocks/Textures/T_Rock_B_NNMTAO.edds"
+ UVTransform_1 MatUVTransform "{042A6732D0446387}" {
+  TilingU 25
+  TilingV 20
+ }
+ Roughness_1 2
+ Metalness_1 0
+}

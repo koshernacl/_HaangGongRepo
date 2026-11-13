@@ -1,11 +1,11 @@
 MatWaterPool {
- Color 0.03 0.087 0.065 1
+ Color 0.03 0.125 0.085 1
  Diffuse 1 1 1 1
  ZEnable 0
  ZWrite 0
  Cull none
  SurfaceProperties "{B4E63D2CA999C331}Common/Materials/Game/water.gamemat"
- CoastColor 0.06 0.304 0.254 0
+ CoastColor 0.359 0.652 0.561 0
  NormalMap "{6FD571B76D28FB58}Terrains/Common/Water/waterNormal.edds"
  NormalPowerMin 0
  NormalPowerMax 0.25

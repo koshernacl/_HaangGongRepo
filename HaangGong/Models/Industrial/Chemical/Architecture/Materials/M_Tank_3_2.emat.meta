@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{66D8B8BE0753404E}Models/Industrial/Chemical/Architecture/Materials/M_Tank_3_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

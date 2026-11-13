@@ -1,0 +1,8 @@
+MatPBRBasic {
+ DiffuseIBL 0.184 0.184 0.184 1
+ SpecularIBL 0 0 0 1
+ Specular 0.002 0.002 0.002 1
+ RoughnessScale 4.301
+ BCRMap "{3331211C4D320726}Models/Industrial/FactoryUA/FactoryUATextures/T_Bags_01_AlbedoRoughness.edds"
+ NMOMap "{67604CA0EF0D4B52}Models/Industrial/FactoryUA/FactoryUATextures/T_Bags_01_N.edds"
+}

@@ -1,0 +1,51 @@
+MetaFileClass {
+ Name "{33D9B3C4F2956919}HaangGongRocks/Mesh/SM_HG_SmallRock_04.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ACD701A3FD62421}" {
+     SourceMaterial "T_HG_SmallRocks_Set_03"
+     AssignedMaterial "{2B4B96E5C6CCAAFC}HaangGongRocks/Mesh/Data/T_HG_SmallRocks_Set_03.emat"
+    }
+   }
+   MeshParams {
+    MeshParam HG_SmallRock_04 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_HG_SmallRock_04 {
+     SurfaceProperties {
+      "{573D1A9E415C38E5}T_HG_SmallRocks_Set_03.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6ACD701A3E56AF3F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ACD701A3E56AFFF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ACD701A3E56AFD4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ACD701A3E56AFC1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ACD701A3E56AFAE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ACD701A3E56AFA0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

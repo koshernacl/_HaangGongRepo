@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8D4DB6ACAC939BC7}Models/Industrial/FactoryUA/Materials/M_GasTanker.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

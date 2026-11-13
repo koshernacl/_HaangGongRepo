@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C54D15AAE038BFBB}Models/Industrial/Chemical/Textures/T_Tank_1_2_D.edds"
+ NMOMap "{41CD03C8C8FFAD0A}Models/Industrial/Chemical/Textures/T_Tank_1_2_N.edds"
+}

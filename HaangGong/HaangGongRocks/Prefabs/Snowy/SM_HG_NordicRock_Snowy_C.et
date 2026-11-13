@@ -1,0 +1,25 @@
+GenericEntity {
+ ID "6AB927CC4BB98649"
+ components {
+  MeshObject "{6AB927CC4BB98645}" {
+   Object "{3A9471EA3A95CB9C}HaangGongRocks/Mesh/SM_Rock_C.xob"
+   Materials {
+    MaterialAssignClass "{6ACD70189CFF5321}" {
+     SourceMaterial "M_Rock_C"
+     AssignedMaterial "{D7CD889B51B3D40E}HaangGongRocks/Materials/Snow/SM_Rock_C_Snowy.emat"
+    }
+   }
+  }
+  RigidBody "{6AB927CC4BB98635}" {
+   Layers 0x1 0
+   Geometries {
+    PhysicsModelGeometry "{6AB927CC4BB98632}" {
+     LayerPreset "Rock"
+     Collider "UTM_Rock_C"
+    }
+   }
+   Static 1
+  }
+ }
+ coords -19.015 -5.54 -16.39
+}

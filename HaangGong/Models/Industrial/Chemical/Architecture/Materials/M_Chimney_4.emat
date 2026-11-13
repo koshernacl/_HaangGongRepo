@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{859F0A7E7045ADE6}Models/Industrial/Chemical/Textures/T_Chimney_04_D.edds"
+ NMOMap "{011F1C1C5882BF57}Models/Industrial/Chemical/Textures/T_Chimney_04_N.edds"
+}

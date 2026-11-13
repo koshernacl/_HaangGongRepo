@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{7C4A7C7716420994}Models/Industrial/Chemical/Textures/T_TrussStructure_D.edds"
+ NMOMap "{F8CA6A153E851B25}Models/Industrial/Chemical/Textures/T_TrussStructure_N.edds"
+}

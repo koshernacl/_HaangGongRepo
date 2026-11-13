@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{8A0CEABB4DA7CB16}Models/Industrial/Chemical/Textures/T_Ladders_Rails_D.edds"
+ NMOMap "{0E8CFCD96560D9A7}Models/Industrial/Chemical/Textures/T_Ladders_Rails_N.edds"
+}

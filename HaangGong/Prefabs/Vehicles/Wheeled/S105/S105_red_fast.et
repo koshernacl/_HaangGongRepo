@@ -32,6 +32,7 @@ Vehicle : "{8EB38BBD860DA06E}Prefabs/Vehicles/Wheeled/S105/S105_lightblue.et" {
     Axles {
      Axle "{4D8B26DF957A8E1C}" {
       Wheel Wheel "{4D8B26DFFE211745}" {
+       Parent ""
        BrakeTorque 1550
       }
       Tyre Tyre "{4D8B26DFFD85E58F}" {

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{FDA94654467A8EC8}Models/Industrial/FactoryUA/FactoryUATextures/T_Gastanker_01_D.edds"
+ NMOMap "{792950366EBD9C79}Models/Industrial/FactoryUA/FactoryUATextures/T_Gastanker_01_N.edds"
+}
