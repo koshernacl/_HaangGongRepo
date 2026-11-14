@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{48F03672A7096032}Models/Industrial/IndustrialArchitecture/Light_Wall/Data/MI_Light_Wall_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

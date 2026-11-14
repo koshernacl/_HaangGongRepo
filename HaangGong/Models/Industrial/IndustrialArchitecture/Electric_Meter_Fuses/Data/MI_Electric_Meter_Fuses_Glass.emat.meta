@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F04DD82BC6861C7B}Models/Industrial/IndustrialArchitecture/Electric_Meter_Fuses/Data/MI_Electric_Meter_Fuses_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

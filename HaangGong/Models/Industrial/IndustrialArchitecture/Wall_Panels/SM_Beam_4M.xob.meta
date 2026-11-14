@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{F79B70514E714BA8}Models/Industrial/IndustrialArchitecture/Wall_Panels/SM_Beam_4M.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD592923E236A5}" {
+     SourceMaterial "MI_Tiling_Beams_Painted_01"
+     AssignedMaterial "{8702A6892E4CBA43}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Beams_Painted_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Beam_4M {
+    }
+   }
+   Common TXOCommonClass "{6ADD5929268C9C89}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD5929268C9F57}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD5929268C9F3E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD5929268C9F31}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD5929268C9F22}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD5929268C9F17}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

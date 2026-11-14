@@ -1,0 +1,51 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ #tag SrcFile_AppVendor "Epic Games"
+ #tag SrcFile_AppName "Unreal Engine"
+ #tag SrcFile_AppVersion "5.7.4-51494982+++UE5+Release-5.7"
+ $materials {
+  $material "MI_Signs_Stickers_01" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "SM_ACunit_Sign_Medium_1_" {
+   #texCoords 1
+   #vertexColors 1
+   $faces {
+     0 3 0 1 2
+     0 3 3 4 5
+   }
+   $faceVerts {
+     2 0 0 0
+     0 0 1 0
+     1 0 2 0
+     3 0 3 0
+     0 0 1 0
+     2 0 0 0
+   }
+   $verts {
+     0.001437 -0.05864 0.215001 0
+     0.001437 -0.05864 -0.215001 0
+     0.001437 0.05864 -0.215001 0
+     0.001437 0.05864 0.215001 0
+   }
+   $texCoords {
+     0.72726 0.80753
+     0.99044 0.97935
+     0.72726 0.97935
+     0.99044 0.80753
+   }
+   $vertexColors {
+     1 1 1 1
+   }
+   $normals {
+     1 0 0
+   }
+  }
+ }
+}

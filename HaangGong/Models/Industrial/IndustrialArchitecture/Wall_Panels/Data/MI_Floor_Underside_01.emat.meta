@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4FBBF481821C4E43}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Floor_Underside_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

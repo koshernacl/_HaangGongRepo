@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E47C673D21E8C6C1}Models/Industrial/IndustrialArchitecture/Pipes/Pipes_Medium_01/Data/MI_Pipes_Medium_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

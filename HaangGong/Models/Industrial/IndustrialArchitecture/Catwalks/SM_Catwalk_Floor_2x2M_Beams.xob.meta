@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{032C7C971D139460}Models/Industrial/IndustrialArchitecture/Catwalks/SM_Catwalk_Floor_2x2M_Beams.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD592935095815}" {
+     SourceMaterial "MI_Catwalk_Beams_Painted_01"
+     AssignedMaterial "{C6DC091E2DA452D0}Models/Industrial/IndustrialArchitecture/Catwalks/Data/MI_Catwalk_Beams_Painted_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Catwalk_Floor_2x2M_Beams {
+    }
+   }
+   Common TXOCommonClass "{6ADD592926D5CBB5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD592926D5CB83}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD592926D5CA69}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD592926D5CA59}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD592926D5CA4D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD592926D5CA3E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

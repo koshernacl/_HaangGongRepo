@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{D7831EAA5B8040CB}Models/Industrial/IndustrialArchitecture/Support_Columns/SM_Column_Large_Merged_03_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD592AC81BFEAF}" {
+     SourceMaterial "MI_Support_Columns_02"
+     AssignedMaterial "{ACAA837846539987}Models/Industrial/IndustrialArchitecture/Support_Columns/Data/MI_Support_Columns_02.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Column_Large_Merged_03_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD592927309EC5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD592927309E92}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD59292730997D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD59292730996C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD592927309961}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD592927309953}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

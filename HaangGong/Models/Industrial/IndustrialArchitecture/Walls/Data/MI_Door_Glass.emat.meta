@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FBA18AF703C77B34}Models/Industrial/IndustrialArchitecture/Walls/Data/MI_Door_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{1B61941AD432FC87}Models/Industrial/IndustrialArchitecture/Door/SM_Door_Main_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD592ACB1B1587}" {
+     SourceMaterial "MI_Door"
+     AssignedMaterial "{2864FA0668ADFEF8}Models/Industrial/IndustrialArchitecture/Door/Data/MI_Door.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Door_Main_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD59292720C3C3}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD59292720C38F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD59292720C276}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD59292720C269}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD59292720C25A}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD59292720C24F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

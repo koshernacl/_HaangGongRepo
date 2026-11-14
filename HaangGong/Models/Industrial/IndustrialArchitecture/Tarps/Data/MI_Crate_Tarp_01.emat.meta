@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{12798F4BEE2B780F}Models/Industrial/IndustrialArchitecture/Tarps/Data/MI_Crate_Tarp_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

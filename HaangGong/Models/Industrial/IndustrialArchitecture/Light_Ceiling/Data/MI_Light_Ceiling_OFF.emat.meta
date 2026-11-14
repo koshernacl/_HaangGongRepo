@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A6061F25FE35B816}Models/Industrial/IndustrialArchitecture/Light_Ceiling/Data/MI_Light_Ceiling_OFF.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

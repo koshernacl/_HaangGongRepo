@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E9113BB612610263}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Window_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

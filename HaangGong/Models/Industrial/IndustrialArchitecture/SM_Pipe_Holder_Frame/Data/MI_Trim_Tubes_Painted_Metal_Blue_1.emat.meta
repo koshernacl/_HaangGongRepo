@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C9A76E91611EBB39}Models/Industrial/IndustrialArchitecture/SM_Pipe_Holder_Frame/Data/MI_Trim_Tubes_Painted_Metal_Blue_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

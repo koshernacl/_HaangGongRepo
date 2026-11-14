@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{374E43CF3FD5B933}Models/Industrial/IndustrialArchitecture/Catwalks/Data/MI_Catwalk_Trims.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

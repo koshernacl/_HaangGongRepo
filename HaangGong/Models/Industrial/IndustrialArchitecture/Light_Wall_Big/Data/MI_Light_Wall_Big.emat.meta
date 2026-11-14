@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E66A212CB3130296}Models/Industrial/IndustrialArchitecture/Light_Wall_Big/Data/MI_Light_Wall_Big.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{ABE83299A3627DB2}Models/Industrial/IndustrialArchitecture/Pipes/Pipes_Small_01/SM_Pipe_Sml_Strt_10cm_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD75548314FE35}" {
+     SourceMaterial "MI_Pipes_Small_01"
+     AssignedMaterial "{01DAF4D7A6F1D455}Models/Industrial/IndustrialArchitecture/Pipes/Pipes_Small_01/Data/MI_Pipes_Small_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Pipe_Sml_Strt_10cm_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD592927A1E582}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD592927A1E453}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD592927A1E43A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD592927A1E42B}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD592927A1E41C}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD592927A1E410}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

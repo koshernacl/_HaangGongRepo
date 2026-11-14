@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BDB194E5C84F1C0C}Models/Industrial/IndustrialArchitecture/Pillars/Data/MI_Floor_Darker.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

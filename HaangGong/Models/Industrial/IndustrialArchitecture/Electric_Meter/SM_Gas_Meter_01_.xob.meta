@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{AE243E72953FD7B6}Models/Industrial/IndustrialArchitecture/Electric_Meter/SM_Gas_Meter_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD755489BF1BFC}" {
+     SourceMaterial "MI_Gas_Meter"
+     AssignedMaterial "{D3FC459E2F777823}Models/Industrial/IndustrialArchitecture/Electric_Meter/Data/MI_Gas_Meter.emat"
+    }
+    MaterialAssignClass "{6ADD755489BF1BEB}" {
+     SourceMaterial "MI_Gas_Meter_Glass"
+     AssignedMaterial "{3E93B3DE2DD209F3}Models/Industrial/IndustrialArchitecture/Electric_Meter/Data/MI_Gas_Meter_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Gas_Meter_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD59292774E23E}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD59292774E20E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD59292774E2F6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD59292774E2E7}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD59292774E2DB}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD59292774E2CF}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

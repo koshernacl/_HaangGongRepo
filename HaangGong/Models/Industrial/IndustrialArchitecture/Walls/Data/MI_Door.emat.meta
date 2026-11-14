@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3762448E27AE7D96}Models/Industrial/IndustrialArchitecture/Walls/Data/MI_Door.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

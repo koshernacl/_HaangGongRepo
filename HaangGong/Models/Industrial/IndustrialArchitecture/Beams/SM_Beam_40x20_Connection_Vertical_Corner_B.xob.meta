@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{6163A9A8A8964C6D}Models/Industrial/IndustrialArchitecture/Beams/SM_Beam_40x20_Connection_Vertical_Corner_B.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD592923AFD62B}" {
+     SourceMaterial "MI_Beams_Connections_01"
+     AssignedMaterial "{A1A8C6E49EDBA837}Models/Industrial/IndustrialArchitecture/Beams/Data/MI_Beams_Connections_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Beam_40x20_Connection_Vertical_Corner_B {
+    }
+   }
+   Common TXOCommonClass "{6ADD5929268E9CD8}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD5929268E9CA4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD5929268E9C8F}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD5929268E9F7C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD5929268E9F70}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD5929268E9F65}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

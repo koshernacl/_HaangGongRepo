@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{6D312B74227A7992}Models/Industrial/IndustrialArchitecture/Light_Wall/SM_Light_Wall_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD75548ADD0DB0}" {
+     SourceMaterial "MI_Light_Wall"
+     AssignedMaterial "{55A7B50D0495FEDB}Models/Industrial/IndustrialArchitecture/Light_Wall/Data/MI_Light_Wall.emat"
+    }
+    MaterialAssignClass "{6ADD75548ADD0D94}" {
+     SourceMaterial "MI_Light_Wall_Glass"
+     AssignedMaterial "{48F03672A7096032}Models/Industrial/IndustrialArchitecture/Light_Wall/Data/MI_Light_Wall_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Light_Wall_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD59292764BCE6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD59292764BCB4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD59292764BC9C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD59292764BC8E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD59292764BC83}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD59292764BF74}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

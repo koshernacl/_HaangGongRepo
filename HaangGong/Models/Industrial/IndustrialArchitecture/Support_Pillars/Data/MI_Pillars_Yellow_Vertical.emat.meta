@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{14C1E1ACD3671828}Models/Industrial/IndustrialArchitecture/Support_Pillars/Data/MI_Pillars_Yellow_Vertical.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

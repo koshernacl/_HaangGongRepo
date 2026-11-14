@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8702A6892E4CBA43}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Beams_Painted_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

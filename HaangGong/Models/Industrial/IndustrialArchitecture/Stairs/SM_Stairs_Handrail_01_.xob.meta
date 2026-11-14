@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{3BFB5015F5F05F94}Models/Industrial/IndustrialArchitecture/Stairs/SM_Stairs_Handrail_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD75549D42EB0C}" {
+     SourceMaterial "MI_Trim_Metal_Pure"
+     AssignedMaterial "{1A97A8AC9C46AAA3}Models/Industrial/IndustrialArchitecture/Stairs/Data/MI_Trim_Metal_Pure.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Stairs_Handrail_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD59292034A62C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD59292034A6F0}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD59292034A6D3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD59292034A6BB}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD59292034A6A6}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD59292034A694}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

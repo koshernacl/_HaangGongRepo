@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{475DBCC7E6513030}Models/Industrial/IndustrialArchitecture/Light_Wall_Bunker_Small/Data/MI_Light_Small_Bunker_Wall.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

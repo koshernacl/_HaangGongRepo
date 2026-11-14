@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9F45B2B9BD2C762C}Models/Industrial/IndustrialArchitecture/Electric_Meter_Boxes/Data/MI_Electric_Meter_Box_Small_noDoor_01_.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

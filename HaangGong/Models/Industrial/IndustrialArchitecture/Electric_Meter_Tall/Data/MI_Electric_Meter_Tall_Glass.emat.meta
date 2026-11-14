@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8463CEF4E2CC3C59}Models/Industrial/IndustrialArchitecture/Electric_Meter_Tall/Data/MI_Electric_Meter_Tall_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

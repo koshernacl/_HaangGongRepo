@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D5D5E85BB8DB9A2A}Models/Industrial/IndustrialArchitecture/Floor/Data/MI_Floor_Beams.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB9862A32C2FE6ED}Models/Industrial/IndustrialArchitecture/Ladders/Data/MI_Tiling_Ladders_Painted.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

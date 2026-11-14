@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FDFA6D861640F2A3}Models/Industrial/IndustrialArchitecture/Pipes/Valves/Valves_Large/Data/MI_Valve_Large_02_.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

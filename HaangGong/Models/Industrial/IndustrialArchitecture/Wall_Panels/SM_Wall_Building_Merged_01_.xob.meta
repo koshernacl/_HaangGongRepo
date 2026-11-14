@@ -1,0 +1,82 @@
+MetaFileClass {
+ Name "{F70DBB27E5A6A4CB}Models/Industrial/IndustrialArchitecture/Wall_Panels/SM_Wall_Building_Merged_01_.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD755498E465CA}" {
+     SourceMaterial "MI_Tiling_Beams_Painted_01"
+     AssignedMaterial "{8702A6892E4CBA43}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Beams_Painted_01.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465BD}" {
+     SourceMaterial "MI_Floor_Diamond_Plate_02_00_VertexP"
+     AssignedMaterial "{631D4805390210BB}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Floor_Diamond_Plate_02_00_VertexP.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465B2}" {
+     SourceMaterial "MI_Floor_Beams"
+     AssignedMaterial "{12372394FF31387C}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Floor_Beams.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465AE}" {
+     SourceMaterial "MI_Floor_Underside_01"
+     AssignedMaterial "{4FBBF481821C4E43}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Floor_Underside_01.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465AB}" {
+     SourceMaterial "MI_Catwalk_Beams_Painted_01"
+     AssignedMaterial "{B4764359DD860708}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Catwalk_Beams_Painted_01.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465A4}" {
+     SourceMaterial "MI_Tiling_Ladders_Painted"
+     AssignedMaterial "{55D051145D52161C}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Ladders_Painted.emat"
+    }
+    MaterialAssignClass "{6ADD755498E465A0}" {
+     SourceMaterial "MI_Tiling_Beams_Painted_01_Blue"
+     AssignedMaterial "{68FC3CF87489A72A}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Beams_Painted_01_Blue.emat"
+    }
+    MaterialAssignClass "{6ADD755498E4659D}" {
+     SourceMaterial "MI_Tiling_Walls_Painted_Blue"
+     AssignedMaterial "{08118BFAB3AC4316}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Tiling_Walls_Painted_Blue.emat"
+    }
+    MaterialAssignClass "{6ADD755498E46598}" {
+     SourceMaterial "MI_Windows_Doors_01_Blue"
+     AssignedMaterial "{006ADB7A2CB07BB3}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Windows_Doors_01_Blue.emat"
+    }
+    MaterialAssignClass "{6ADD755498E46596}" {
+     SourceMaterial "MI_Window_Glass"
+     AssignedMaterial "{E9113BB612610263}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Window_Glass.emat"
+    }
+    MaterialAssignClass "{6ADD755498E46590}" {
+     SourceMaterial "MI_Panel_Details"
+     AssignedMaterial "{FF80D117726F34DD}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Panel_Details.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Wall_Building_Merged_01_ {
+    }
+   }
+   Common TXOCommonClass "{6ADD5929201FECF1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD5929201FECBF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD5929201FECA9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD5929201FEC97}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD5929201FEC8B}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD5929201FEF7C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

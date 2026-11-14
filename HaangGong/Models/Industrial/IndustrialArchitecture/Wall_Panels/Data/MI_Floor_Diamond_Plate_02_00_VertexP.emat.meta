@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{631D4805390210BB}Models/Industrial/IndustrialArchitecture/Wall_Panels/Data/MI_Floor_Diamond_Plate_02_00_VertexP.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C41B57F34A3CF463}Models/Industrial/IndustrialArchitecture/Pipes/Valves/Valves_Small/Data/MI_Valve_Small_01_.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{96CF70E60763B6D5}Models/Industrial/IndustrialArchitecture/Pipes/Brackets/Data/MI_Pipes_Brackets_02.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

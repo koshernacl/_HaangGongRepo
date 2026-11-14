@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{AD097E6918596781}Models/Industrial/IndustrialArchitecture/Floor/SM_Floor_1_5x0_5M.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6ADD755488A691FC}" {
+     SourceMaterial "MI_Floor_Underside_01"
+     AssignedMaterial "{89A4D66A69C92CF5}Models/Industrial/IndustrialArchitecture/Floor/Data/MI_Floor_Underside_01.emat"
+    }
+    MaterialAssignClass "{6ADD755488A691F6}" {
+     SourceMaterial "MI_Floor_Diamond_Plate_02_00"
+     AssignedMaterial "{75C932876100D250}Models/Industrial/IndustrialArchitecture/Floor/Data/MI_Floor_Diamond_Plate_02_00.emat"
+    }
+    MaterialAssignClass "{6ADD755488A691F4}" {
+     SourceMaterial "MI_Floor_Beams"
+     AssignedMaterial "{D5D5E85BB8DB9A2A}Models/Industrial/IndustrialArchitecture/Floor/Data/MI_Floor_Beams.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SM_Floor_1_5x0_5M {
+    }
+   }
+   Common TXOCommonClass "{6ADD592927109311}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Epic Games"
+   ApplicationName "Unreal Engine"
+   ApplicationVersion "5.7.4-51494982+++UE5+Release-5.7"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6ADD5929271093DE}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6ADD5929271093C9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6ADD5929271093B9}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ADD5929271093AD}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6ADD5929271093A1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
