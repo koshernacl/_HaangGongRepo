@@ -1,4 +1,4 @@
-GenericEntity {
+SCR_DestructibleBuildingEntity {
  ID "6AB31B5483023D32"
  components {
   MeshObject "{6AB31B54E2B2ECF2}" {
@@ -21,4 +21,5 @@ GenericEntity {
    Static 1
   }
  }
+ UndergroundStructure 1
 }

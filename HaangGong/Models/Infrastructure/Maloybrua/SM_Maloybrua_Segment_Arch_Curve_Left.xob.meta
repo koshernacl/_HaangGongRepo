@@ -1,0 +1,51 @@
+MetaFileClass {
+ Name "{4D7F8520FA302A02}Models/Infrastructure/Maloybrua/SM_Maloybrua_Segment_Arch_Curve_Left.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AE34591265C26B0}" {
+     SourceMaterial "lambert1_1"
+     AssignedMaterial "{D500687E94852B1B}Models/Infrastructure/Maloybrua/Data/lambert1_1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Maloybrua_Segment_Arch_Curve_Left {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Maloybrua_Segment_Arch_Curve_Left {
+     SurfaceProperties {
+      "{94EF2DD9B2E2BD98}lambert1_1.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AE34591258C80E7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Autodesk"
+   ApplicationName "Maya"
+   ApplicationVersion "2022"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AE34591258C80AD}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AE34591258C8098}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AE34591258C8089}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AE34591258C837D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AE34591258C8371}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

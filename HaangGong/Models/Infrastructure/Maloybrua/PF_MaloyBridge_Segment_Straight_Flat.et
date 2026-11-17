@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6AE34590328092B4"
+ components {
+  MeshObject "{6AE345912157E77C}" {
+   Object "{BC914E840541F4F9}Models/Infrastructure/Maloybrua/SM_Maloybrua_Segment_Flat_Straight.xob"
+  }
+  RigidBody "{6AE345907F963CEB}" {
+   Geometries {
+    PhysicsModelGeometry "{6AE345907A280AE5}" {
+     LayerPreset "Building"
+     Collider "UTM_Maloybrua_Segment_Flat_Straight"
+    }
+   }
+   Static 1
+  }
+ }
+ coords 8705.171 2.094 2026.835
+}
