@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6AE36C5075D67E9C"
+ components {
+  MeshObject "{6AE36C505BD42D75}" {
+   Object "{ADD0E4C9431F2438}Models/Infrastructure/Maloybrua/SM_Maloy_Pillar_Hollow.xob"
+  }
+  RigidBody "{6AE36C506AAF0F02}" {
+   Geometries {
+    PhysicsModelGeometry "{6AE36C5064EB22E2}" {
+     LayerPreset "Building"
+     Collider "UTM_Maloy_Pillar"
+    }
+   }
+   Static 1
+  }
+ }
+ coords 8757.716 2.094 2014.886
+}
